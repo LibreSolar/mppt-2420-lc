@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="12" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
@@ -4201,12 +4201,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="97.04" y="55.649" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="94.54" y="58.321" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R32" library="rcl" package="R0603" value="10k" x="91" y="59" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-0710KL" x="91" y="59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="91" y="59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="91" y="59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.065" y="57.735" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="89.095" y="59.635" size="1.27" layer="27" rot="R270"/>
+<element name="R32" library="rcl" package="R0603" value="10k" x="91.1" y="59" smashed="yes" rot="R270">
+<attribute name="MPN" value="RC0603FR-0710KL" x="91.1" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="YAGEO (PHYCOMP)" x="91.1" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="9238603" x="91.1" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.165" y="57.735" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="89.195" y="59.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED3" library="SparkFun-LED" package="LED3MM" value="" x="76" y="75" smashed="yes">
 <attribute name="MPN" value="" x="76" y="80" size="1.778" layer="27" display="off"/>
@@ -4513,7 +4513,7 @@ design rules under a new name.</description>
 <wire x1="86.35" y1="44.3" x2="87.05" y2="45" width="0.254" layer="1"/>
 <wire x1="87.05" y1="45" x2="88" y2="45" width="0.254" layer="1"/>
 <via x="89.9" y="59.7" extent="1-16" drill="0.4"/>
-<wire x1="91" y1="59.85" x2="90.05" y2="59.85" width="0.254" layer="1"/>
+<wire x1="91.1" y1="59.85" x2="90.05" y2="59.85" width="0.254" layer="1"/>
 <wire x1="90.05" y1="59.85" x2="89.9" y2="59.7" width="0.254" layer="1"/>
 <via x="89" y="67" extent="1-16" drill="0.4"/>
 <wire x1="88" y1="65" x2="88" y2="63.85" width="0.254" layer="1"/>
@@ -5603,10 +5603,10 @@ design rules under a new name.</description>
 <wire x1="88.9" y1="50.3" x2="85.6" y2="47" width="0.254" layer="1"/>
 <wire x1="85.6" y1="47" x2="85.6" y2="46.4" width="0.254" layer="1"/>
 <wire x1="85.6" y1="46.4" x2="84.3" y2="45.1" width="0.254" layer="1"/>
-<wire x1="84.3" y1="45.1" x2="83.7" y2="45.1" width="0.254" layer="1"/>
-<via x="83.7" y="45.1" extent="1-16" drill="0.4"/>
-<wire x1="83.7" y1="45.1" x2="82.6" y2="44" width="0.254" layer="16"/>
-<wire x1="82.6" y1="44" x2="82.6" y2="42.8" width="0.254" layer="16"/>
+<wire x1="84.3" y1="45.1" x2="83.6" y2="45.1" width="0.254" layer="1"/>
+<via x="83.6" y="45.1" extent="1-16" drill="0.4"/>
+<wire x1="83.6" y1="45.1" x2="82.6" y2="44.1" width="0.254" layer="16"/>
+<wire x1="82.6" y1="44.1" x2="82.6" y2="42.8" width="0.254" layer="16"/>
 <via x="82.6" y="42.8" extent="1-16" drill="0.4"/>
 <wire x1="82.6" y1="42.8" x2="82.4" y2="43" width="0.254" layer="1"/>
 <wire x1="89.1" y1="61.7" x2="88.45" y2="61.7" width="0.254" layer="1"/>
@@ -6162,8 +6162,8 @@ design rules under a new name.</description>
 <wire x1="90" y1="47.2" x2="90" y2="49.1" width="0.254" layer="16"/>
 <via x="90" y="49.1" extent="1-16" drill="0.4"/>
 <wire x1="90" y1="49.1" x2="90" y2="49.4" width="0.254" layer="1"/>
-<wire x1="91" y1="58.15" x2="93.27" y2="55.88" width="0.254" layer="1"/>
-<wire x1="93.27" y1="55.88" x2="93.27" y2="55.4" width="0.254" layer="1"/>
+<wire x1="91.1" y1="58.15" x2="93.27" y2="55.98" width="0.254" layer="1"/>
+<wire x1="93.27" y1="55.98" x2="93.27" y2="55.4" width="0.254" layer="1"/>
 <wire x1="90" y1="49.4" x2="93.27" y2="52.67" width="0.254" layer="1"/>
 <wire x1="93.27" y1="52.67" x2="93.27" y2="55.4" width="0.254" layer="1"/>
 <wire x1="89.6" y1="45.1" x2="89.6" y2="46.8" width="0.254" layer="1"/>
@@ -6182,9 +6182,11 @@ design rules under a new name.</description>
 <contactref element="U6" pad="6"/>
 <contactref element="Y1" pad="3"/>
 <wire x1="80.254" y1="44.2164" x2="80.254" y2="45.746" width="0.254" layer="1"/>
-<wire x1="80.254" y1="45.746" x2="79.7" y2="46.3" width="0.254" layer="1"/>
-<wire x1="79.7" y1="46.3" x2="78.784" y2="46.3" width="0.254" layer="1"/>
 <wire x1="78.784" y1="46.3" x2="78.4" y2="46.684" width="0.254" layer="1"/>
+<wire x1="78.784" y1="46.3" x2="79.1" y2="46.3" width="0.254" layer="1"/>
+<wire x1="79.1" y1="46.3" x2="79.4" y2="46" width="0.254" layer="1"/>
+<wire x1="79.4" y1="46" x2="80" y2="46" width="0.254" layer="1"/>
+<wire x1="80" y1="46" x2="80.254" y2="45.746" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -6247,10 +6249,6 @@ design rules under a new name.</description>
 <approved hash="5,1,a15d4388c9335bda"/>
 <approved hash="5,1,7d4ac53ee65c20cf"/>
 <approved hash="5,1,8c571a78eb48439a"/>
-<approved hash="3,1,1e82267a25a31d5b"/>
-<approved hash="3,1,1edf262726ef1e17"/>
-<approved hash="3,1,5eda762276ea5e12"/>
-<approved hash="3,1,5e1f76e7752f5dd7"/>
 <approved hash="7,39,005603e2037e1e58"/>
 <approved hash="7,39,fd932fc147548895"/>
 <approved hash="7,39,c7572258cccb25bc"/>
@@ -6322,6 +6320,10 @@ design rules under a new name.</description>
 <approved hash="7,39,052472c1b4fc3d70"/>
 <approved hash="7,39,0b41809db68f8b70"/>
 <approved hash="7,39,77418e568e9e0f79"/>
+<approved hash="3,1,1e82267a25a31d5b"/>
+<approved hash="3,1,1edf262726ef1e17"/>
+<approved hash="3,1,5eda762276ea5e12"/>
+<approved hash="3,1,5e1f76e7752f5dd7"/>
 <approved hash="4,1,8345c2e7b0830dd6"/>
 <approved hash="4,1,fa754f1cb85d1b9b"/>
 <approved hash="4,1,08821a830fd6dcb7"/>
