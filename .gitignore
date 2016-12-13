@@ -1,0 +1,7 @@
+# Lock files
+*.lck
+
+# Backup files
+*.b#*
+*.s#*
+*backup*
