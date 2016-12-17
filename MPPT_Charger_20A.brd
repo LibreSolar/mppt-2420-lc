@@ -3826,6 +3826,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="Standard"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -4057,75 +4058,78 @@ Your Multi-CB Team
 <attribute name="MF" value="" x="13.5" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="13.5" y="16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="rcl" package="E5-10,5" value="680µ" x="54" y="24" smashed="yes" rot="R270">
-<attribute name="OC_FARNELL" value="1800669" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEUFR1V681LB" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C7" library="rcl" package="E5-10,5" value="820µ" x="54" y="24" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" value="unknown" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="54" y="24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.099" y="23.7432" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="50.7742" y="27.1242" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C10" library="LibreSolar" package="C0603" value="100n" x="19.6" y="51.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.378" y="52.608" size="0.8128" layer="25" rot="R270"/>
-<attribute name="OC_FARNELL" value="8820023" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="MURATA" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="19.6" y="51.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C12" library="LibreSolar" package="C0603" value="1µ" x="19.6" y="55.5" smashed="yes" rot="R270">
-<attribute name="OC_FARNELL" value="499687" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="AVX" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="08055C104KAT2A" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="19.6" y="55.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.446" y="56.322" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="R2" library="LibreSolar" package="R0603" value="1M" x="18" y="24.5" smashed="yes" rot="R90">
-<attribute name="OC_FARNELL" value="9238840" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-071ML" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="18" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.065" y="22.135" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="19.905" y="23.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="rcl" package="R2512" value="2m" x="33" y="25" smashed="yes">
 <attribute name="NAME" x="32.462" y="27.133" size="0.8128" layer="25"/>
-<attribute name="OC_FARNELL" value="2008327" x="33" y="25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="BOURNS" x="33" y="25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRF2512-FX-R005ELF" x="33" y="25" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRE2512-FZ-R002E-3" x="33" y="25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R26" library="LibreSolar" package="R0603" value="5.6k" x="61.5" y="42" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.119" y="38.416" size="0.8128" layer="25"/>
-<attribute name="OC_FARNELL" value="9238581" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-076K8L" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="61.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C17" library="LibreSolar" package="C0603" value="100n" x="61.5" y="44" smashed="yes">
-<attribute name="OC_FARNELL" value="8820023" x="61.5" y="44" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MURATA" x="61.5" y="44" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="61.5" y="44" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61.5" y="44" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="61.5" y="44" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="61.5" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63.435" y="45.565" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="60.865" y="42.095" size="1.27" layer="27"/>
 </element>
 <element name="SOLAR" library="resolut" package="MKDS_5/2-952" value="MKDS_5/2-9,52" x="7.5" y="8" smashed="yes">
-<attribute name="OC_FARNELL" value="3704701" x="7.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="PHOENIX CONTACT" x="7.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="1714971" x="7.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="7.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="7.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="7.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.995" y="12.975" size="1.27" layer="25"/>
 <attribute name="VALUE" x="7.495" y="13.08" size="1.27" layer="27"/>
+<attribute name="MF_ALT" value="WURTH ELEKTRONIK " x="7.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN_ALT" value="691250910002" x="7.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="BAT" library="resolut" package="MKDS_5/2-952" value="MKDS_5/2-9,52" x="26.5" y="8" smashed="yes">
-<attribute name="OC_FARNELL" value="3704701" x="26.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="PHOENIX CONTACT" x="26.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="1714971" x="26.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="26.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="26.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="26.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.995" y="12.975" size="1.27" layer="25"/>
 <attribute name="VALUE" x="26.495" y="13.08" size="1.27" layer="27"/>
+<attribute name="MF_ALT" value="WURTH ELEKTRONIK " x="26.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN_ALT" value="691250910002" x="26.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R35" library="LibreSolar" package="R0603" value="2.2k" x="83.5" y="67.5" smashed="yes" rot="R270">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL." x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="72.07" y="99.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.392" y="68.441" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="R36" library="LibreSolar" package="R0603" value="2.2k" x="83.5" y="64" smashed="yes" rot="R90">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL." x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="100.01" y="27.17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.308" y="62.859" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="R10" library="LibreSolar" package="R0805" value="3.3" x="18.7" y="48.8" smashed="yes">
@@ -4135,9 +4139,9 @@ Your Multi-CB Team
 <attribute name="NAME" x="20.719" y="47.778" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C6" library="rcl" package="C0805" value="1n" x="31" y="41.1" smashed="yes" rot="R270">
-<attribute name="MPN" value="MCU0805C102JCT" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9406212" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="31" y="41.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="29.884" y="40.492" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="N1" library="resolut" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="45.28" y="35.13" smashed="yes">
@@ -4167,9 +4171,9 @@ Your Multi-CB Team
 <attribute name="MPN" value="3557-2" x="36" y="19" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="LibreSolar" package="R1206" value="4.7" x="32.5" y="36.5" smashed="yes" rot="R90">
-<attribute name="OC_FARNELL" value="9236600" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1206FR-074R7L" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="32.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.07" y="34.03" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="35.04" y="35.23" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4181,15 +4185,14 @@ Your Multi-CB Team
 <attribute name="VALUE" x="64.825" y="38.805" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LOAD" library="resolut" package="MKDS_5/2-952" value="MKDS_5/2-9,52" x="45.5" y="8" smashed="yes">
-<attribute name="MPN" value="1714971" x="45.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="3704701" x="45.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="PHOENIX CONTACT" x="45.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="45.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="45.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="45.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="44.495" y="12.975" size="1.27" layer="25"/>
 <attribute name="VALUE" x="45.495" y="13.08" size="1.27" layer="27"/>
 </element>
 <element name="R17" library="rcl" package="R2512" value="2m" x="54.5" y="17" smashed="yes">
-<attribute name="MPN" value="CRF2512-FX-R005ELF" x="54.5" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="2008327" x="54.5" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRE2512-FZ-R002E-3" x="54.5" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="BOURNS" x="54.5" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.54" y="14.795" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="51.96" y="13.825" size="1.27" layer="27"/>
@@ -4202,44 +4205,44 @@ Your Multi-CB Team
 <attribute name="MPN" value="1N4148W" x="19" y="27.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R25" library="LibreSolar" package="R0603" value="100k" x="58" y="40" smashed="yes" rot="R180">
-<attribute name="MPN" value="RC0603FR-071KL." x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="58" y="40" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.165" y="37.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="58.635" y="41.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R27" library="LibreSolar" package="R0603" value="10k" x="58" y="42" smashed="yes">
-<attribute name="MPN" value="RC0603FR-0710KL" x="58" y="49" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="58" y="49" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="58" y="49" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="58" y="49" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58" y="49" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="58" y="49" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.165" y="38.435" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="57.365" y="40.095" size="1.27" layer="27"/>
 </element>
 <element name="C18" library="LibreSolar" package="C0603" value="100n" x="58" y="44" smashed="yes" rot="R180">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="58" y="51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.735" y="45.665" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.635" y="45.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R24" library="LibreSolar" package="R0603" value="100k" x="61.5" y="40" smashed="yes">
-<attribute name="MPN" value="RC0603FR-07150KL" x="61.5" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="9238743" x="61.5" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="61.5" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="61.5" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61.5" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="61.5" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="60.165" y="37.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="60.865" y="38.095" size="1.27" layer="27"/>
 </element>
 <element name="C11" library="LibreSolar" package="C0603" value="100n" x="71.5" y="44.5" smashed="yes" rot="R270">
-<attribute name="MF" value="MURATA" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="71.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="70.265" y="46.235" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="69.595" y="45.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R11" library="LibreSolar" package="R0603" value="1k" x="73.4" y="44.5" smashed="yes" rot="R90">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL." x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="73.4" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="72.565" y="46.235" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="75.305" y="43.865" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4251,30 +4254,30 @@ Your Multi-CB Team
 <attribute name="MPN" value="MMBT3904-7-F" x="65" y="26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R9" library="LibreSolar" package="R0603" value="33k" x="64.5" y="23" smashed="yes" rot="R180">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-0733KL" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9238662" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="64.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="63.865" y="21.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="65.135" y="24.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R16" library="LibreSolar" package="R0603" value="10k" x="61" y="25" smashed="yes">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="61" y="25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="61" y="25" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="61" y="25" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="61" y="25" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="61" y="25" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61" y="25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="60.065" y="25.935" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="60.365" y="23.095" size="1.27" layer="27"/>
 </element>
 <element name="R12" library="LibreSolar" package="R0603" value="2.2k" x="61" y="23" smashed="yes" rot="R180">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL." x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.865" y="21.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="61.635" y="24.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R13" library="LibreSolar" package="R0603" value="2.2k" x="66.5" y="29.5" smashed="yes" rot="R270">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL." x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="66.5" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="67.435" y="30.435" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.595" y="30.135" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -4314,30 +4317,30 @@ Your Multi-CB Team
 <attribute name="MPN" value="744043470" x="75.5" y="37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C29" library="LibreSolar" package="C0603" value="100n" x="53.6" y="67.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="MURATA" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="53.6" y="67.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="53.865" y="69.465" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="55.505" y="66.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C31" library="LibreSolar" package="C0603" value="100n" x="70.3" y="57.5" smashed="yes" rot="R180">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="70.3" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="72.035" y="59.165" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="70.935" y="59.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C30" library="LibreSolar" package="C0603" value="100n" x="79.6" y="46.2" smashed="yes" rot="R270">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="MURATA" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="79.6" y="46.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="78.965" y="42.535" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="77.695" y="46.835" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R5" library="LibreSolar" package="R1206" value="4.7" x="30.2" y="36.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC1206FR-074R7L" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9236600" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="30.2" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.97" y="34.03" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.74" y="35.23" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4368,23 +4371,23 @@ Your Multi-CB Team
 <attribute name="VALUE" x="71.984" y="9.9205" size="0.4064" layer="27"/>
 </element>
 <element name="R42" library="LibreSolar" package="R0603" value="330" x="71" y="16.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-07330RL" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238425" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="71" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="71.835" y="14.765" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="72.905" y="15.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R43" library="LibreSolar" package="R0603" value="330" x="73" y="16.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-07330RL" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238425" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="74.435" y="14.765" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="74.905" y="15.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C32" library="LibreSolar" package="C0603" value="100n" x="82.5" y="56" smashed="yes">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="82.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="82.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MURATA" x="82.5" y="56" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.5" y="56" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="82.5" y="56" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="82.5" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="83.735" y="55.265" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="81.865" y="54.095" size="1.27" layer="27"/>
 </element>
@@ -4417,7 +4420,7 @@ Your Multi-CB Team
 <attribute name="MF" value="" x="49" y="66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="49" y="66" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Y2" library="crystal" package="MM20SS" value="ABS25-32.768KHZ-T" x="61" y="54.2" smashed="yes" rot="R180">
+<element name="Y2" library="crystal" package="MM20SS" value="ABS25-32.768KHZ-6-T" x="61" y="54.2" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" value="1611824" x="61" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="61" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ABRACON" x="61" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4425,24 +4428,24 @@ Your Multi-CB Team
 <attribute name="NAME" x="56.56" y="52.96" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="63.54" y="58.01" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C27" library="LibreSolar" package="C0603" value="12.5p" x="61.1" y="57.2" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="8820023" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C27" library="LibreSolar" package="C0603" value="4.3p" x="61.1" y="57.2" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="61.1" y="57.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.435" y="57.865" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="61.735" y="59.105" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C28" library="LibreSolar" package="C0603" value="12.5p" x="61.1" y="51.2" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="8820023" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C28" library="LibreSolar" package="C0603" value="4.3p" x="61.1" y="51.2" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="61.1" y="51.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.235" y="51.565" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="61.735" y="53.105" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R30" library="LibreSolar" package="R0603" value="10k" x="67.5" y="55.5" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="9238603" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="69.035" y="56.435" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="68.135" y="57.405" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -4456,56 +4459,56 @@ Your Multi-CB Team
 <element name="U7" library="LibreSolar" package="SOIC-8-N" value="LM358A" x="76" y="25" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.395" y="27.867" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="74.095" y="21.063" size="1.27" layer="27"/>
-<attribute name="OC_FARNELL" value="7527007" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="TEXAS INSTRUMENTS" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="LM358ADR" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="76" y="25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C13" library="LibreSolar" package="C0603" value="100n" x="75.6" y="44.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="MURATA" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="64.6" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="74.965" y="46.235" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="77.505" y="43.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R20" library="LibreSolar" package="R0603" value="1k" x="77.5" y="44.5" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-071KL." x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="83.5" y="50.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="76.665" y="42.135" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="75.595" y="45.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C9" library="LibreSolar" package="C0603" value="100n" x="77.5" y="29" smashed="yes" rot="R180">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="77.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.165" y="29.735" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="78.135" y="30.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R32" library="LibreSolar" package="R0603" value="0" x="82" y="17" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-0710KL" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="82" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="81.635" y="15.335" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="80.095" y="17.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R33" library="LibreSolar" package="R0603" value="0" x="80" y="17" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-0710KL" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="80" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="79.735" y="15.335" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="78.095" y="17.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R34" library="LibreSolar" package="R0603" value="100k" x="84" y="17" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-071KL." x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="84" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="83.235" y="15.335" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="82.095" y="17.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C34" library="LibreSolar" package="C0603" value="100n" x="67.1" y="49.2" smashed="yes" rot="R180">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="MURATA" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="67.1" y="49.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.435" y="48.265" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="67.735" y="51.105" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -4517,9 +4520,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="81.865" y="56.095" size="1.27" layer="27"/>
 </element>
 <element name="R39" library="LibreSolar" package="R0603" value="1M" x="55.7" y="64" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071ML" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238840" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="55.7" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="55.935" y="62.435" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="57.605" y="63.365" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4531,65 +4534,65 @@ Your Multi-CB Team
 <attribute name="VALUE" x="65.8125" y="53.3525" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R18" library="LibreSolar" package="R0603" value="2.2k" x="74.5" y="21" smashed="yes" rot="R180">
-<attribute name="MPN" value="RC0603FR-071KL." x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="74.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="73.565" y="19.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="75.135" y="22.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R19" library="LibreSolar" package="R0603" value="2.2k" x="78.5" y="21" smashed="yes" rot="R180">
-<attribute name="MPN" value="RC0603FR-071KL." x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="78.5" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="77.565" y="19.335" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="79.135" y="22.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R21" library="LibreSolar" package="R0603" value="150k" x="81.5" y="22.5" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-071KL." x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="81.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="83.065" y="20.865" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="79.595" y="23.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R22" library="LibreSolar" package="R0603" value="150k" x="81.5" y="26" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071KL." x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="81.5" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="83.065" y="24.965" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="83.405" y="25.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R7" library="LibreSolar" package="R0603" value="2.2k" x="69" y="25.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071KL." x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="69" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="68.165" y="25.665" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="70.905" y="24.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R8" library="LibreSolar" package="R0603" value="2.2k" x="69" y="22" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-071KL." x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="69" y="22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="67.3" y="22.1" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="67.095" y="22.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R15" library="LibreSolar" package="R0603" value="150k" x="71" y="25.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071KL." x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="71" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="72.235" y="28.065" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="72.905" y="24.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="LibreSolar" package="R0603" value="150k" x="71" y="22" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071KL." x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="71" y="22" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="70.5" y="19.5" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="72.905" y="21.365" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C8" library="rcl" package="E5-10,5" value="680µ" x="60.5" y="32" smashed="yes" rot="R270">
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1800669" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="EEUFR1V681LB" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C8" library="rcl" package="E5-10,5" value="820µ" x="60.5" y="32" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="60.5" y="32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.199" y="31.7432" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.2742" y="35.1242" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -4601,44 +4604,44 @@ Your Multi-CB Team
 <attribute name="VALUE" x="34.33235625" y="29.2011875" size="1.27" layer="27" rot="R345"/>
 </element>
 <element name="C1" library="rcl" package="E7,5-16" value="1000µ" x="8.5" y="24.5" smashed="yes" rot="R180">
-<attribute name="MPN" value="EEUFC1J102" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9692576" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="EKYB630ELL102ML25S" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="8.5" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.126" y="30.69" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="13.58" y="28.7926" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C2" library="rcl" package="E7,5-16" value="1000µ" x="8.5" y="41" smashed="yes" rot="R180">
-<attribute name="MPN" value="EEUFC1J102" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9692576" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="EKYB630ELL102ML25S" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="8.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.126" y="47.19" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="13.58" y="45.2926" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U1" library="LibreSolar" package="SOIC-8-N" value="LM5107" x="15.5" y="54" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="1008269" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="TEXAS INSTRUMENTS" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="LM5107MA" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="15.5" y="54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13" y="58.3" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="11.9" y="56" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="R31" library="LibreSolar" package="R1206" value="120" x="36" y="70" smashed="yes" rot="R180">
-<attribute name="MF" value="WELWYN" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1100308" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="WCR0805-120RFI" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="111" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.57" y="71.27" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="37.27" y="72.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D3" library="LibreSolar" package="SOT23" value="NUP2105L" x="36.5" y="66.5" smashed="yes" rot="R270">
-<attribute name="MF" value="NXP" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1510712" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="PESD2CAN" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="ON SEMICONDUCTOR" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="2101833" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="NUP2105LT1G" x="89" y="131" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.495" y="67.405" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="33.325" y="68.405" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C26" library="LibreSolar" package="C0603" value="100n" x="42.5" y="61.5" smashed="yes" rot="R180">
-<attribute name="MF" value="MURATA" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="123" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="43.835" y="60.665" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="43.135" y="63.405" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -4650,30 +4653,30 @@ Your Multi-CB Team
 <attribute name="VALUE" x="33.46" y="59.079" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U5" library="LibreSolar" package="SOIC-8-N" value="TJA1042T/3" x="42.5" y="66.5" smashed="yes">
-<attribute name="OC_FARNELL" value="2574957" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="NXP" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="TJA1042T/3/1J" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="42.5" y="66.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="39.7" y="64.5" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="46.1" y="64.5" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="C25" library="LibreSolar" package="C0603" value="100n" x="43.5" y="71.5" smashed="yes" rot="R180">
-<attribute name="MF" value="MURATA" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="154" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.335" y="72.335" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="44.135" y="73.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="rcl" package="R0603" value="10k" x="53" y="53.5" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-0710KL" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.835" y="54.635" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="51.095" y="54.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C16" library="LibreSolar" package="C0603" value="100n" x="51" y="56.5" smashed="yes" rot="R90">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="MURATA" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="61" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="50.165" y="55.765" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.905" y="55.865" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4685,9 +4688,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="61.805" y="63.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R41" library="LibreSolar" package="R0603" value="2.2k" x="57.8" y="64" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-071KL." x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238484" x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="57.8" y="64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="57.435" y="62.435" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="55.895" y="64.635" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -4720,9 +4723,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="65.03" y="50.2" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="R40" library="LibreSolar" package="R0603" value="1M" x="53.6" y="64" smashed="yes" rot="R90">
-<attribute name="MPN" value="RC0603FR-071ML" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238840" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="53.6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="53.235" y="62.435" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="55.505" y="63.365" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4741,9 +4744,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="21.095" y="27.825" size="1.27" layer="27"/>
 </element>
 <element name="C19" library="LibreSolar" package="C0603" value="100n" x="71.5" y="41" smashed="yes" rot="R270">
-<attribute name="MPN" value="GRM188R71H104KA93D" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="MURATA" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="102.5" y="44.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="69.535" y="46.265" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="69.595" y="41.635" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -4762,9 +4765,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="66.405" y="42.465" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R29" library="LibreSolar" package="R0603" value="10k" x="66.5" y="43.1" smashed="yes" rot="R270">
-<attribute name="MPN" value="RC0603FR-0710KL" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="87.5" y="66.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="66.965" y="44.865" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="64.595" y="43.735" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -4776,9 +4779,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="81.905" y="34.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C23" library="LibreSolar" package="C0603" value="1µ" x="78" y="31.7" smashed="yes" rot="R270">
-<attribute name="MPN" value="08055C104KAT2A" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="499687" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="AVX" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="78" y="58.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="76.435" y="33.835" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="76.095" y="32.335" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -4812,9 +4815,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="68.0475" y="41.8095" size="0.4064" layer="27"/>
 </element>
 <element name="U2" library="LibreSolar" package="SOT23-6" value="LM2665" x="8.5" y="53.5" smashed="yes" rot="R90">
-<attribute name="OC_FARNELL" value="1469163" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TEXAS INSTRUMENTS" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LM2665M6/NOPB" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="8.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.541" y="52.7745" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="8.6905" y="52.5475" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -4873,54 +4876,61 @@ Your Multi-CB Team
 <attribute name="VALUE" x="21.595" y="39.865" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C38" library="LibreSolar" package="C0603" value="100p" x="82" y="35" smashed="yes" rot="R90">
-<attribute name="MF" value="MURATA" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="82" y="35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="82.735" y="35.835" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="83.905" y="34.365" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="USB" library="LibreSolar" package="USB_MICRO_B_5" value="USB_MICRO_B" x="69.5" y="4.2" smashed="yes">
-<attribute name="MF" value="Amphenol FCI" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="FCI" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="10118192-0001LF" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
 <attribute name="MF_ALT" value="Würth" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN_ALT" value="629105136821" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63.7461" y="1.737" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="66.237" y="-4.7604" size="1.27" layer="27"/>
+<attribute name="OC_FARNELL" value="2506568" x="69.5" y="4.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C39" library="LibreSolar" package="C0603" value="DNP" x="75.5" y="3" smashed="yes" rot="R90">
-<attribute name="MF" value="MURATA" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="8820023" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="75.5" y="3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="77.165" y="2.065" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="77.405" y="2.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D4" library="LibreSolar" package="SOT23-6" value="" x="76" y="17" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.3745" y="14.359" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="75.8095" y="17.9525" size="0.4064" layer="27" rot="R270"/>
+<attribute name="OC_FARNELL" value="1825875" x="76" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="WURTH ELEKTRONIK" x="76" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="82400102" x="76" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="texas" package="DBZ_R-PDSO-G3" value="LM4040CYM3-2.5" x="58" y="47.5" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="MICROCHIP" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="58K5875" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1407949" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LM4041A12IDBZR" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="2509865" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LM4040DYM3-2.5-TR" x="58" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.095" y="49.205" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="61.175" y="45.595" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R37" library="LibreSolar" package="R0603" value="10k" x="61" y="47.5" smashed="yes" rot="R90">
-<attribute name="MF" value="YAGEO (PHYCOMP)" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="9238603" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="61" y="47.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="60" y="49.1" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="62.8" y="46.5" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="I2C" library="SparkFun-Connectors" package="1X04" value="" x="82.5" y="41" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.1538" y="50.3288" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="85.675" y="39.73" size="1.27" layer="27" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="82.5" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="82.5" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="82.5" y="41" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C35" library="LibreSolar" package="C0603" value="1µ" x="5.2" y="54.2" smashed="yes" rot="R270">
-<attribute name="MF" value="AVX" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="499687" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="08055C104KAT2A" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="5.2" y="54.2" size="0.3048" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.365" y="55.935" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="3.295" y="54.835" size="0.8128" layer="27" rot="R270"/>
 </element>

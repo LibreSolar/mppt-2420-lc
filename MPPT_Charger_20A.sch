@@ -28153,6 +28153,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="Standard"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -28176,63 +28177,66 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C7" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="680µ">
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="EEUFR1V681LB"/>
-<attribute name="OC_FARNELL" value="1800669"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="820µ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C10" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C12" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="1µ">
-<attribute name="MF" value="AVX"/>
-<attribute name="MPN" value="08055C104KAT2A"/>
-<attribute name="OC_FARNELL" value="499687"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R2" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="1M">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071ML"/>
-<attribute name="OC_FARNELL" value="9238840"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R2512" value="2m">
 <attribute name="MF" value="BOURNS"/>
-<attribute name="MPN" value="CRF2512-FX-R005ELF"/>
-<attribute name="OC_FARNELL" value="2008327"/>
+<attribute name="MPN" value="CRE2512-FZ-R002E-3"/>
 </part>
 <part name="R26" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="5.6k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-076K8L"/>
-<attribute name="OC_FARNELL" value="9238581"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C17" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="SOLAR" library="resolut" deviceset="MKDS_5/2-" device="9,52" value="MKDS_5/2-9,52">
-<attribute name="MF" value="PHOENIX CONTACT"/>
-<attribute name="MPN" value="1714971"/>
-<attribute name="OC_FARNELL" value="3704701"/>
+<attribute name="MF" value=""/>
+<attribute name="MF_ALT" value="WURTH ELEKTRONIK "/>
+<attribute name="MPN" value=""/>
+<attribute name="MPN_ALT" value="691250910002"/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="BAT" library="resolut" deviceset="MKDS_5/2-" device="9,52" value="MKDS_5/2-9,52">
-<attribute name="MF" value="PHOENIX CONTACT"/>
-<attribute name="MPN" value="1714971"/>
-<attribute name="OC_FARNELL" value="3704701"/>
+<attribute name="MF" value=""/>
+<attribute name="MF_ALT" value="WURTH ELEKTRONIK "/>
+<attribute name="MPN" value=""/>
+<attribute name="MPN_ALT" value="691250910002"/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND38" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND34" library="SparkFun" deviceset="GND" device=""/>
 <part name="R35" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R36" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device="" value="REsolut Arduino"/>
 <part name="R10" library="LibreSolar" deviceset="RESISTOR" device="_R0805" value="3.3">
@@ -28241,9 +28245,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="2008380"/>
 </part>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="1n">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCU0805C102JCT"/>
-<attribute name="OC_FARNELL" value="9406212"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -28274,9 +28278,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="2292904"/>
 </part>
 <part name="R4" library="LibreSolar" deviceset="RESISTOR" device="_R1206" value="4.7">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC1206FR-074R7L"/>
-<attribute name="OC_FARNELL" value="9236600"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C21" library="rcl" deviceset="C-EU" device="C1210" value="4.7µ">
 <attribute name="MF" value="MURATA"/>
@@ -28284,14 +28288,13 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="1735545"/>
 </part>
 <part name="LOAD" library="resolut" deviceset="MKDS_5/2-" device="9,52" value="MKDS_5/2-9,52">
-<attribute name="MF" value="PHOENIX CONTACT"/>
-<attribute name="MPN" value="1714971"/>
-<attribute name="OC_FARNELL" value="3704701"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R2512" value="2m">
 <attribute name="MF" value="BOURNS"/>
-<attribute name="MPN" value="CRF2512-FX-R005ELF"/>
-<attribute name="OC_FARNELL" value="2008327"/>
+<attribute name="MPN" value="CRE2512-FZ-R002E-3"/>
 </part>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123" value="1N4148W-7-F">
 <attribute name="MF" value="MULTICOMP"/>
@@ -28300,36 +28303,36 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="P+3" library="LibreSolar" deviceset="+10V" device=""/>
 <part name="R25" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="100k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R27" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C18" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="100k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-07150KL"/>
-<attribute name="OC_FARNELL" value="9238743"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C11" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R11" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="1k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1" value="MMBT3904">
 <attribute name="MF" value="DIODES INC."/>
@@ -28337,25 +28340,25 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="1773602"/>
 </part>
 <part name="R9" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="33k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0733KL"/>
-<attribute name="OC_FARNELL" value="9238662"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R16" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="P+2" library="LibreSolar" deviceset="+10V" device=""/>
 <part name="R12" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R13" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="Q4" library="LibreSolar" deviceset="MOSFET_N" device="_5X6" value="CSD18540Q5B">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
@@ -28383,26 +28386,26 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="1890607"/>
 </part>
 <part name="C29" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C31" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND37" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
 <part name="C30" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R5" library="LibreSolar" deviceset="RESISTOR" device="_R1206" value="4.7">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC1206FR-074R7L"/>
-<attribute name="OC_FARNELL" value="9236600"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="3MM">
 <attribute name="MF" value=""/>
@@ -28427,19 +28430,19 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="R42" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="330">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_FARNELL" value="9238425"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R43" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="330">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_FARNELL" value="9238425"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C32" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
@@ -28462,25 +28465,25 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="Y2" library="crystal" deviceset="CRYSTAL" device="MM20SS" value="ABS25-32.768KHZ-T">
+<part name="Y2" library="crystal" deviceset="CRYSTAL" device="MM20SS" value="ABS25-32.768KHZ-6-T">
 <attribute name="MF" value="ABRACON"/>
 <attribute name="MPN" value="ABS25-32.768KHZ-T"/>
 <attribute name="OC_FARNELL" value="1611824"/>
 </part>
-<part name="C27" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="12.5p">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<part name="C27" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="4.3p">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C28" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="12.5p">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<part name="C28" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="4.3p">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R30" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
@@ -28493,49 +28496,49 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
 <part name="U7" library="LibreSolar" deviceset="OPAMP" device="_SO8" value="LM358A">
-<attribute name="MF" value="TEXAS INSTRUMENTS"/>
-<attribute name="MPN" value="LM358ADR"/>
-<attribute name="OC_FARNELL" value="7527007"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R20" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="1k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C9" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R32" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="0">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R33" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="0">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R34" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="100k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND42" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND43" library="SparkFun" deviceset="GND" device=""/>
 <part name="C34" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND41" library="SparkFun" deviceset="GND" device=""/>
 <part name="C33" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="2.2µ">
@@ -28546,9 +28549,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <part name="GND40" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V312" library="supply1" deviceset="+3V3" device=""/>
 <part name="R39" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="1M">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071ML"/>
-<attribute name="OC_FARNELL" value="9238840"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND48" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun" deviceset="GND" device=""/>
@@ -28558,50 +28561,50 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="2443270"/>
 </part>
 <part name="R18" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R19" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R21" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="150k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R22" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="150k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R7" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R8" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R15" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="150k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R14" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="150k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="680µ">
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="EEUFR1V681LB"/>
-<attribute name="OC_FARNELL" value="1800669"/>
+<part name="C8" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="820µ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="L1" library="LibreSolar" deviceset="L-FERYSTER-DTMSS-27/0,033/20" device="-H" value="22µ">
 <attribute name="MF" value=""/>
@@ -28609,37 +28612,37 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="1000µ">
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="EEUFC1J102"/>
-<attribute name="OC_FARNELL" value="9692576"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="EKYB630ELL102ML25S"/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="1000µ">
-<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="EEUFC1J102"/>
-<attribute name="OC_FARNELL" value="9692576"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="EKYB630ELL102ML25S"/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="U1" library="LibreSolar" deviceset="LM5107" device="">
-<attribute name="MF" value="TEXAS INSTRUMENTS"/>
-<attribute name="MPN" value="LM5107MA"/>
-<attribute name="OC_FARNELL" value="1008269"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND36" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
 <part name="R31" library="LibreSolar" deviceset="RESISTOR" device="_R1206" value="120">
-<attribute name="MF" value="WELWYN"/>
-<attribute name="MPN" value="WCR0805-120RFI"/>
-<attribute name="OC_FARNELL" value="1100308"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="D3" library="LibreSolar" deviceset="PESD2CAN" device="" value="NUP2105L">
-<attribute name="MF" value="NXP"/>
-<attribute name="MPN" value="PESD2CAN"/>
-<attribute name="OC_FARNELL" value="1510712"/>
+<attribute name="MF" value="ON SEMICONDUCTOR"/>
+<attribute name="MPN" value="NUP2105LT1G"/>
+<attribute name="OC_FARNELL" value="2101833"/>
 </part>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="C26" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="JP4" library="jumper" deviceset="JP1Q" device="">
 <attribute name="MF" value=""/>
@@ -28647,28 +28650,28 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="U5" library="LibreSolar" deviceset="TJA1042T/3" device="">
-<attribute name="MF" value="NXP"/>
-<attribute name="MPN" value="TJA1042T/3/1J"/>
-<attribute name="OC_FARNELL" value="2574957"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="C25" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C16" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -28678,9 +28681,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="1657937"/>
 </part>
 <part name="R41" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="2.2k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071KL."/>
-<attribute name="OC_FARNELL" value="9238484"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1" value="MMBT3904">
 <attribute name="MF" value="DIODES INC."/>
@@ -28707,9 +28710,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="R40" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="1M">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-071ML"/>
-<attribute name="OC_FARNELL" value="9238840"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+3V321" library="supply1" deviceset="+3V3" device=""/>
 <part name="NTC1" library="LibreSolar" deviceset="THERMISTOR" device="_0603" value="NTC10k">
@@ -28724,9 +28727,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C19" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100n">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="D2" library="resolut" deviceset="SCHOTTKY-DIODE" device="POWERDI123" value="SS16FP">
 <attribute name="MF" value="DIODES INC."/>
@@ -28739,9 +28742,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="2008380"/>
 </part>
 <part name="R29" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND20" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
@@ -28755,9 +28758,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="C23" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="1µ">
-<attribute name="MF" value="AVX"/>
-<attribute name="MPN" value="08055C104KAT2A"/>
-<attribute name="OC_FARNELL" value="499687"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND24" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
@@ -28785,9 +28788,9 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="OC_FARNELL" value="2448515"/>
 </part>
 <part name="U2" library="LibreSolar" deviceset="LM2665" device="_" value="LM2665">
-<attribute name="MF" value="TEXAS INSTRUMENTS"/>
-<attribute name="MPN" value="LM2665M6/NOPB"/>
-<attribute name="OC_FARNELL" value="1469163"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="P+5" library="LibreSolar" deviceset="+10V" device=""/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="10µ">
@@ -28837,38 +28840,51 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="C38" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="100p">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND54" library="SparkFun" deviceset="GND" device=""/>
 <part name="USB" library="LibreSolar" deviceset="USB_MICRO_B" device="">
-<attribute name="MF" value="Amphenol FCI"/>
+<attribute name="MF" value="FCI"/>
 <attribute name="MF_ALT" value="Würth"/>
 <attribute name="MPN" value="10118192-0001LF"/>
 <attribute name="MPN_ALT" value="629105136821"/>
+<attribute name="OC_FARNELL" value="2506568"/>
 </part>
 <part name="C39" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="DNP">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM188R71H104KA93D"/>
-<attribute name="OC_FARNELL" value="8820023"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="D4" library="LibreSolar" deviceset="USBLC6-2" device=""/>
-<part name="IC2" library="texas" deviceset="LM4041" device="DBZ" technology="A12" value="LM4040CYM3-2.5"/>
+<part name="D4" library="LibreSolar" deviceset="USBLC6-2" device="">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<attribute name="MPN" value="82400102"/>
+<attribute name="OC_FARNELL" value="1825875"/>
+</part>
+<part name="IC2" library="texas" deviceset="LM4041" device="DBZ" technology="A12" value="LM4040CYM3-2.5">
+<attribute name="MF" value="MICROCHIP"/>
+<attribute name="MPN" value="LM4040DYM3-2.5-TR"/>
+<attribute name="OC_FARNELL" value="2509865"/>
+</part>
 <part name="GND44" library="SparkFun" deviceset="GND" device=""/>
 <part name="R37" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
-<attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="OC_FARNELL" value="9238603"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="PTH">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND45" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="C35" library="LibreSolar" deviceset="CAPACITOR" device="_0603" value="1µ">
-<attribute name="MF" value="AVX"/>
-<attribute name="MPN" value="08055C104KAT2A"/>
-<attribute name="OC_FARNELL" value="499687"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 </parts>
@@ -28877,8 +28893,8 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <plain>
 <text x="93.98" y="233.68" size="1.778" layer="97">1000µF, 63V, 2.73A, 16x25
 United Chemi EKYB630ELL102ML25S</text>
-<text x="276.86" y="195.58" size="1.778" layer="97">1000µ, 35V, 2.6A
-Panasonic EEUFR1V102</text>
+<text x="276.86" y="195.58" size="1.778" layer="97">820µ, 35V, 2.47A
+Panasonic EEU-FR1V821L</text>
 <text x="53.34" y="215.9" size="1.778" layer="97">Solar Panel
 Voltage: 16-55 V</text>
 <text x="294.64" y="10.16" size="2.54" layer="97">Design: Martin Jäger
@@ -28919,6 +28935,10 @@ Alternative: MIC5225</text>
 <text x="109.474" y="39.624" size="1.778" layer="97">(or DFLS160-7)</text>
 <text x="171.45" y="77.216" size="1.778" layer="97">Murata GRM21BR61E106KA73L
 10µF, 25V, X5R</text>
+<text x="149.86" y="93.98" size="1.778" layer="97">25V</text>
+<text x="142.24" y="144.78" size="1.778" layer="97">25V</text>
+<text x="162.56" y="33.02" size="1.778" layer="97">25V</text>
+<text x="160.02" y="38.1" size="1.778" layer="97">25V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -28953,7 +28973,6 @@ Alternative: MIC5225</text>
 <attribute name="MPN" x="96.52" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="276.86" y="185.42">
-<attribute name="OC_FARNELL" x="276.86" y="185.42" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="276.86" y="185.42" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="276.86" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
@@ -28971,12 +28990,16 @@ Alternative: MIC5225</text>
 <attribute name="OC_FARNELL" x="63.5" y="228.6" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="63.5" y="228.6" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF_ALT" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN_ALT" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SOLAR" gate="-2" x="63.5" y="203.2"/>
 <instance part="BAT" gate="-1" x="325.12" y="210.82" rot="MR0">
 <attribute name="OC_FARNELL" x="325.12" y="210.82" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="325.12" y="210.82" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="325.12" y="210.82" size="1.27" layer="96" display="off"/>
+<attribute name="MF_ALT" x="325.12" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN_ALT" x="325.12" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="BAT" gate="-2" x="325.12" y="185.42" rot="MR0"/>
 <instance part="R10" gate="G$1" x="208.28" y="157.48">
@@ -29025,7 +29048,6 @@ Alternative: MIC5225</text>
 </instance>
 <instance part="LOAD" gate="-2" x="114.3" y="132.08" rot="MR0"/>
 <instance part="R17" gate="G$1" x="40.64" y="132.08">
-<attribute name="OC_FARNELL" x="40.64" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="40.64" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="40.64" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
@@ -30510,13 +30532,18 @@ current needed</text>
 <attribute name="MPN" x="335.28" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MF_ALT" x="335.28" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN_ALT" x="335.28" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="OC_FARNELL" x="335.28" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="322.58" y="104.14" rot="R270">
 <attribute name="OC_FARNELL" x="322.58" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="322.58" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="322.58" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="D4" gate="G$1" x="299.72" y="119.38"/>
+<instance part="D4" gate="G$1" x="299.72" y="119.38">
+<attribute name="OC_FARNELL" x="299.72" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="299.72" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="299.72" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC2" gate="G$1" x="157.48" y="43.18"/>
 <instance part="GND44" gate="1" x="157.48" y="35.56"/>
 <instance part="R37" gate="G$1" x="157.48" y="58.42" rot="R90">
@@ -30525,7 +30552,11 @@ current needed</text>
 <attribute name="MPN" x="157.48" y="58.42" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="157.48" y="71.12"/>
-<instance part="I2C" gate="G$1" x="325.12" y="58.42" rot="MR0"/>
+<instance part="I2C" gate="G$1" x="325.12" y="58.42" rot="MR0">
+<attribute name="OC_FARNELL" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND45" gate="1" x="304.8" y="50.8"/>
 <instance part="+3V2" gate="G$1" x="304.8" y="63.5"/>
 </instances>

@@ -3,7 +3,9 @@
 
 This is the new version of the charge controller, now based on 32 bit ARM MCU instead of ATmega AVR, in order to be able to implement CANopen stack.
 
-Features: 
+![Charge controller PCB](https://raw.githubusercontent.com/LibreSolar/MPPT-Charger_20A/master/MPPT_Charger_20A_brd_aisler.png)
+
+Features:
 - 20A MPPT charger
 - 55V max PV input
 - 12V or 24V battery output
