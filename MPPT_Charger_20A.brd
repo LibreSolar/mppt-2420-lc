@@ -1527,22 +1527,6 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="R0603">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="L2012C">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -4442,7 +4426,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="59.235" y="51.565" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="61.735" y="53.105" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R30" library="LibreSolar" package="R0603" value="10k" x="67.5" y="55.5" smashed="yes" rot="R180">
+<element name="R30" library="LibreSolar" package="R0603" value="0" x="67.5" y="55.5" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" value="unknown" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="67.5" y="55.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4666,7 +4650,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="45.335" y="72.335" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="44.135" y="73.405" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R23" library="rcl" package="R0603" value="10k" x="53" y="53.5" smashed="yes" rot="R270">
+<element name="R23" library="LibreSolar" package="R0603" value="10k" x="53" y="53.5" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="58" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5332,8 +5316,10 @@ Your Multi-CB Team
 <via x="26" y="34" extent="1-16" drill="0.5"/>
 <via x="28" y="34" extent="1-16" drill="0.5"/>
 <via x="38" y="34" extent="1-16" drill="0.5"/>
-<wire x1="74.5" y1="44.5" x2="75.6" y2="45.35" width="0" layer="19" extent="1-1"/>
-<wire x1="82" y1="35.85" x2="82" y2="37" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6" y1="45.35" x2="74.85" y2="45.35" width="0.254" layer="1"/>
+<wire x1="74.85" y1="45.35" x2="74.5" y2="45" width="0.254" layer="1"/>
+<wire x1="74.5" y1="45" x2="74.5" y2="44.5" width="0.254" layer="1"/>
+<wire x1="82" y1="37" x2="82" y2="35.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_NODE">
 <polygon width="0.3048" layer="1" thermals="no">
@@ -6428,7 +6414,6 @@ Your Multi-CB Team
 </signal>
 <signal name="TIM1_CH1">
 <contactref element="U6" pad="29"/>
-<contactref element="U1" pad="3"/>
 <wire x1="79.7164" y1="51.738" x2="78.762" y2="51.738" width="0.254" layer="1"/>
 <wire x1="78.762" y1="51.738" x2="78.5" y2="52" width="0.254" layer="1"/>
 <wire x1="78.5" y1="52" x2="78.5" y2="53.8" width="0.254" layer="1"/>
@@ -6436,15 +6421,19 @@ Your Multi-CB Team
 <wire x1="77.3" y1="55" x2="73" y2="55" width="0.254" layer="1"/>
 <via x="73" y="55" extent="1-16" drill="0.4"/>
 <wire x1="73" y1="55" x2="71" y2="55" width="0.254" layer="16"/>
-<wire x1="71" y1="55" x2="68" y2="58" width="0.254" layer="16"/>
-<via x="68" y="58" extent="1-16" drill="0.4"/>
-<wire x1="68" y1="58" x2="68" y2="59" width="0.254" layer="1"/>
-<wire x1="68" y1="59" x2="67" y2="60" width="0.254" layer="1"/>
-<wire x1="67" y1="60" x2="41" y2="60" width="0.254" layer="1"/>
-<wire x1="41" y1="60" x2="40" y2="59" width="0.254" layer="1"/>
-<wire x1="40" y1="59" x2="15.5" y2="59" width="0.254" layer="1"/>
-<wire x1="15.5" y1="59" x2="14.865" y2="58.365" width="0.254" layer="1"/>
-<wire x1="14.865" y1="58.365" x2="14.865" y2="56.7" width="0.254" layer="1"/>
+<contactref element="U1" pad="2"/>
+<wire x1="66.2" y1="59.5" x2="41.5" y2="59.5" width="0.254" layer="1"/>
+<wire x1="41.5" y1="59.5" x2="40.5" y2="58.5" width="0.254" layer="1"/>
+<wire x1="40.5" y1="58.5" x2="16.5" y2="58.5" width="0.254" layer="1"/>
+<wire x1="16.5" y1="58.5" x2="16.135" y2="58.135" width="0.254" layer="1"/>
+<wire x1="16.135" y1="58.135" x2="16.135" y2="56.7" width="0.254" layer="1"/>
+<wire x1="71" y1="55" x2="68.4" y2="57.6" width="0.254" layer="16"/>
+<wire x1="68.4" y1="57.6" x2="68.4" y2="57.9" width="0.254" layer="16"/>
+<wire x1="68.4" y1="57.9" x2="67.8" y2="58.5" width="0.254" layer="16"/>
+<wire x1="67.8" y1="58.5" x2="66.7" y2="58.5" width="0.254" layer="16"/>
+<via x="66.7" y="58.5" extent="1-16" drill="0.4"/>
+<wire x1="66.7" y1="58.5" x2="66.7" y2="59" width="0.254" layer="1"/>
+<wire x1="66.7" y1="59" x2="66.2" y2="59.5" width="0.254" layer="1"/>
 </signal>
 <signal name="USB_DM">
 <contactref element="U6" pad="32"/>
@@ -6504,7 +6493,6 @@ Your Multi-CB Team
 </signal>
 <signal name="TIM1_CH1N">
 <contactref element="U6" pad="26"/>
-<contactref element="U1" pad="2"/>
 <wire x1="79.7164" y1="50.2394" x2="78.7606" y2="50.2394" width="0.254" layer="1"/>
 <wire x1="78.7606" y1="50.2394" x2="78.6" y2="50.4" width="0.254" layer="1"/>
 <wire x1="78.6" y1="50.4" x2="78.6" y2="51.1" width="0.254" layer="1"/>
@@ -6515,16 +6503,16 @@ Your Multi-CB Team
 <wire x1="73.5" y1="54.4" x2="73" y2="53.9" width="0.254" layer="1"/>
 <via x="73" y="53.9" extent="1-16" drill="0.4"/>
 <wire x1="73" y1="53.9" x2="71.1" y2="53.9" width="0.254" layer="16"/>
-<wire x1="71.1" y1="53.9" x2="68" y2="57" width="0.254" layer="16"/>
-<wire x1="68" y1="57" x2="67" y2="57" width="0.254" layer="16"/>
-<via x="67" y="57" extent="1-16" drill="0.4"/>
-<wire x1="67" y1="57" x2="67" y2="58.5" width="0.254" layer="1"/>
-<wire x1="67" y1="58.5" x2="66" y2="59.5" width="0.254" layer="1"/>
-<wire x1="66" y1="59.5" x2="41.5" y2="59.5" width="0.254" layer="1"/>
-<wire x1="41.5" y1="59.5" x2="40.5" y2="58.5" width="0.254" layer="1"/>
-<wire x1="40.5" y1="58.5" x2="16.5" y2="58.5" width="0.254" layer="1"/>
-<wire x1="16.5" y1="58.5" x2="16.135" y2="58.135" width="0.254" layer="1"/>
-<wire x1="16.135" y1="58.135" x2="16.135" y2="56.7" width="0.254" layer="1"/>
+<wire x1="71.1" y1="53.9" x2="67.5" y2="57.5" width="0.254" layer="16"/>
+<contactref element="U1" pad="3"/>
+<wire x1="67" y1="60" x2="41" y2="60" width="0.254" layer="1"/>
+<wire x1="41" y1="60" x2="40" y2="59" width="0.254" layer="1"/>
+<wire x1="40" y1="59" x2="15.5" y2="59" width="0.254" layer="1"/>
+<wire x1="15.5" y1="59" x2="14.865" y2="58.365" width="0.254" layer="1"/>
+<wire x1="14.865" y1="58.365" x2="14.865" y2="56.7" width="0.254" layer="1"/>
+<via x="67.5" y="57.5" extent="1-16" drill="0.4"/>
+<wire x1="67.5" y1="57.5" x2="67.5" y2="59.5" width="0.254" layer="1"/>
+<wire x1="67.5" y1="59.5" x2="67" y2="60" width="0.254" layer="1"/>
 </signal>
 <signal name="I_LOAD">
 <contactref element="R11" pad="2"/>

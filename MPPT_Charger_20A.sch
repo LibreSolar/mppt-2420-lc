@@ -28480,7 +28480,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R30" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
+<part name="R30" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="0">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -28663,7 +28663,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </part>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<part name="R23" library="LibreSolar" deviceset="RESISTOR" device="_R0603" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -29664,13 +29664,6 @@ Alternative: MIC5225</text>
 <junction x="76.2" y="228.6"/>
 </segment>
 </net>
-<net name="TIM1_CH1N" class="0">
-<segment>
-<wire x1="170.18" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
-<label x="167.64" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="HI"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="187.96" y1="195.58" x2="185.42" y2="195.58" width="0.1524" layer="91"/>
@@ -29868,9 +29861,9 @@ Alternative: MIC5225</text>
 </net>
 <net name="TIM1_CH1" class="0">
 <segment>
-<label x="167.64" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="170.18" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="LI"/>
+<wire x1="170.18" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
+<label x="167.64" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="HI"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -30253,6 +30246,13 @@ Alternative: MIC5225</text>
 <wire x1="289.56" y1="147.32" x2="289.56" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
 <label x="287.02" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TIM1_CH1N" class="0">
+<segment>
+<label x="167.64" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="LI"/>
 </segment>
 </net>
 </nets>
