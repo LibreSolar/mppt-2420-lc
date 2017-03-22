@@ -1,0 +1,124 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +10V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP AP131-15
+D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-18
+D 300mA low dropout linear regulator, shutdown pin, 1.8V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-20
+D 300mA low dropout linear regulator, shutdown pin, 2.0V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-25
+D 300mA low dropout linear regulator, shutdown pin, 2.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-28
+D 300mA low dropout linear regulator, shutdown pin, 2.8V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-29
+D 300mA low dropout linear regulator, shutdown pin, 2.9V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-30
+D 300mA low dropout linear regulator, shutdown pin, 3.0V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-33
+D 300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP131-35
+D 300mA low dropout linear regulator, shutdown pin, 3.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP2210-3.3
+D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP Coded_Switch
+D 4 bits rotary switch
+K Rotary, Hex
+$ENDCMP
+#
+$CMP LIBRESOLAR_LOGO
+D Libre Solar Logo
+K Libre Solar Logo
+$ENDCMP
+#
+$CMP LIBRE_SOLAR
+D Libre Solar Logo
+K Libre Solar Logo
+$ENDCMP
+#
+$CMP LM2665
+D switched capacitor voltage doubler, shutdown pin, SOT-23-5 package
+K switched capacitor voltage doubler
+$ENDCMP
+#
+$CMP MCP16301
+D 4.0 to 30V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package
+K switching buck converter power-supply voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP16301H
+D 4.7 to 36V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package
+K switching buck converter power-supply voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP16331-CH
+D High-Voltage Input Integrated Switch Step-Down Regulator, 50V, 500mA
+K switching buck converter power-supply voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005308C.pdf
+$ENDCMP
+#
+$CMP Q_NMOS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Rotary_Switch
+D 4 bits rotary switch
+K Rotary, Hex
+$ENDCMP
+#
+$CMP STM32F072CB_slim
+D Slim version of STM32F072CB
+K STM32F072CB
+$ENDCMP
+#
+#End Doc Library

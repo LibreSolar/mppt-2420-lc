@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name LibreSolar)(type KiCad)(uri D:\LibreSolar\2_Development\04_Hardware\MPPT_charger_20A\modules\LibreSolar.pretty)(options "")(descr "LibreSolar common footprints library"))
+  (lib (name w_conn_ftsh)(type KiCad)(uri D:\LibreSolar\2_Development\04_Hardware\01_KiCAD_lib\mod_conn_ftsh\w_conn_ftsh.pretty)(options "")(descr ""))
+  (lib (name w_smd_qfn)(type KiCad)(uri "$(KIPRJMOD)\\modules\\w_smd_qfn.pretty")(options "")(descr ""))
+)

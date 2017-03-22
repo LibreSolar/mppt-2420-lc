@@ -3,7 +3,11 @@
 
 This is the new version of the charge controller, now based on 32 bit ARM MCU instead of ATmega AVR, in order to be able to implement CANopen stack.
 
-![Charge controller PCB](https://raw.githubusercontent.com/LibreSolar/MPPT-Charger_20A/master/MPPT_Charger_20A_brd_aisler.png)
+Recent version moved from Eagle to KiCAD because of the new license model introduced by Autodesk.
+
+![Charge controller PCB](https://raw.githubusercontent.com/LibreSolar/MPPT-Charger_20A/master/MPPT_charger_20A_bot.png)
+
+![Charge controller PCB](https://raw.githubusercontent.com/LibreSolar/MPPT-Charger_20A/master/MPPT_charger_20A_top.png)
 
 Features:
 - 20A MPPT charger
