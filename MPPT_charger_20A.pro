@@ -1,4 +1,4 @@
-update=26/03/2017 20:14:52
+update=27/07/2017 20:28:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,22 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=library
+[eeschema/libraries]
+LibName1=MPPT_charger_20A-rescue
+LibName2=library/LibreSolar
+LibName3=library/IEC-60617
+LibName4=power
+LibName5=device
+LibName6=regul
+LibName7=switches
+LibName8=conn
+LibName9=logo
+LibName10=mechanical
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -30,14 +46,6 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=50
-[eeschema]
-version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=library/LibreSolar
-LibName2=library/IEC-60617
-[general]
-version=1
+ERC_TestSimilarLabels=1

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/martin/LibreSolar/03_PCB/MPPT_charger_20A/MPPT_charger_20A.sch</source>
-    <date>Sat 18 Mar 2017 21:10:44 CET</date>
-    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <source>D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\MPPT_charger_20A.sch</source>
+    <date>06/08/2017 22:12:54</date>
+    <tool>Eeschema (2017-06-06 revision a18d72b5d)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MPPT Charger 20A</title>
@@ -47,8 +47,8 @@
       <title_block>
         <title>MPPT Charger 20A</title>
         <company>Libre Solar</company>
-        <rev>0.7</rev>
-        <date>2017-03-06</date>
+        <rev>0.8</rev>
+        <date>2017-08-06</date>
         <source>power_supply.sch</source>
         <comment number="1" value="Author: Martin Jäger"/>
         <comment number="2" value="Website: http://libre.solar"/>
@@ -63,6 +63,19 @@
         <rev>0.7</rev>
         <date>2017-03-06</date>
         <source>interfaces.sch</source>
+        <comment number="1" value="Author: Martin Jäger"/>
+        <comment number="2" value="Website: http://libre.solar"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Analog Frontend/" tstamps="/58E22D17/">
+      <title_block>
+        <title>MPPT Charger 20A</title>
+        <company>Libre Solar</company>
+        <rev>0.7</rev>
+        <date>2017-03-06</date>
+        <source>analog_frontend.sch</source>
         <comment number="1" value="Author: Martin Jäger"/>
         <comment number="2" value="Website: http://libre.solar"/>
         <comment number="3" value=""/>
@@ -85,423 +98,205 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58C39FC7</tstamp>
     </comp>
-    <comp ref="R27">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A6E7F1</tstamp>
+    <comp ref="MK1">
+      <value>Mounting_Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595388B0</tstamp>
     </comp>
-    <comp ref="R25">
-      <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07100KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A70DA1</tstamp>
+    <comp ref="MK2">
+      <value>Mounting_Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59538A86</tstamp>
     </comp>
-    <comp ref="R24">
-      <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07100KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A715AF</tstamp>
+    <comp ref="MK3">
+      <value>Mounting_Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59538C18</tstamp>
     </comp>
-    <comp ref="R26">
-      <value>5.6k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+    <comp ref="J5">
+      <value>CONN_01X03</value>
+      <footprint>LibreSolar:Phoenix_Contact_MC_1,5_3-G-3,81</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-075K6L</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="PartNumber">1803280</field>
       </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A71DE2</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A723ED</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A72885</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A7377B</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A7452B</tstamp>
-    </comp>
-    <comp ref="NTC1">
-      <value>10k-NTC</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">TDK</field>
-        <field name="MPN">NTCG163JF103FT1S</field>
-      </fields>
-      <libsource lib="device" part="Thermistor_NTC"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A75726</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A7ED33</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A847D1</tstamp>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59553D8B</tstamp>
     </comp>
     <comp ref="C10">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A85D67</tstamp>
     </comp>
-    <comp ref="C11">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A86B85</tstamp>
-    </comp>
     <comp ref="R3">
       <value>3.3</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
+      <footprint>LibreSolar:R_0805_2012</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0805FR-073R3L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0805FR-073R3L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9A2AE</tstamp>
     </comp>
     <comp ref="R1">
       <value>3.3</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
+      <footprint>LibreSolar:R_0805_2012</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0805FR-073R3L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0805FR-073R3L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9AA64</tstamp>
     </comp>
     <comp ref="R10">
       <value>3.3</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
+      <footprint>LibreSolar:R_0805_2012</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0805FR-073R3L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0805FR-073R3L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9B6EE</tstamp>
     </comp>
     <comp ref="R9">
-      <value>33k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <value>56k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-0733KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-0756KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9DC80</tstamp>
     </comp>
     <comp ref="R12">
       <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9E677</tstamp>
     </comp>
     <comp ref="R13">
       <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A9EAD2</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A9F3FF</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A9F8B2</tstamp>
     </comp>
     <comp ref="R17">
       <value>2m</value>
       <footprint>LibreSolar:R_Bourns_CRE2512</footprint>
       <fields>
-        <field name="MFR">Bourns</field>
-        <field name="MPN">CRE2512-FZ-R002E-3</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="PartNumber">CRE2512-FZ-R002E-3</field>
         <field name="SPR">Mouser</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AA028C</tstamp>
     </comp>
     <comp ref="R16">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AA0F0C</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA2C36</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>150k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA3509</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>150k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA3A32</tstamp>
-    </comp>
-    <comp ref="U7">
-      <value>LM358</value>
-      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
-      <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">LM358PSR</field>
-      </fields>
-      <libsource lib="linear" part="LM358"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA4888</tstamp>
     </comp>
     <comp ref="R6">
       <value>2m</value>
       <footprint>LibreSolar:R_Bourns_CRE2512</footprint>
       <fields>
-        <field name="MFR">Bourns</field>
-        <field name="MPN">CRE2512-FZ-R002E-3</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="PartNumber">CRE2512-FZ-R002E-3</field>
         <field name="SPR">Mouser</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AA6BF1</tstamp>
     </comp>
-    <comp ref="R19">
-      <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA826A</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AA8A90</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>150k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AAB023</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>150k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AAB89C</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071KL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58AACEAA</tstamp>
-    </comp>
-    <comp ref="C5">
+    <comp ref="C8">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0805_2012</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRJ21BC72A105KE11L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRJ21BC72A105KE11L</field>
+        <field name="Comment">100V, X7S</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AC52BA</tstamp>
     </comp>
     <comp ref="C4">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0805_2012</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRJ21BC72A105KE11L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRJ21BC72A105KE11L</field>
+        <field name="Comment">100V, X7S</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AC5948</tstamp>
     </comp>
     <comp ref="C6">
       <value>1n</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM1885C2A102JA01D</field>
+        <field name="Remarks">NP0/C0G</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM1885C2A102JA01D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AC7446</tstamp>
     </comp>
     <comp ref="R4">
       <value>4.7</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>LibreSolar:R_1206_3216</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC1206FR-074R7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC1206FR-074R7L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AC810E</tstamp>
     </comp>
     <comp ref="R5">
       <value>4.7</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>LibreSolar:R_1206_3216</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC1206FR-074R7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC1206FR-074R7L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AC7B4A</tstamp>
     </comp>
@@ -509,142 +304,105 @@
       <value>22uH</value>
       <footprint>LibreSolar:L-FERYSTER-DTMSS-27</footprint>
       <fields>
-        <field name="MFR">Feryster</field>
-        <field name="MPN">DTMSS-27/0,033/20-H</field>
+        <field name="Manufacturer">Feryster</field>
+        <field name="PartNumber">DTMSS-27/0,033/20-H</field>
         <field name="SPR">Feryster</field>
       </fields>
       <libsource lib="device" part="L_Core_Iron"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58ACD441</tstamp>
     </comp>
-    <comp ref="T1">
-      <value>MMBT3904</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">MMBT3904-7-F</field>
-      </fields>
-      <libsource lib="transistors" part="MMBT3904"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58ACF046</tstamp>
-    </comp>
     <comp ref="C12">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R61E105KA12D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R61E105KA12D</field>
+        <field name="Remarks">25V</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AD9379</tstamp>
     </comp>
-    <comp ref="C7">
-      <value>820u</value>
-      <footprint>Capacitors_THT:C_Radial_D10_L25_P5</footprint>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">EEU-FR1V821L</field>
-      </fields>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A7254C</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>820u</value>
-      <footprint>Capacitors_THT:C_Radial_D10_L25_P5</footprint>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">EEU-FR1V821L</field>
-      </fields>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A72970</tstamp>
-    </comp>
     <comp ref="J3">
       <value>BAT</value>
-      <footprint>LibreSolar:MKDS_5-2-952</footprint>
+      <footprint>LibreSolar:Phoenix_Contact_MKDS_5-2-952</footprint>
       <fields>
-        <field name="Field4">SMKDS_5/2-9,52</field>
-        <field name="MFR">Phoenix Contact</field>
-        <field name="MPN">MKDS 5/ 2-9,5</field>
-        <field name="SPR">Phoenix Contact</field>
-        <field name="SPN">1714971</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="PartNumber">1868076</field>
       </fields>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <libsource lib="LibreSolar" part="Screw_Terminal_1x02"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A7CE11</tstamp>
     </comp>
     <comp ref="J1">
       <value>SOLAR</value>
-      <footprint>LibreSolar:MKDS_5-2-952</footprint>
+      <footprint>LibreSolar:Phoenix_Contact_MKDS_5-2-952</footprint>
       <fields>
-        <field name="Field4">SMKDS_5/2-9,52</field>
-        <field name="MFR">Phoenix Contact</field>
-        <field name="MPN">MKDS 5/ 2-9,5</field>
-        <field name="SPR">Phoenix Contact</field>
-        <field name="SPN">1714971</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="PartNumber">1868076</field>
       </fields>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <libsource lib="LibreSolar" part="Screw_Terminal_1x02"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A7E35A</tstamp>
     </comp>
     <comp ref="J2">
       <value>LOAD</value>
-      <footprint>LibreSolar:MKDS_5-2-952</footprint>
+      <footprint>LibreSolar:Phoenix_Contact_MKDS_5-2-952</footprint>
       <fields>
-        <field name="Field4">SMKDS_5/2-9,52</field>
-        <field name="MFR">Phoenix Contact</field>
-        <field name="MPN">MKDS 5/ 2-9,5</field>
-        <field name="SPR">Phoenix Contact</field>
-        <field name="SPN">1714971</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="PartNumber">1868076</field>
       </fields>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <libsource lib="LibreSolar" part="Screw_Terminal_1x02"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A7FE07</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1000u</value>
-      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
-      <fields>
-        <field name="MFR">United Chemi-Con</field>
-        <field name="MPN">EKYB630ELL102ML25S</field>
-      </fields>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58A857B0</tstamp>
     </comp>
     <comp ref="C2">
       <value>1000u</value>
       <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <fields>
-        <field name="MFR">United Chemi-Con</field>
-        <field name="MPN">EKYB630ELL102ML25S</field>
+        <field name="Manufacturer">United Chemi-Con</field>
+        <field name="PartNumber">EKYB630ELL102ML25S</field>
+        <field name="Comment">63V, 2.74A, 16x25</field>
       </fields>
-      <libsource lib="device" part="CP"/>
+      <libsource lib="IEC-60617" part="CP"/>
+      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
+      <tstamp>58A857B0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>820u</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="PartNumber">EEU-FR1V821L</field>
+        <field name="Comment">35V, 2.47A</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="IEC-60617" part="CP"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A85EB1</tstamp>
     </comp>
     <comp ref="C3">
       <value>2.2u</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
+      <footprint>LibreSolar:C_1210_3225</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM31CR72A225KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM31CR72A225KA73L</field>
+        <field name="Comment">100V, X7R</field>
+        <field name="Alternative">TY HMK325B7225KN-T</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A8683F</tstamp>
     </comp>
     <comp ref="D1">
-      <value>1N4148W-7-F</value>
-      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <value>1N4148</value>
+      <footprint>LibreSolar:D_SOD-123</footprint>
       <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">1N4148W-7-F</field>
-        <field name="SPR">Mouser</field>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">1N4148W-7-F</field>
       </fields>
-      <libsource lib="device" part="D_ALT"/>
+      <libsource lib="IEC-60617" part="D"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58A87233</tstamp>
     </comp>
@@ -652,21 +410,21 @@
       <value>25A</value>
       <footprint>LibreSolar:KEYSTONE-FUSE-3557-2</footprint>
       <fields>
-        <field name="MFR">Keystone</field>
-        <field name="MPN">3557-2</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="PartNumber">3557-2</field>
       </fields>
-      <libsource lib="device" part="Fuse"/>
+      <libsource lib="IEC-60617" part="Fuse"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58AA3600</tstamp>
     </comp>
     <comp ref="R2">
       <value>1M</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071ML</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58BEC59A</tstamp>
     </comp>
@@ -674,33 +432,19 @@
       <value>LM5107</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">LM5107MA</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">LM5107MA</field>
       </fields>
       <libsource lib="LibreSolar" part="LM5107"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58C054FE</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>TEMP</value>
-      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
-      <fields>
-        <field name="Field4">SMKDS_5/2-9,52</field>
-        <field name="MFR">Phoenix Contact</field>
-        <field name="MPN">MKDSN 1,5/ 2</field>
-        <field name="SPR">Phoenix Contact</field>
-        <field name="SPN">1729018</field>
-      </fields>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
-      <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58C069F9</tstamp>
-    </comp>
     <comp ref="Q1">
       <value>CSD18540Q5B</value>
       <footprint>LibreSolar:5X6_MOSFET</footprint>
       <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">CSD18540Q5BT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">CSD18540Q5BT</field>
       </fields>
       <libsource lib="LibreSolar" part="Q_NMOS"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
@@ -710,8 +454,8 @@
       <value>CSD18540Q5B</value>
       <footprint>LibreSolar:5X6_MOSFET</footprint>
       <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">CSD18540Q5BT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">CSD18540Q5BT</field>
       </fields>
       <libsource lib="LibreSolar" part="Q_NMOS"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
@@ -721,8 +465,8 @@
       <value>CSD18540Q5B</value>
       <footprint>LibreSolar:5X6_MOSFET</footprint>
       <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">CSD18540Q5BT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">CSD18540Q5BT</field>
       </fields>
       <libsource lib="LibreSolar" part="Q_NMOS"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
@@ -732,276 +476,216 @@
       <value>CSD18540Q5B</value>
       <footprint>LibreSolar:5X6_MOSFET</footprint>
       <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">CSD18540Q5BT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">CSD18540Q5BT</field>
       </fields>
       <libsource lib="LibreSolar" part="Q_NMOS"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
       <tstamp>58C43871</tstamp>
     </comp>
-    <comp ref="C40">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+    <comp ref="C1">
+      <value>1000u</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">United Chemi-Con</field>
+        <field name="PartNumber">EKYB630ELL102ML25S</field>
+        <field name="Comment">63V, 2.74A, 16x25</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="CP"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58CBE39F</tstamp>
+      <tstamp>59108F15</tstamp>
     </comp>
-    <comp ref="R44">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+    <comp ref="HS1">
+      <value>Heatsink_PAD</value>
+      <footprint>LibreSolar:Fischer_Elektronik_FK_250_10_LF_PAK</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
+        <field name="Manufacturer">Fischer Elektronik</field>
+        <field name="PartNumber">FK 250 10 LF PAK</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mechanical" part="Heatsink_PAD"/>
       <sheetpath names="/DCDC power stage/" tstamps="/58A68DC9/"/>
-      <tstamp>58CBE7D6</tstamp>
+      <tstamp>595541CE</tstamp>
     </comp>
-    <comp ref="IC2">
+    <comp ref="D6">
       <value>LM4040CYM3-2.5</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <footprint>LibreSolar:SOT-23</footprint>
       <fields>
-        <field name="MFR">Microchip</field>
-        <field name="MPN">LM4040DYM3-2.5-TR</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="PartNumber">LM4040DYM3-2.5-TR</field>
       </fields>
-      <libsource lib="MPPT_charger_20A-cache" part="TEXAS_LM4041A12DBZ"/>
+      <libsource lib="LibreSolar" part="LM4040"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58A66599</tstamp>
     </comp>
     <comp ref="L4">
-      <value>L</value>
+      <value>600R</value>
       <footprint>Inductors_SMD:L_0603</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">BLM18AG601SN1D</field>
       </fields>
-      <libsource lib="device" part="L"/>
+      <libsource lib="IEC-60617" part="L"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58A97504</tstamp>
     </comp>
     <comp ref="C29">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB7F87</tstamp>
     </comp>
     <comp ref="C30">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB8568</tstamp>
     </comp>
     <comp ref="C31">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB8BE5</tstamp>
     </comp>
     <comp ref="C32">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB8D4F</tstamp>
     </comp>
     <comp ref="C34">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB8FDB</tstamp>
     </comp>
     <comp ref="C33">
       <value>2.2u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R60J225KE19D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R60J225KE19D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AB9291</tstamp>
     </comp>
-    <comp ref="C28">
-      <value>4.3p</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM1885C1H4R3CA01D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58AB9A03</tstamp>
-    </comp>
-    <comp ref="C27">
-      <value>4.3p</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM1885C1H4R3CA01D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58AB9D23</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-070RL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58ABA3EB</tstamp>
-    </comp>
     <comp ref="R42">
       <value>330</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07330RL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58ADF91D</tstamp>
     </comp>
     <comp ref="R43">
       <value>330</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07330RL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58ADFCF1</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>LED_SMD</value>
-      <footprint>LEDs:LED_0603</footprint>
-      <fields/>
-      <libsource lib="device" part="LED_Small"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58AE04BB</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>LED_SMD</value>
-      <footprint>LEDs:LED_0603</footprint>
-      <fields/>
-      <libsource lib="device" part="LED_Small"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58AE0BF4</tstamp>
     </comp>
     <comp ref="LED2">
       <value>LED</value>
       <footprint>LEDs:LED_D3.0mm</footprint>
-      <fields/>
-      <libsource lib="MPPT_charger_20A-cache" part="LED-RESCUE-MPPT_Charger_20A"/>
+      <libsource lib="IEC-60617" part="LED"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE11BD</tstamp>
     </comp>
     <comp ref="R37">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE1DE5</tstamp>
     </comp>
     <comp ref="R41">
       <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE2393</tstamp>
     </comp>
     <comp ref="R39">
       <value>1M</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071ML</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE2797</tstamp>
     </comp>
     <comp ref="R40">
       <value>1M</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071ML</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE2AE1</tstamp>
     </comp>
-    <comp ref="T2">
-      <value>MMBT3904</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">MMBT3904-7-F</field>
-      </fields>
-      <libsource lib="transistors" part="MMBT3904"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58AE36FB</tstamp>
-    </comp>
     <comp ref="R45">
       <value>56k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-0756KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-0756KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE3E3D</tstamp>
     </comp>
     <comp ref="C36">
       <value>2.2u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R60J225KE19D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R60J225KE19D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE661C</tstamp>
     </comp>
@@ -1009,8 +693,8 @@
       <value>STM32F072CB</value>
       <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
       <fields>
-        <field name="MFR">STMicroelectronics</field>
-        <field name="MPN">STM32F072CB</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="PartNumber">STM32F072CBT6</field>
       </fields>
       <libsource lib="LibreSolar" part="STM32F072CB"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
@@ -1018,22 +702,14 @@
     </comp>
     <comp ref="SW1">
       <value>SW_PUSH</value>
-      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
-      <fields/>
-      <libsource lib="MPPT_charger_20A-cache" part="SW_PUSH"/>
+      <footprint>LibreSolar:SW_SPST_EVQP7A</footprint>
+      <fields>
+        <field name="Manufacturer">C&amp;K Components</field>
+        <field name="PartNumber">PTS840 GK SMTR LFS</field>
+      </fields>
+      <libsource lib="IEC-60617" part="SW_PUSH"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58C38D27</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>Rotary_Switch</value>
-      <footprint>LibreSolar:Rotary_Switch_THT</footprint>
-      <fields>
-        <field name="MFR">Wurth</field>
-        <field name="MPN">428527320908</field>
-      </fields>
-      <libsource lib="LibreSolar" part="Rotary_Switch"/>
-      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58C4AAD2</tstamp>
     </comp>
     <comp ref="SWD1">
       <value>ST_Nucleo_SWD</value>
@@ -1054,96 +730,133 @@
     <comp ref="LED1">
       <value>LED</value>
       <footprint>LEDs:LED_D3.0mm</footprint>
-      <fields/>
-      <libsource lib="MPPT_charger_20A-cache" part="LED-RESCUE-MPPT_Charger_20A"/>
+      <libsource lib="IEC-60617" part="LED"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58AE0EA3</tstamp>
     </comp>
     <comp ref="Y1">
-      <value>CSTCE8M00G15C99-R0</value>
+      <value>8kHz</value>
       <footprint>LibreSolar:Resonator_Murata_CSTCE</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">CSTCE8M00G15C99-R0</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">CSTCE8M00G15C99-R0</field>
+        <field name="Tolerance">0.1%</field>
       </fields>
-      <libsource lib="MPPT_charger_20A-cache" part="CRYSTAL_SMD"/>
+      <libsource lib="IEC-60617" part="Resonator"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
       <tstamp>58C556C6</tstamp>
     </comp>
-    <comp ref="Y2">
-      <value>ABS25-32.768KHZ-6-T</value>
-      <footprint>Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm</footprint>
+    <comp ref="U6">
+      <value>24AA01</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
       <fields>
-        <field name="MFR">Abracon</field>
-        <field name="MPN">ABS25-32.768KHZ-6-T</field>
+        <field name="PartNumber">24AA01</field>
+        <field name="Manufacturer">Microchip</field>
       </fields>
-      <libsource lib="LibreSolar" part="Crystal_NC23"/>
+      <libsource lib="LibreSolar" part="24AA01"/>
       <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
-      <tstamp>58CC456D</tstamp>
+      <tstamp>5929D79A</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
+      <tstamp>5929DAC6</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
+      <tstamp>5929EAB6</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
+      <tstamp>5929EB96</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="IEC-60617" part="LED"/>
+      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
+      <tstamp>592A0F42</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="IEC-60617" part="LED"/>
+      <sheetpath names="/MCU/" tstamps="/58A68DCB/"/>
+      <tstamp>592A12D5</tstamp>
     </comp>
     <comp ref="R29">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07150KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3011E</tstamp>
     </comp>
-    <comp ref="D5">
-      <value>1N4148W-7-F</value>
-      <footprint>Diodes_SMD:D_SOD-123</footprint>
-      <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">1N4148W-7-F</field>
-      </fields>
-      <libsource lib="device" part="D_ALT"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C3012C</tstamp>
-    </comp>
     <comp ref="C23">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R61E105KA12D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R61E105KA12D</field>
+        <field name="Remarks">25V</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30133</tstamp>
     </comp>
     <comp ref="C21">
       <value>10u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0805_2012</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM21BR61E106KA73L</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3013A</tstamp>
     </comp>
     <comp ref="C20">
       <value>10u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0805_2012</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM21BR61E106KA73L</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30141</tstamp>
     </comp>
     <comp ref="R28">
-      <value>52.3k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <value>120k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-0752K3L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07120KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30148</tstamp>
     </comp>
@@ -1151,43 +864,47 @@
       <value>SS16FP</value>
       <footprint>Diodes_SMD:D_PowerDI-123</footprint>
       <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">SS16FP</field>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">SS16FP</field>
+        <field name="ALT">DFLS160-7</field>
       </fields>
-      <libsource lib="device" part="D_Schottky_ALT"/>
+      <libsource lib="IEC-60617" part="D_Schottky"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3014F</tstamp>
     </comp>
     <comp ref="C19">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30156</tstamp>
     </comp>
     <comp ref="C14">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+      <footprint>LibreSolar:C_0805_2012</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRJ21BC72A105KE11L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRJ21BC72A105KE11L</field>
+        <field name="Comment">100V, X7S</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3015D</tstamp>
     </comp>
     <comp ref="C15">
-      <value>4.7u</value>
-      <footprint>Capacitors_SMD:C_1210</footprint>
+      <value>2.2u</value>
+      <footprint>LibreSolar:C_1210_3225</footprint>
       <fields>
-        <field name="MFR">TDK</field>
-        <field name="MPN">C3225X7R2A225K230AB</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM31CR72A225KA73L</field>
+        <field name="Comment">100V, X7R</field>
+        <field name="Alternative">TY HMK325B7225KN-T</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30164</tstamp>
     </comp>
@@ -1195,184 +912,142 @@
       <value>4.7uH</value>
       <footprint>Inductors_SMD:L_0805</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">LQM21PN4R7NGRD</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">LQM21PN4R7NGRD</field>
       </fields>
-      <libsource lib="device" part="L"/>
+      <libsource lib="IEC-60617" part="L"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3016B</tstamp>
     </comp>
     <comp ref="C35">
       <value>100p</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM1885C2A101JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM1885C2A101JA01D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C3017A</tstamp>
     </comp>
     <comp ref="C38">
       <value>2.2u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R60J225KE19D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R60J225KE19D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30181</tstamp>
     </comp>
     <comp ref="L3">
-      <value>22uH</value>
-      <footprint>Inductors:SELF-WE-TPC_M</footprint>
+      <value>47uH</value>
+      <footprint>LibreSolar:L_Wuerth_WE-TPC-58xx</footprint>
       <fields>
-        <field name="MFR">Bourns</field>
-        <field name="MPN">SRR4028-220Y</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="PartNumber">SRR5028-470Y</field>
+        <field name="Alternative">WE-TPC-5828 744053470</field>
       </fields>
-      <libsource lib="device" part="L"/>
+      <libsource lib="IEC-60617" part="L"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58C30191</tstamp>
     </comp>
-    <comp ref="D7">
-      <value>SS16FP</value>
-      <footprint>Diodes_SMD:D_PowerDI-123</footprint>
-      <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">SS16FP</field>
-      </fields>
-      <libsource lib="device" part="D_Schottky_ALT"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C305EF</tstamp>
-    </comp>
-    <comp ref="C24">
-      <value>10u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM21BR61E106KA73L</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C305F7</tstamp>
-    </comp>
-    <comp ref="C37">
-      <value>10u</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM21BR61E106KA73L</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C305FE</tstamp>
-    </comp>
-    <comp ref="C22">
-      <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R61E105KA12D</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C30605</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>LM2665</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <fields>
-        <field name="MFR">Texas Instruments</field>
-        <field name="MPN">LM2665M6/NOPB</field>
-      </fields>
-      <libsource lib="LibreSolar" part="LM2665"/>
-      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C3060C</tstamp>
-    </comp>
     <comp ref="U4">
-      <value>MCP16331-CH</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <value>LMR16006X</value>
+      <footprint>LibreSolar:SOT-23-6</footprint>
       <fields>
-        <field name="MFR">Microchip</field>
-        <field name="MPN">MCP16331T-E/CH</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNumber">LMR16006X</field>
       </fields>
-      <libsource lib="LibreSolar" part="MCP16331-CH"/>
+      <libsource lib="LibreSolar" part="LMR16006"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58BDBD3F</tstamp>
     </comp>
     <comp ref="U5">
       <value>AP2210-3.3</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <footprint>LibreSolar:SOT-23-5</footprint>
       <fields>
-        <field name="MFR">Diodes Inc.</field>
-        <field name="MPN">AP2210K-3.3TRG1</field>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">AP2210K-3.3TRG1</field>
+        <field name="ALT">MIC5225</field>
       </fields>
       <libsource lib="LibreSolar" part="AP2210-3.3"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
       <tstamp>58BDC485</tstamp>
     </comp>
-    <comp ref="R33">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-070RL</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C5EA12</tstamp>
+      <tstamp>58CE7F0D</tstamp>
     </comp>
-    <comp ref="R38">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+    <comp ref="U3">
+      <value>AZ1117</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-070RL</field>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">AZ1117EH-5.0TRG1</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="LibreSolar" part="AZ1117"/>
       <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
-      <tstamp>58C5EA81</tstamp>
+      <tstamp>5911D439</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10u</value>
+      <footprint>LibreSolar:C_0805_2012</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM21BR61E106KA73L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Power Supply/" tstamps="/58C18D5C/"/>
+      <tstamp>5911D658</tstamp>
     </comp>
     <comp ref="C39">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3440</tstamp>
     </comp>
     <comp ref="C26">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3447</tstamp>
     </comp>
     <comp ref="R36">
       <value>120</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>LibreSolar:R_1206_3216</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC1206FR-07120RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC1206FR-07120RL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE344E</tstamp>
     </comp>
     <comp ref="JP1">
       <value>RJ45_NS</value>
-      <footprint>Connectors:RJ45_8</footprint>
+      <footprint>LibreSolar:RJ45_8P8C</footprint>
       <fields>
-        <field name="MFR">Amphenol FCI</field>
-        <field name="MPN">54602-908LF</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="PartNumber">54602-908LF</field>
       </fields>
       <libsource lib="LibreSolar" part="RJ45_NS"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
@@ -1382,8 +1057,8 @@
       <value>TJA1042T/3</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
-        <field name="MFR">NXP</field>
-        <field name="MPN">TJA1042T/3/1J</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="PartNumber">TJA1042T/3/1J</field>
         <field name="SPR">Mouser</field>
       </fields>
       <libsource lib="LibreSolar" part="TJA1042T/3"/>
@@ -1393,165 +1068,476 @@
     <comp ref="JP3">
       <value>Jumper_NC_Small</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <fields/>
-      <libsource lib="device" part="Jumper_NC_Small"/>
+      <libsource lib="IEC-60617" part="Jumper_NC_Small"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3476</tstamp>
     </comp>
     <comp ref="JP2">
       <value>RJ45_NS</value>
-      <footprint>Connectors:RJ45_8</footprint>
+      <footprint>LibreSolar:RJ45_8P8C</footprint>
       <fields>
-        <field name="MFR">Amphenol FCI</field>
-        <field name="MPN">54602-908LF</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="PartNumber">54602-908LF</field>
       </fields>
       <libsource lib="LibreSolar" part="RJ45_NS"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE348A</tstamp>
     </comp>
-    <comp ref="R31">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-070RL</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
-      <tstamp>58BE3F6B</tstamp>
-    </comp>
-    <comp ref="R32">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-070RL</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
-      <tstamp>58BE3F72</tstamp>
-    </comp>
     <comp ref="R35">
       <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3F9C</tstamp>
     </comp>
     <comp ref="R34">
       <value>2.2k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3FA3</tstamp>
     </comp>
     <comp ref="J4">
       <value>UEXT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
-      <fields/>
+      <footprint>LibreSolar:Box_Header_2x05x2.54mm_Straight</footprint>
       <libsource lib="LibreSolar" part="UEXT"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BDEEA0</tstamp>
     </comp>
     <comp ref="D4">
       <value>NUP2105L</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <footprint>LibreSolar:SOT-23</footprint>
       <fields>
-        <field name="MFR">ON Semiconductor</field>
-        <field name="MPN">NUP2105LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNumber">NUP2105LT1G</field>
       </fields>
-      <libsource lib="MPPT_charger_20A-rescue" part="NUP2105L-RESCUE-MPPT_charger_20A"/>
+      <libsource lib="LibreSolar" part="NUP2105L"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE0956</tstamp>
     </comp>
     <comp ref="D3">
       <value>USBLC6-2SC6</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <footprint>LibreSolar:SOT-23-6</footprint>
       <fields>
-        <field name="MFR">STMicroelectronics</field>
-        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="PartNumber">USBLC6-2SC6</field>
       </fields>
-      <libsource lib="ESD_Protection" part="USBLC6-2SC6"/>
+      <libsource lib="LibreSolar" part="USBLC6-2SC6"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58BE3F7F</tstamp>
     </comp>
-    <comp ref="J6">
-      <value>Screw_Terminal_1x02</value>
-      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
-      <fields>
-        <field name="MFR">Phoenix Contact</field>
-        <field name="MPN">MKDSN 1,5/ 2</field>
-        <field name="SPR">Phoenix Contact</field>
-        <field name="SPN">1729018</field>
-      </fields>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
-      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
-      <tstamp>58C476A3</tstamp>
-    </comp>
-    <comp ref="P2">
-      <value>USB_B</value>
-      <footprint>Connectors:USB_B</footprint>
-      <fields>
-        <field name="MFR">FCI</field>
-        <field name="MPN">61729-1011BLF</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="MPPT_charger_20A-rescue" part="USB_B-RESCUE-MPPT_charger_20A"/>
-      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
-      <tstamp>58C56699</tstamp>
-    </comp>
-    <comp ref="P3">
-      <value>USB_OTG</value>
-      <footprint>LibreSolar:Wuerth_USB_Micro_USB_vert_Type_B_614105150721</footprint>
-      <fields>
-        <field name="MFR">Wuerth</field>
-        <field name="MPN">614105150721</field>
-        <field name="SPR">Mouser</field>
-      </fields>
-      <libsource lib="MPPT_charger_20A-rescue" part="USB_OTG-RESCUE-MPPT_charger_20A"/>
-      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
-      <tstamp>58CC2DA5</tstamp>
-    </comp>
     <comp ref="C25">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>LibreSolar:C_0603_1608</footprint>
       <fields>
-        <field name="MFR">Murata</field>
-        <field name="MPN">GRM188R71H104KA93D</field>
-        <field name="SPR">-</field>
-        <field name="SPN">-</field>
-        <field name="SPURL">-</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="IEC-60617" part="C"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58CC2EC7</tstamp>
     </comp>
     <comp ref="R46">
       <value>100k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>LibreSolar:R_0603_1608</footprint>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07100KL</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="IEC-60617" part="R"/>
       <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
       <tstamp>58CC345E</tstamp>
     </comp>
+    <comp ref="RT2">
+      <value>200mA</value>
+      <footprint>LibreSolar:R_1206_3216</footprint>
+      <fields>
+        <field name="Manufacturer">Bel Fuse</field>
+        <field name="PartNumber">0ZCJ0020FF2E</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R_PTC"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>592A398B</tstamp>
+    </comp>
+    <comp ref="RT3">
+      <value>200mA</value>
+      <footprint>LibreSolar:R_1206_3216</footprint>
+      <fields>
+        <field name="Manufacturer">Bel Fuse</field>
+        <field name="PartNumber">0ZCJ0020FF2E</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R_PTC"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>5954FB5B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>LibreSolar:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">1N4148W-7-F</field>
+      </fields>
+      <libsource lib="IEC-60617" part="D"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>595501B6</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>LibreSolar:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="PartNumber">1N4148W-7-F</field>
+      </fields>
+      <libsource lib="IEC-60617" part="D"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>595502E8</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS84</value>
+      <footprint>LibreSolar:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="PartNumber">BSS84</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>59558C66</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>5955A770</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>5955A862</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>100k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Communication Interfaces/" tstamps="/58BE3089/"/>
+      <tstamp>5955A8AC</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A6E7F1</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A70DA1</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A715AF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>5.6k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A71DE2</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A723ED</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A72885</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A7377B</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A7452B</tstamp>
+    </comp>
+    <comp ref="RT1">
+      <value>10k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="PartNumber">NTCG163JF103FT1S</field>
+      </fields>
+      <libsource lib="IEC-60617" part="Thermistor_NTC"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A75726</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A7ED33</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A847D1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A86B85</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A9F3FF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58A9F8B2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AA2C36</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>150k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AA3509</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>150k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AA3A32</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AA826A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2.2k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-072K2L</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AA8A90</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>150k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AAB023</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>150k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AAB89C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58AACEAA</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58CBE39F</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>LibreSolar:R_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07150KL</field>
+      </fields>
+      <libsource lib="IEC-60617" part="R"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58CBE7D6</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>LibreSolar:C_0603_1608</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="PartNumber">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="IEC-60617" part="C"/>
+      <sheetpath names="/Analog Frontend/" tstamps="/58E22D17/"/>
+      <tstamp>58CE9BFF</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="LibreSolar" part="24AA01">
+      <description>Microchip 24AA01 1K I2C EEPROM</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24AA01</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+        <field name="PartNumber">24AA01</field>
+        <field name="Manufacturer">Microchip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="WP" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="LibreSolar" part="AP2210-3.3">
       <description>300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package</description>
       <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
@@ -1571,10 +1557,29 @@
         <pin num="5" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
+    <libpart lib="LibreSolar" part="AZ1117">
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IEC-60617" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>C_*</fp>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -1602,86 +1607,87 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="CP">
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IEC-60617" part="CP">
       <description>Polarised capacitor</description>
       <footprints>
-        <fp>CP_*</fp>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
         <field name="Value">CP</field>
+        <field name="Footprint">-</field>
+        <field name="Voltage">50V</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MPPT_charger_20A-cache" part="CRYSTAL_SMD">
-      <fields>
-        <field name="Reference">X</field>
-        <field name="Value">CRYSTAL_SMD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="case" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="LibreSolar" part="Crystal_NC23">
+    <libpart lib="IEC-60617" part="D">
+      <description>Diode</description>
       <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal_NC23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_ALT">
-      <description>Diode, alternativ symbol</description>
-      <footprints>
-        <fp>TO-???*</fp>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
         <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
         <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
+        <fp>*_Diode_*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_ALT</field>
+        <field name="Value">D</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="D_Schottky_ALT">
-      <description>Schottky diode, alternativ symbol</description>
+    <libpart lib="IEC-60617" part="D_Schottky">
+      <description>Diode Schottky</description>
       <footprints>
-        <fp>TO-???*</fp>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
         <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
         <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
+        <fp>*_Diode_*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_Schottky_ALT</field>
+        <field name="Value">D_Schottky</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Fuse">
-      <description>Fuse, generic</description>
+    <libpart lib="IEC-60617" part="Fuse">
+      <description>Fuse</description>
       <footprints>
-        <fp>*Fuse*</fp>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
       </footprints>
       <fields>
         <field name="Reference">F</field>
@@ -1692,8 +1698,18 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Jumper_NC_Small">
-      <description>Jumper, normally closed</description>
+    <libpart lib="mechanical" part="Heatsink_PAD">
+      <description>Heatsink with electrical connection</description>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IEC-60617" part="Jumper_NC_Small">
+      <description>Jumper normally close</description>
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">Jumper_NC_Small</field>
@@ -1703,45 +1719,28 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="L">
+    <libpart lib="IEC-60617" part="L">
       <description>Inductor</description>
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MPPT_charger_20A-cache" part="LED-RESCUE-MPPT_Charger_20A">
+    <libpart lib="IEC-60617" part="LED">
       <footprints>
         <fp>LED*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED-RESCUE-MPPT_Charger_20A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED_Small">
-      <description>LED, small symbol</description>
-      <footprints>
-        <fp>LED-*</fp>
-        <fp>LED_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_Small</field>
+        <field name="Value">LED</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1758,61 +1757,17 @@
         <field name="Value">LIBRE_SOLAR</field>
       </fields>
     </libpart>
-    <libpart lib="LibreSolar" part="LM2665">
-      <description>switched capacitor voltage doubler, shutdown pin, SOT-23-5 package</description>
+    <libpart lib="LibreSolar" part="LM4040">
       <footprints>
-        <fp>SOT-23*</fp>
+        <fp>*TEXAS_DBZ_R-PDSO-G3*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM2665</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+        <field name="Reference">D</field>
+        <field name="Value">LM4040</field>
       </fields>
       <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="CAP-" type="input"/>
-        <pin num="4" name="SD" type="input"/>
-        <pin num="5" name="OUT" type="power_out"/>
-        <pin num="6" name="CAP+" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="linear" part="LM358">
-      <aliases>
-        <alias>LMC6062</alias>
-        <alias>LMC6082</alias>
-        <alias>LM358N</alias>
-        <alias>TL072</alias>
-        <alias>TL082</alias>
-        <alias>NE5532</alias>
-        <alias>4558</alias>
-        <alias>LMV358</alias>
-        <alias>TS912</alias>
-        <alias>TLC272</alias>
-        <alias>MCP602</alias>
-      </aliases>
-      <description>Dual Op amp (low power)</description>
-      <docs>ns/lm158.pdf</docs>
-      <footprints>
-        <fp>SOIC*Pitch1.27mm*</fp>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>TSSOP*Pitch0.65mm*</fp>
-        <fp>TO-99*</fp>
-        <fp>DSBGA*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM358</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="output"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="LibreSolar" part="LM5107">
@@ -1834,6 +1789,26 @@
         <pin num="8" name="HB" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="LibreSolar" part="LMR16006">
+      <description>High-Voltage Input Integrated Switch Step-Down Regulator, 50V, 500mA</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005308C.pdf</docs>
+      <footprints>
+        <fp>SOT-23-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR16006</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="output"/>
+        <pin num="2" name="GND" type="power_out"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="L_Core_Iron">
       <description>Inductor with Iron Core</description>
       <footprints>
@@ -1851,50 +1826,24 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LibreSolar" part="MCP16331-CH">
-      <description>High-Voltage Input Integrated Switch Step-Down Regulator, 50V, 500mA</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005308C.pdf</docs>
+    <libpart lib="mechanical" part="Mounting_Hole">
+      <description>Mounting Hole without connection</description>
       <footprints>
-        <fp>SOT-23-*</fp>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP16331-CH</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole</field>
       </fields>
-      <pins>
-        <pin num="1" name="BOOST" type="output"/>
-        <pin num="2" name="GND" type="power_out"/>
-        <pin num="3" name="Vfb" type="input"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="5" name="Vin" type="power_in"/>
-        <pin num="6" name="SW" type="power_out"/>
-      </pins>
     </libpart>
-    <libpart lib="transistors" part="MMBT3904">
-      <description>40V Vce, 0.2A Ic, NPN, Small Signal Transistor, SOT-23</description>
-      <docs>http://www.nxp.com/documents/data_sheet/MMBT3904.pdf</docs>
-      <footprints>
-        <fp>SOT-23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MMBT3904</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MPPT_charger_20A-rescue" part="NUP2105L-RESCUE-MPPT_charger_20A">
+    <libpart lib="LibreSolar" part="NUP2105L">
       <footprints>
         <fp>*LIBRESOLAR_SOT23*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">NUP2105L-RESCUE-MPPT_charger_20A</field>
+        <field name="Value">NUP2105L</field>
         <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
       </fields>
       <pins>
@@ -1923,10 +1872,22 @@
         <pin num="S" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IEC-60617" part="R">
       <description>Resistor</description>
       <footprints>
-        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
         <fp>R_*</fp>
       </footprints>
       <fields>
@@ -1954,18 +1915,36 @@
         <pin num="8" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LibreSolar" part="Rotary_Switch">
-      <description>4 bits rotary switch</description>
+    <libpart lib="IEC-60617" part="R_PTC">
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">Rotary_Switch</field>
+        <field name="Reference">RT</field>
+        <field name="Value">R_PTC</field>
       </fields>
       <pins>
-        <pin num="1" name="D0" type="passive"/>
-        <pin num="2" name="D1" type="passive"/>
-        <pin num="4" name="D2" type="passive"/>
-        <pin num="8" name="D3" type="passive"/>
-        <pin num="C" name="CM" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IEC-60617" part="Resonator">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Resonator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="input"/>
       </pins>
     </libpart>
     <libpart lib="LibreSolar" part="STM32F072CB">
@@ -2040,9 +2019,10 @@
         <pin num="6" name="SWO" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MPPT_charger_20A-cache" part="SW_PUSH">
+    <libpart lib="IEC-60617" part="SW_PUSH">
+      <description>Button</description>
       <fields>
-        <field name="Reference">SW</field>
+        <field name="Reference">S</field>
         <field name="Value">SW_PUSH</field>
       </fields>
       <pins>
@@ -2050,8 +2030,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Screw_Terminal_1x02">
-      <description>2-pin screw terminal connector</description>
+    <libpart lib="LibreSolar" part="Screw_Terminal_1x02">
       <footprints>
         <fp>bornier2</fp>
         <fp>TerminalBlock*2pol</fp>
@@ -2065,28 +2044,11 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MPPT_charger_20A-cache" part="TEXAS_LM4041">
-      <aliases>
-        <alias>TEXAS_LM4041A12DBZ</alias>
-        <alias>TEXAS_LM4041B12DBZ</alias>
-        <alias>TEXAS_LM4041C12DBZ</alias>
-        <alias>TEXAS_LM4041D12DBZ</alias>
-      </aliases>
-      <footprints>
-        <fp>*TEXAS_DBZ_R-PDSO-G3*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">TEXAS_LM4041</field>
-      </fields>
-      <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="LibreSolar" part="TJA1042T/3">
+      <description>TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8</description>
+      <docs>http://www.nxp.com/documents/data_sheet/TJA1042.pdf</docs>
       <footprints>
-        <fp>SO*</fp>
+        <fp>SOIC-8*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
@@ -2094,18 +2056,17 @@
         <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
       </fields>
       <pins>
-        <pin num="1" name="TXD" type="passive"/>
+        <pin num="1" name="TXD" type="input"/>
         <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VCC" type="passive"/>
-        <pin num="4" name="RXD" type="input"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
         <pin num="5" name="VIO" type="power_in"/>
-        <pin num="6" name="CANL" type="passive"/>
-        <pin num="7" name="CANH" type="passive"/>
-        <pin num="8" name="STB" type="passive"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="STB" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Thermistor_NTC">
-      <description>temperature dependent resistor, negative temperature coefficient (NTC)</description>
+    <libpart lib="IEC-60617" part="Thermistor_NTC">
       <footprints>
         <fp>*NTC*</fp>
         <fp>*Thermistor*</fp>
@@ -2114,7 +2075,7 @@
         <fp>*Terminal?Block*</fp>
       </footprints>
       <fields>
-        <field name="Reference">TH</field>
+        <field name="Reference">RT</field>
         <field name="Value">Thermistor_NTC</field>
       </fields>
       <pins>
@@ -2144,9 +2105,7 @@
         <pin num="10" name="SSEL" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ESD_Protection" part="USBLC6-2SC6">
-      <description>Bidirectional ESD Protection Diode, SOT-23-6</description>
-      <docs>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</docs>
+    <libpart lib="LibreSolar" part="USBLC6-2SC6">
       <footprints>
         <fp>SOT-23-*</fp>
       </footprints>
@@ -2164,97 +2123,63 @@
         <pin num="6" name="IO1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MPPT_charger_20A-rescue" part="USB_B-RESCUE-MPPT_charger_20A">
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_B-RESCUE-MPPT_charger_20A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="shield" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MPPT_charger_20A-rescue" part="USB_OTG-RESCUE-MPPT_charger_20A">
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_OTG-RESCUE-MPPT_charger_20A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="ID" type="power_in"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="shield" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="ESD_Protection">
-      <uri>/usr/share/kicad/library/ESD_Protection.lib</uri>
+    <library logical="LibreSolar">
+      <uri>D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\library\LibreSolar.lib</uri>
     </library>
-    <library logical="logo">
-      <uri>/usr/share/kicad/library/logo.lib</uri>
-    </library>
-    <library logical="transistors">
-      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    <library logical="IEC-60617">
+      <uri>D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\library\IEC-60617.lib</uri>
     </library>
     <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
+      <uri>D:\Programme\KiCad_r8139_nightly\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+      <uri>D:\Programme\KiCad_r8139_nightly\KiCad\share\kicad\library\conn.lib</uri>
     </library>
-    <library logical="MPPT_charger_20A-cache">
-      <uri>/home/martin/LibreSolar/03_PCB/MPPT_charger_20A/MPPT_charger_20A-cache.lib</uri>
+    <library logical="logo">
+      <uri>D:\Programme\KiCad_r8139_nightly\KiCad\share\kicad\library\logo.lib</uri>
     </library>
-    <library logical="LibreSolar">
-      <uri>/home/martin/LibreSolar/03_PCB/MPPT_charger_20A/library/LibreSolar.lib</uri>
-    </library>
-    <library logical="MPPT_charger_20A-rescue">
-      <uri>/home/martin/LibreSolar/03_PCB/MPPT_charger_20A/MPPT_charger_20A-rescue.lib</uri>
+    <library logical="mechanical">
+      <uri>D:\Programme\KiCad_r8139_nightly\KiCad\share\kicad\library\mechanical.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/MCU/SPI1_MISO">
-      <node ref="J4" pin="7"/>
-      <node ref="U2" pin="40"/>
+    <net code="1" name="/MCU/I_DCDC">
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="R20" pin="2"/>
     </net>
-    <net code="2" name="/Communication Interfaces/CAN_STB">
-      <node ref="U2" pin="38"/>
-      <node ref="U8" pin="8"/>
+    <net code="2" name="/MCU/I_LOAD">
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C11" pin="1"/>
     </net>
-    <net code="3" name="/Communication Interfaces/CAN_TX">
-      <node ref="U8" pin="1"/>
-      <node ref="U2" pin="46"/>
+    <net code="3" name="/MCU/DAC">
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="4" name="/Communication Interfaces/CAN_RX">
-      <node ref="U2" pin="45"/>
-      <node ref="U8" pin="4"/>
+    <net code="4" name="/MCU/V_BAT">
+      <node ref="C18" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U2" pin="16"/>
     </net>
-    <net code="5" name="/Communication Interfaces/USB_DP">
-      <node ref="U2" pin="33"/>
-      <node ref="R32" pin="2"/>
+    <net code="5" name="/Analog Frontend/TEMP_INT">
+      <node ref="R23" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="RT1" pin="1"/>
     </net>
     <net code="6" name="/Communication Interfaces/USB_DM">
-      <node ref="R31" pin="2"/>
       <node ref="U2" pin="32"/>
+      <node ref="D3" pin="3"/>
     </net>
-    <net code="7" name="/Communication Interfaces/UEXT_TX">
-      <node ref="J4" pin="3"/>
-      <node ref="U2" pin="12"/>
+    <net code="7" name="/MCU/SSEL">
+      <node ref="U2" pin="2"/>
+      <node ref="J4" pin="10"/>
     </net>
     <net code="8" name="/MCU/I2C1_SDA">
       <node ref="R34" pin="1"/>
@@ -2262,570 +2187,525 @@
       <node ref="U2" pin="43"/>
     </net>
     <net code="9" name="/MCU/I2C1_SCL">
-      <node ref="R35" pin="1"/>
-      <node ref="U2" pin="42"/>
       <node ref="J4" pin="5"/>
+      <node ref="U2" pin="42"/>
+      <node ref="R35" pin="1"/>
     </net>
-    <net code="10" name="/MCU/SPI1_SCK">
-      <node ref="U2" pin="39"/>
-      <node ref="J4" pin="9"/>
+    <net code="10" name="/Communication Interfaces/CAN_STB">
+      <node ref="U2" pin="38"/>
+      <node ref="U8" pin="8"/>
     </net>
-    <net code="11" name="/MCU/SSEL">
-      <node ref="U2" pin="2"/>
-      <node ref="J4" pin="10"/>
-    </net>
-    <net code="12" name="/MCU/SPI1_MOSI">
-      <node ref="J4" pin="8"/>
-      <node ref="U2" pin="41"/>
-    </net>
-    <net code="13" name="/Communication Interfaces/UEXT_RX">
-      <node ref="J4" pin="4"/>
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="14" name="/DCDC power stage/~LOAD_EN">
-      <node ref="U2" pin="20"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="15" name="/DCDC power stage/I_DCDC">
-      <node ref="R20" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="16" name="/DCDC power stage/I_LOAD">
-      <node ref="R11" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="17" name="/DCDC power stage/V_BAT">
-      <node ref="U2" pin="16"/>
-      <node ref="R25" pin="2"/>
-      <node ref="R27" pin="1"/>
-      <node ref="C18" pin="1"/>
-    </net>
-    <net code="18" name="/DCDC power stage/V_SOLAR">
-      <node ref="U2" pin="17"/>
+    <net code="11" name="/MCU/V_SOLAR">
       <node ref="R26" pin="1"/>
+      <node ref="U2" pin="17"/>
       <node ref="C17" pin="1"/>
       <node ref="R24" pin="2"/>
     </net>
-    <net code="19" name="/DCDC power stage/TEMP_BAT">
-      <node ref="U2" pin="10"/>
-      <node ref="R44" pin="2"/>
-      <node ref="C40" pin="1"/>
-      <node ref="J5" pin="2"/>
+    <net code="12" name="/DCDC power stage/~LOAD_EN">
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="20"/>
     </net>
-    <net code="20" name="/DCDC power stage/DCDC_OUT">
-      <node ref="R33" pin="2"/>
-      <node ref="R25" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="F1" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="J2" pin="2"/>
+    <net code="13" name="/DCDC power stage/LOAD-SW">
+      <node ref="R8" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q3" pin="S"/>
     </net>
-    <net code="21" name="/DCDC power stage/DCDC_IN">
-      <node ref="C5" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="Q1" pin="D"/>
-      <node ref="R38" pin="2"/>
-    </net>
-    <net code="22" name="/DCDC power stage/TEMP_INT">
-      <node ref="C16" pin="1"/>
-      <node ref="R23" pin="2"/>
-      <node ref="U2" pin="11"/>
-      <node ref="NTC1" pin="1"/>
-    </net>
-    <net code="23" name="/DCDC power stage/REF_I_DCDC">
-      <node ref="U2" pin="14"/>
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="24" name="/DCDC power stage/PWM_HS">
-      <node ref="U1" pin="2"/>
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="25" name="/DCDC power stage/PWM_LS">
-      <node ref="U1" pin="3"/>
-      <node ref="U2" pin="26"/>
-    </net>
-    <net code="26" name="Net-(R20-Pad1)">
-      <node ref="R22" pin="2"/>
-      <node ref="U7" pin="7"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="27" name="Net-(R12-Pad2)">
-      <node ref="R9" pin="1"/>
-      <node ref="T1" pin="3"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="28" name="Net-(R19-Pad1)">
-      <node ref="R19" pin="1"/>
-      <node ref="U7" pin="5"/>
-      <node ref="R21" pin="1"/>
-    </net>
-    <net code="29" name="Net-(R14-Pad2)">
-      <node ref="U7" pin="3"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="30" name="Net-(R18-Pad1)">
-      <node ref="R18" pin="1"/>
-      <node ref="R22" pin="1"/>
-      <node ref="U7" pin="6"/>
-    </net>
-    <net code="31" name="Net-(C10-Pad1)">
-      <node ref="R10" pin="1"/>
-      <node ref="C10" pin="1"/>
-    </net>
-    <net code="32" name="/DCDC power stage/LS_DRV">
-      <node ref="U1" pin="5"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="33" name="/DCDC power stage/HS_DRV">
-      <node ref="U1" pin="7"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="34" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="35" name="/DCDC power stage/BAT+">
-      <node ref="J3" pin="2"/>
-      <node ref="F1" pin="2"/>
-    </net>
-    <net code="36" name="Net-(R15-Pad1)">
-      <node ref="R7" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U7" pin="2"/>
-    </net>
-    <net code="37" name="Net-(R11-Pad1)">
-      <node ref="R15" pin="2"/>
-      <node ref="U7" pin="1"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="38" name="Net-(R13-Pad1)">
-      <node ref="R13" pin="1"/>
-      <node ref="T1" pin="1"/>
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="39" name="/DCDC power stage/BAT-">
-      <node ref="R6" pin="2"/>
+    <net code="14" name="/DCDC power stage/BAT-">
+      <node ref="R7" pin="2"/>
       <node ref="J3" pin="1"/>
       <node ref="R19" pin="2"/>
+      <node ref="R6" pin="2"/>
       <node ref="R17" pin="1"/>
-      <node ref="R7" pin="2"/>
     </net>
-    <net code="40" name="+10V">
-      <node ref="C37" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="R9" pin="2"/>
-      <node ref="U6" pin="5"/>
-      <node ref="D7" pin="1"/>
+    <net code="15" name="/Communication Interfaces/5V_OUT_EN">
+      <node ref="U2" pin="25"/>
+      <node ref="R47" pin="2"/>
     </net>
-    <net code="41" name="+3V3">
-      <node ref="U2" pin="48"/>
-      <node ref="SWD1" pin="1"/>
-      <node ref="U2" pin="24"/>
-      <node ref="U2" pin="36"/>
-      <node ref="C32" pin="1"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="R37" pin="2"/>
-      <node ref="R23" pin="1"/>
-      <node ref="R34" pin="2"/>
-      <node ref="L4" pin="1"/>
-      <node ref="R35" pin="2"/>
-      <node ref="C38" pin="1"/>
-      <node ref="R39" pin="2"/>
-      <node ref="U8" pin="5"/>
-      <node ref="R40" pin="2"/>
-      <node ref="R44" pin="1"/>
-      <node ref="C39" pin="1"/>
+    <net code="16" name="/Communication Interfaces/5V_OUT">
+      <node ref="Q5" pin="3"/>
+      <node ref="J5" pin="3"/>
     </net>
-    <net code="42" name="GND">
-      <node ref="C34" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="C32" pin="2"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW2" pin="C"/>
-      <node ref="SWD1" pin="3"/>
-      <node ref="IC2" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="T2" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="R29" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U6" pin="4"/>
-      <node ref="U6" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C39" pin="2"/>
-      <node ref="U8" pin="2"/>
-      <node ref="R46" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="P2" pin="4"/>
-      <node ref="C25" pin="2"/>
-      <node ref="P3" pin="5"/>
-      <node ref="U2" pin="35"/>
+    <net code="17" name="/Analog Frontend/TEMP_BAT">
+      <node ref="J5" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="LED1" pin="1"/>
       <node ref="U2" pin="47"/>
+      <node ref="D4" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SWD1" pin="3"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="D6" pin="2"/>
       <node ref="U2" pin="23"/>
       <node ref="C36" pin="2"/>
       <node ref="U2" pin="8"/>
-      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="35"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="RT1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="D10" pin="1"/>
       <node ref="D2" pin="2"/>
       <node ref="C20" pin="2"/>
+      <node ref="C14" pin="2"/>
       <node ref="C21" pin="2"/>
       <node ref="C23" pin="2"/>
-      <node ref="Y1" pin="3"/>
-      <node ref="D4" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C40" pin="2"/>
-      <node ref="NTC1" pin="2"/>
       <node ref="Q2" pin="S"/>
       <node ref="Q4" pin="S"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C9" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C6" pin="2"/>
       <node ref="R6" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U7" pin="4"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="R27" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="R26" pin="2"/>
-      <node ref="LED1" pin="1"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="R18" pin="2"/>
     </net>
-    <net code="43" name="Net-(D1-Pad1)">
-      <node ref="Q2" pin="G"/>
+    <net code="19" name="/Communication Interfaces/CAN_RX">
+      <node ref="U8" pin="4"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="20" name="/Communication Interfaces/UEXT_TX">
+      <node ref="U2" pin="12"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="21" name="/Communication Interfaces/UEXT_RX">
+      <node ref="U2" pin="13"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="22" name="/Communication Interfaces/USB_DP">
+      <node ref="U2" pin="33"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="23" name="/MCU/SPI1_SCK">
+      <node ref="J4" pin="9"/>
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="24" name="/MCU/SPI1_MISO">
+      <node ref="J4" pin="7"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="25" name="/MCU/SPI1_MOSI">
+      <node ref="J4" pin="8"/>
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="26" name="/Communication Interfaces/CAN_TX">
+      <node ref="U8" pin="1"/>
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="27" name="/DCDC power stage/PWM_HS">
+      <node ref="U2" pin="29"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="28" name="/DCDC power stage/PWM_LS">
+      <node ref="U2" pin="26"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="29" name="/DCDC power stage/DCDC_IN">
+      <node ref="HS1" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q1" pin="D"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="30" name="/DCDC power stage/DCDC_OUT">
+      <node ref="L1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="G"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="44" name="+5V">
-      <node ref="D7" pin="2"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="U6" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="L3" pin="2"/>
-      <node ref="U7" pin="8"/>
-      <node ref="C20" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U5" pin="1"/>
-      <node ref="U8" pin="3"/>
+    <net code="32" name="Net-(Q1-PadG)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="G"/>
     </net>
-    <net code="45" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
+    <net code="33" name="Net-(Q3-PadG)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q3" pin="G"/>
+    </net>
+    <net code="34" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="Q4" pin="G"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="35" name="/DCDC power stage/LS_DRV">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="36" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="37" name="/DCDC power stage/HS_DRV">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(C10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R12-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R13-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C6-Pad1)">
       <node ref="R4" pin="1"/>
+      <node ref="C6" pin="1"/>
       <node ref="R5" pin="1"/>
     </net>
-    <net code="46" name="Net-(Q1-PadG)">
-      <node ref="Q1" pin="G"/>
-      <node ref="R1" pin="1"/>
+    <net code="42" name="Net-(C12-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="47" name="Net-(Q3-PadG)">
-      <node ref="Q3" pin="G"/>
-      <node ref="R12" pin="1"/>
+    <net code="43" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
     </net>
-    <net code="48" name="Net-(D1-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="Q4" pin="G"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="51" name="/DCDC power stage/SOLAR-">
-      <node ref="Q2" pin="D"/>
-      <node ref="C5" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="52" name="/DCDC power stage/SW_NODE">
-      <node ref="Q1" pin="S"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R5" pin="2"/>
-      <node ref="Q4" pin="D"/>
+    <net code="44" name="/DCDC power stage/SW_NODE">
       <node ref="L1" pin="1"/>
-      <node ref="C10" pin="2"/>
+      <node ref="R5" pin="2"/>
       <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="Q4" pin="D"/>
     </net>
-    <net code="53" name="/DCDC power stage/LOAD-GND">
-      <node ref="R17" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="Q3" pin="S"/>
-      <node ref="T1" pin="2"/>
-      <node ref="R16" pin="1"/>
+    <net code="45" name="/DCDC power stage/SOLAR-">
+      <node ref="J1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Q2" pin="D"/>
     </net>
-    <net code="54" name="/DCDC power stage/LOAD-">
+    <net code="46" name="/DCDC power stage/BAT+">
+      <node ref="J3" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="47" name="/DCDC power stage/LOAD-">
       <node ref="Q3" pin="D"/>
-      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="55" name="/MCU/BOOT0">
-      <node ref="C36" pin="1"/>
-      <node ref="R39" pin="1"/>
-      <node ref="R41" pin="2"/>
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="56" name="Net-(C27-Pad1)">
-      <node ref="C27" pin="1"/>
-      <node ref="R30" pin="1"/>
-      <node ref="Y2" pin="1"/>
-    </net>
-    <net code="57" name="Net-(R30-Pad2)">
-      <node ref="U2" pin="4"/>
-      <node ref="R30" pin="2"/>
-    </net>
-    <net code="58" name="Net-(R45-Pad2)">
-      <node ref="R45" pin="2"/>
-      <node ref="T2" pin="1"/>
-    </net>
-    <net code="59" name="/MCU/LED2">
-      <node ref="R43" pin="2"/>
-      <node ref="U2" pin="28"/>
-    </net>
-    <net code="60" name="/MCU/LED1">
-      <node ref="R42" pin="2"/>
-      <node ref="U2" pin="27"/>
-    </net>
-    <net code="61" name="/MCU/OSC_IN">
-      <node ref="U2" pin="5"/>
-      <node ref="Y1" pin="1"/>
-    </net>
-    <net code="62" name="/MCU/~RESET">
-      <node ref="C29" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="SWD1" pin="5"/>
-      <node ref="R40" pin="1"/>
-      <node ref="R45" pin="1"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="63" name="/MCU/USART1_RX">
-      <node ref="U2" pin="31"/>
-      <node ref="P1" pin="2"/>
-    </net>
-    <net code="64" name="/MCU/USART1_TX">
-      <node ref="U2" pin="30"/>
-      <node ref="P1" pin="1"/>
-    </net>
-    <net code="65" name="/MCU/SWCLK">
-      <node ref="SWD1" pin="2"/>
-      <node ref="U2" pin="37"/>
-    </net>
-    <net code="66" name="/MCU/SWDIO">
+    <net code="48" name="/MCU/SWDIO">
       <node ref="SWD1" pin="4"/>
       <node ref="U2" pin="34"/>
     </net>
-    <net code="67" name="/MCU/OSC_OUT">
-      <node ref="U2" pin="6"/>
+    <net code="49" name="/MCU/USART1_RX">
+      <node ref="U2" pin="31"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="50" name="/MCU/USART1_TX">
+      <node ref="P1" pin="1"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="51" name="/MCU/SWCLK">
+      <node ref="U2" pin="37"/>
+      <node ref="SWD1" pin="2"/>
+    </net>
+    <net code="52" name="/MCU/OSC_OUT">
       <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="6"/>
     </net>
-    <net code="68" name="/MCU/ROT_1">
-      <node ref="SW2" pin="2"/>
-      <node ref="U2" pin="22"/>
-    </net>
-    <net code="69" name="/MCU/ROT_2">
-      <node ref="U2" pin="25"/>
-      <node ref="SW2" pin="4"/>
-    </net>
-    <net code="70" name="/MCU/ROT_0">
-      <node ref="SW2" pin="1"/>
-      <node ref="U2" pin="21"/>
-    </net>
-    <net code="71" name="Net-(C34-Pad1)">
-      <node ref="C34" pin="1"/>
-      <node ref="L4" pin="2"/>
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="72" name="Net-(Y2-Pad3)">
-      <node ref="Y2" pin="3"/>
-    </net>
-    <net code="73" name="Net-(Y2-Pad2)">
-      <node ref="Y2" pin="2"/>
-    </net>
-    <net code="74" name="Net-(SWD1-Pad6)">
-      <node ref="SWD1" pin="6"/>
-    </net>
-    <net code="75" name="Net-(SW2-Pad8)">
-      <node ref="SW2" pin="8"/>
-    </net>
-    <net code="76" name="/MCU/V_REF">
-      <node ref="U2" pin="15"/>
-      <node ref="IC2" pin="1"/>
-      <node ref="R37" pin="1"/>
-    </net>
-    <net code="77" name="Net-(D8-Pad2)">
-      <node ref="R43" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="LED2" pin="2"/>
-    </net>
-    <net code="78" name="Net-(D6-Pad2)">
-      <node ref="LED1" pin="2"/>
-      <node ref="R42" pin="1"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="79" name="Net-(R41-Pad1)">
-      <node ref="T2" pin="3"/>
+    <net code="53" name="Net-(R41-Pad1)">
       <node ref="R41" pin="1"/>
     </net>
-    <net code="80" name="Net-(C28-Pad1)">
-      <node ref="C28" pin="1"/>
-      <node ref="Y2" pin="4"/>
+    <net code="54" name="Net-(R45-Pad2)">
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="55" name="/MCU/LED2">
+      <node ref="R43" pin="2"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="56" name="Net-(C34-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C34" pin="1"/>
+    </net>
+    <net code="57" name="/MCU/OSC_IN">
+      <node ref="U2" pin="5"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="58" name="/MCU/~RESET">
+      <node ref="C29" pin="1"/>
+      <node ref="SWD1" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R45" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="59" name="/MCU/V_REF">
+      <node ref="R37" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="60" name="/MCU/BOOT0">
+      <node ref="U2" pin="44"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="61" name="Net-(SWD1-Pad6)">
+      <node ref="SWD1" pin="6"/>
+    </net>
+    <net code="62" name="/MCU/I2C2_SDA">
+      <node ref="R32" pin="1"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="63" name="/MCU/I2C2_SCL">
+      <node ref="U2" pin="21"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="64" name="/MCU/LED1">
+      <node ref="U2" pin="27"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="65" name="+3V3">
+      <node ref="U6" pin="4"/>
+      <node ref="SWD1" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="R44" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U2" pin="36"/>
+      <node ref="U2" pin="48"/>
+      <node ref="U2" pin="24"/>
+      <node ref="R34" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="66" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="67" name="Net-(LED2-Pad2)">
+      <node ref="R43" pin="1"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad3)">
       <node ref="U2" pin="3"/>
     </net>
-    <net code="81" name="Net-(P3-Pad1)">
-      <node ref="P3" pin="1"/>
+    <net code="70" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
     </net>
-    <net code="82" name="/Communication Interfaces/USB_SH">
-      <node ref="P2" pin="5"/>
-      <node ref="P3" pin="6"/>
-      <node ref="C25" pin="1"/>
-    </net>
-    <net code="83" name="Net-(P2-Pad1)">
-      <node ref="P2" pin="1"/>
-    </net>
-    <net code="84" name="Net-(D3-Pad6)">
-      <node ref="D3" pin="6"/>
-      <node ref="P2" pin="2"/>
-      <node ref="P3" pin="2"/>
-    </net>
-    <net code="85" name="Net-(D3-Pad5)">
-      <node ref="D3" pin="5"/>
-    </net>
-    <net code="86" name="Net-(P3-Pad4)">
-      <node ref="R46" pin="1"/>
-      <node ref="P3" pin="4"/>
-    </net>
-    <net code="87" name="Net-(JP2-Pad4)">
-      <node ref="JP2" pin="4"/>
-    </net>
-    <net code="88" name="/Communication Interfaces/CAN_V+">
+    <net code="71" name="/Communication Interfaces/CAN_V+">
       <node ref="JP1" pin="8"/>
       <node ref="JP2" pin="8"/>
+      <node ref="D9" pin="1"/>
     </net>
-    <net code="89" name="/Communication Interfaces/CAN_GND">
-      <node ref="JP1" pin="3"/>
-      <node ref="JP1" pin="7"/>
-      <node ref="JP2" pin="3"/>
-      <node ref="JP2" pin="7"/>
-    </net>
-    <net code="90" name="/Communication Interfaces/CAN_SHLD">
+    <net code="72" name="/Communication Interfaces/CAN_SHLD">
       <node ref="JP1" pin="6"/>
       <node ref="JP2" pin="6"/>
     </net>
-    <net code="91" name="Net-(JP2-Pad5)">
-      <node ref="JP2" pin="5"/>
-    </net>
-    <net code="92" name="/Communication Interfaces/CAN_L">
-      <node ref="U8" pin="6"/>
+    <net code="73" name="/Communication Interfaces/CAN_L">
       <node ref="D4" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="R36" pin="2"/>
       <node ref="JP1" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U8" pin="6"/>
       <node ref="JP2" pin="2"/>
     </net>
-    <net code="93" name="/Communication Interfaces/CAN_H">
-      <node ref="JP2" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="U8" pin="7"/>
+    <net code="74" name="/Communication Interfaces/CAN_GND">
+      <node ref="JP1" pin="3"/>
+      <node ref="JP1" pin="7"/>
+      <node ref="JP2" pin="7"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="75" name="+5V">
+      <node ref="U5" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C26" pin="1"/>
+      <node ref="RT2" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="76" name="/Communication Interfaces/CAN_H">
       <node ref="JP3" pin="2"/>
       <node ref="JP1" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="D4" pin="1"/>
     </net>
-    <net code="94" name="Net-(JP3-Pad1)">
-      <node ref="R36" pin="1"/>
-      <node ref="JP3" pin="1"/>
+    <net code="77" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1"/>
     </net>
-    <net code="95" name="Net-(D3-Pad3)">
-      <node ref="R32" pin="1"/>
-      <node ref="D3" pin="3"/>
+    <net code="78" name="Net-(D9-Pad2)">
+      <node ref="RT3" pin="1"/>
+      <node ref="D9" pin="2"/>
     </net>
-    <net code="96" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="R31" pin="1"/>
+    <net code="79" name="Net-(RT3-Pad2)">
+      <node ref="RT3" pin="2"/>
     </net>
-    <net code="97" name="Net-(JP1-Pad5)">
+    <net code="80" name="/Communication Interfaces/RJ45_5">
+      <node ref="JP2" pin="5"/>
       <node ref="JP1" pin="5"/>
     </net>
-    <net code="98" name="Net-(JP1-Pad4)">
+    <net code="81" name="/Communication Interfaces/RJ45_4">
       <node ref="JP1" pin="4"/>
+      <node ref="JP2" pin="4"/>
     </net>
-    <net code="99" name="Net-(D3-Pad4)">
-      <node ref="P2" pin="3"/>
-      <node ref="P3" pin="3"/>
-      <node ref="D3" pin="4"/>
+    <net code="82" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
     </net>
-    <net code="100" name="Net-(C24-Pad1)">
-      <node ref="C24" pin="1"/>
-      <node ref="U6" pin="6"/>
+    <net code="83" name="Net-(Q5-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R33" pin="2"/>
     </net>
-    <net code="101" name="Net-(C24-Pad2)">
-      <node ref="C24" pin="2"/>
-      <node ref="U6" pin="3"/>
+    <net code="84" name="Net-(R47-Pad1)">
+      <node ref="R47" pin="1"/>
     </net>
-    <net code="102" name="Net-(C35-Pad1)">
+    <net code="85" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D3-Pad5)">
+      <node ref="RT2" pin="2"/>
+      <node ref="D3" pin="5"/>
+    </net>
+    <net code="88" name="Net-(D3-Pad6)">
+      <node ref="D3" pin="6"/>
+    </net>
+    <net code="89" name="Net-(C35-Pad1)">
       <node ref="C35" pin="1"/>
       <node ref="U5" pin="4"/>
     </net>
-    <net code="103" name="Net-(C15-Pad1)">
+    <net code="90" name="Net-(C15-Pad1)">
+      <node ref="C41" pin="1"/>
       <node ref="L2" pin="2"/>
       <node ref="C15" pin="1"/>
-      <node ref="U4" pin="5"/>
       <node ref="U4" pin="4"/>
+      <node ref="U4" pin="5"/>
     </net>
-    <net code="104" name="Net-(C19-Pad1)">
+    <net code="91" name="Net-(C20-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C19-Pad1)">
       <node ref="C19" pin="1"/>
       <node ref="U4" pin="1"/>
-      <node ref="D5" pin="1"/>
     </net>
-    <net code="105" name="Net-(R28-Pad2)">
+    <net code="93" name="Net-(C19-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="L3" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="94" name="Net-(R28-Pad2)">
       <node ref="R29" pin="1"/>
       <node ref="U4" pin="3"/>
       <node ref="R28" pin="2"/>
     </net>
-    <net code="106" name="Net-(C14-Pad1)">
-      <node ref="L2" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="R33" pin="1"/>
-      <node ref="R38" pin="1"/>
+    <net code="95" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
     </net>
-    <net code="107" name="Net-(C19-Pad2)">
-      <node ref="U4" pin="6"/>
-      <node ref="L3" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C19" pin="2"/>
+    <net code="96" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R11-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="99" name="Net-(R14-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="101" name="Net-(R20-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="R20" pin="1"/>
     </net>
   </nets>
 </export>
