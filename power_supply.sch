@@ -174,7 +174,8 @@ F 5 "GRM188R61E105KA12D" H -2200 2550 50  0001 C CNN "PartNumber"
 F 6 "" H -2200 2550 50  0001 C CNN "SPR"
 F 7 "" H -2200 2550 50  0001 C CNN "SPN"
 F 8 "" H -2200 2550 50  0001 C CNN "SPURL"
-F 9 "25V" H 0   0   60  0001 C CNN "Remarks"
+F 9 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
+F 10 "" H 0   0   60  0001 C CNN "Comment"
 	1    5800 5300
 	1    0    0    -1  
 $EndComp
@@ -233,7 +234,8 @@ F 2 "Diodes_SMD:D_PowerDI-123" V 6100 2800 50  0001 C CNN
 F 3 "" V 6100 2800 50  0000 C CNN
 F 4 "Diodes Inc." H 1400 200 50  0001 C CNN "Manufacturer"
 F 5 "SS16FP" H 1400 200 50  0001 C CNN "PartNumber"
-F 6 "DFLS160-7" H 6100 2800 60  0001 C CNN "ALT"
+F 6 "" H 6100 2800 60  0001 C CNN "ALT"
+F 7 "DFLS160-7" H 0   0   60  0001 C CNN "Alternative"
 	1    6100 2800
 	0    -1   1    0   
 $EndComp
@@ -266,7 +268,8 @@ F 5 "GRJ21BC72A105KE11L" H 1100 -50 50  0001 C CNN "PartNumber"
 F 6 "" H 1100 -50 50  0001 C CNN "SPR"
 F 7 "" H 1100 -50 50  0001 C CNN "SPN"
 F 8 "" H 1100 -50 50  0001 C CNN "SPURL"
-F 9 "100V, X7S" H 0   0   60  0001 C CNN "Comment"
+F 9 "" H 0   0   60  0001 C CNN "Comment"
+F 10 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    3500 2700
 	1    0    0    -1  
 $EndComp
@@ -280,8 +283,9 @@ F 2 "LibreSolar:C_1210_3225" H 4100 2500 50  0001 C CNN
 F 3 "" H 4125 2775 50  0000 C CNN
 F 4 "Murata" H 1100 -50 50  0001 C CNN "Manufacturer"
 F 5 "GRM31CR72A225KA73L" H 1100 -50 50  0001 C CNN "PartNumber"
-F 6 "100V, X7R" H 0   0   60  0001 C CNN "Comment"
+F 6 "" H 0   0   60  0001 C CNN "Comment"
 F 7 "TY HMK325B7225KN-T" H 0   0   60  0001 C CNN "Alternative"
+F 8 "100V, X7R" H 0   0   60  0001 C CNN "Remarks"
 	1    4100 2700
 	1    0    0    -1  
 $EndComp
@@ -330,6 +334,8 @@ F 5 "GRM188R60J225KE19D" H -2250 2500 50  0001 C CNN "PartNumber"
 F 6 "" H -2250 2500 50  0001 C CNN "SPR"
 F 7 "" H -2250 2500 50  0001 C CNN "SPN"
 F 8 "" H -2250 2500 50  0001 C CNN "SPURL"
+F 9 "" H 0   0   60  0001 C CNN "Comment"
+F 10 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    7500 5300
 	1    0    0    -1  
 $EndComp
@@ -370,7 +376,8 @@ F 2 "LibreSolar:SOT-23-5" H 6600 4700 50  0001 C CNN
 F 3 "" H 6600 5200 50  0000 C CNN
 F 4 "Diodes Inc." H -2250 2650 50  0001 C CNN "Manufacturer"
 F 5 "AP2210K-3.3TRG1" H -2250 2650 50  0001 C CNN "PartNumber"
-F 6 "MIC5225" H 6600 5200 60  0001 C CNN "ALT"
+F 6 "" H 6600 5200 60  0001 C CNN "ALT"
+F 7 "MIC5225" H 0   0   60  0001 C CNN "Alternative"
 	1    6600 5200
 	1    0    0    -1  
 $EndComp

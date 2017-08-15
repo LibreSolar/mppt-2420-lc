@@ -366,6 +366,8 @@ F 5 "GRM188R60J225KE19D" H 3600 -700 50  0001 C CNN "PartNumber"
 F 6 "" H 3600 -700 50  0001 C CNN "SPR"
 F 7 "" H 3600 -700 50  0001 C CNN "SPN"
 F 8 "" H 3600 -700 50  0001 C CNN "SPURL"
+F 9 "" H 0   0   60  0001 C CNN "Comment"
+F 10 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    6050 4800
 	1    0    0    -1  
 $EndComp
@@ -553,6 +555,8 @@ F 5 "GRM188R60J225KE19D" H -250 0   50  0001 C CNN "PartNumber"
 F 6 "" H -250 0   50  0001 C CNN "SPR"
 F 7 "" H -250 0   50  0001 C CNN "SPN"
 F 8 "" H -250 0   50  0001 C CNN "SPURL"
+F 9 "" H 0   0   60  0001 C CNN "Comment"
+F 10 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    9100 2700
 	1    0    0    -1  
 $EndComp
@@ -991,7 +995,8 @@ F 2 "LibreSolar:Resonator_Murata_CSTCE" H 5100 1400 50  0001 C CNN
 F 3 "" H 5100 1400 50  0000 C CNN
 F 4 "Murata" H 0   -2950 50  0001 C CNN "Manufacturer"
 F 5 "CSTCE8M00G15C99-R0" H 0   -2950 50  0001 C CNN "PartNumber"
-F 6 "0.1%" H 5150 1150 50  0000 L CNN "Tolerance"
+F 6 "" H 5150 1150 50  0000 L CNN "Tolerance"
+F 7 "0.1% tolerance" H 0   0   60  0001 C CNN "Remarks"
 	1    5100 1400
 	1    0    0    -1  
 $EndComp

@@ -218,7 +218,8 @@ F 2 "LibreSolar:C_0805_2012" H 2600 2100 50  0001 C CNN
 F 3 "" H 2600 2100 50  0000 C CNN
 F 4 "Murata" H 500 350 50  0001 C CNN "Manufacturer"
 F 5 "GRJ21BC72A105KE11L" H 500 350 50  0001 C CNN "PartNumber"
-F 6 "100V, X7S" H 500 350 50  0001 C CNN "Comment"
+F 6 "" H 500 350 50  0001 C CNN "Comment"
+F 7 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    2600 2100
 	1    0    0    -1  
 $EndComp
@@ -232,7 +233,8 @@ F 2 "LibreSolar:C_0805_2012" H 4700 2100 50  0001 C CNN
 F 3 "" H 4700 2100 50  0000 C CNN
 F 4 "Murata" H 100 300 50  0001 C CNN "Manufacturer"
 F 5 "GRJ21BC72A105KE11L" H 100 300 50  0001 C CNN "PartNumber"
-F 6 "100V, X7S" H 100 300 50  0001 C CNN "Comment"
+F 6 "" H 100 300 50  0001 C CNN "Comment"
+F 7 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    4700 2100
 	1    0    0    -1  
 $EndComp
@@ -321,7 +323,8 @@ F 2 "LibreSolar:C_0603_1608" H 2400 5000 50  0001 C CNN
 F 3 "" H 2400 5000 50  0000 C CNN
 F 4 "Murata" H -800 950 50  0001 C CNN "Manufacturer"
 F 5 "GRM188R61E105KA12D" H -800 950 50  0001 C CNN "PartNumber"
-F 6 "25V" H 2250 5000 50  0000 C CNN "Remarks"
+F 6 "25V, X5R" H 2250 5000 50  0000 C CNN "Remarks"
+F 7 "" H 0   0   60  0001 C CNN "Comment"
 	1    2400 5000
 	1    0    0    -1  
 $EndComp
@@ -334,7 +337,7 @@ F 1 "BAT" H 10100 2600 50  0000 R TNN
 F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-952" H 10000 2575 50  0001 C CNN
 F 3 "" H 9975 2800 50  0001 C CNN
 F 4 "Phoenix Contact" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "1868076" H 0   0   60  0001 C CNN "PartNumber"
+F 5 "1714971" H 0   0   60  0001 C CNN "PartNumber"
 	1    10000 2800
 	-1   0    0    1   
 $EndComp
@@ -347,7 +350,7 @@ F 1 "SOLAR" H 1600 1900 50  0000 L TNN
 F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-952" H 1650 1875 50  0001 C CNN
 F 3 "" H 1625 2100 50  0001 C CNN
 F 4 "Phoenix Contact" H 1650 2100 60  0001 C CNN "Manufacturer"
-F 5 "1868076" H 1650 2100 60  0001 C CNN "PartNumber"
+F 5 "1714971" H 1650 2100 60  0001 C CNN "PartNumber"
 	1    1650 2100
 	1    0    0    1   
 $EndComp
@@ -360,7 +363,7 @@ F 1 "LOAD" H 9900 5200 50  0000 C TNN
 F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-952" H 9900 5175 50  0001 C CNN
 F 3 "" H 9875 5400 50  0001 C CNN
 F 4 "Phoenix Contact" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "1868076" H 0   0   60  0001 C CNN "PartNumber"
+F 5 "1714971" H 0   0   60  0001 C CNN "PartNumber"
 	1    9900 5400
 	-1   0    0    -1  
 $EndComp
@@ -374,7 +377,8 @@ F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 4025 1875 50  0001 L CNN
 F 3 "" H 4025 2175 50  0000 C CNN
 F 4 "United Chemi-Con" H 600 300 50  0001 C CNN "Manufacturer"
 F 5 "EKYB630ELL102ML25S" H 600 300 50  0001 C CNN "PartNumber"
-F 6 "63V, 2.74A, 16x25" H 4025 1925 50  0001 L CNN "Comment"
+F 6 "" H 4025 1925 50  0001 L CNN "Comment"
+F 7 "63V, 2.74A, 16x25" H 0   0   60  0001 C CNN "Remarks"
 	1    4000 2100
 	1    0    0    -1  
 $EndComp
@@ -388,8 +392,7 @@ F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 8000 2800 50  0001 C CNN
 F 3 "" H 8000 2800 50  0000 C CNN
 F 4 "Panasonic" H 4200 1000 50  0001 C CNN "Manufacturer"
 F 5 "EEU-FR1V821L" H 4200 1000 50  0001 C CNN "PartNumber"
-F 6 "35V, 2.47A" H 8000 2800 60  0001 C CNN "Comment"
-F 7 "35V" H 8020 2650 50  0000 L CNN "Voltage"
+F 6 "35V, 2.47A" H 0   0   60  0001 C CNN "Remarks"
 	1    8000 2800
 	1    0    0    -1  
 $EndComp
@@ -403,8 +406,9 @@ F 2 "LibreSolar:C_1210_3225" H 4400 2100 50  0001 C CNN
 F 3 "" H 4400 2100 50  0000 C CNN
 F 4 "Murata" H 200 300 50  0001 C CNN "Manufacturer"
 F 5 "GRM31CR72A225KA73L" H 200 300 50  0001 C CNN "PartNumber"
-F 6 "100V, X7R" H 4400 2100 60  0001 C CNN "Comment"
+F 6 "" H 4400 2100 60  0001 C CNN "Comment"
 F 7 "TY HMK325B7225KN-T" H 0   0   60  0001 C CNN "Alternative"
+F 8 "100V, X7R" H 0   0   60  0001 C CNN "Remarks"
 	1    4400 2100
 	1    0    0    -1  
 $EndComp
@@ -620,7 +624,8 @@ F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3625 1875 50  0001 L CNN
 F 3 "" H 3625 2175 50  0000 C CNN
 F 4 "United Chemi-Con" H 200 300 50  0001 C CNN "Manufacturer"
 F 5 "EKYB630ELL102ML25S" H 200 300 50  0001 C CNN "PartNumber"
-F 6 "63V, 2.74A, 16x25" H 3625 1925 50  0001 L CNN "Comment"
+F 6 "" H 3625 1925 50  0001 L CNN "Comment"
+F 7 "63V, 2.74A, 16x25" H 0   0   60  0001 C CNN "Remarks"
 	1    3600 2100
 	1    0    0    -1  
 $EndComp
