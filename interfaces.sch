@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:MPPT_charger_20A-rescue
-LIBS:LibreSolar
-LIBS:IEC-60617
-LIBS:power
-LIBS:device
-LIBS:regul
-LIBS:switches
-LIBS:conn
-LIBS:logo
-LIBS:mechanical
+EESchema Schematic File Version 4
 LIBS:MPPT_charger_20A-cache
 EELAYER 26 0
 EELAYER END
@@ -18,14 +8,14 @@ Sheet 5 6
 Title "MPPT Charger 20A"
 Date "2017-03-06"
 Rev "0.7"
-Comp "Libre Solar"
+Comp ""
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR057
+L power:+3.3V #PWR057
 U 1 1 58BE341B
 P 6300 1900
 F 0 "#PWR057" H 6300 1750 50  0001 C CNN
@@ -36,7 +26,7 @@ F 3 "" H 6300 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR058
+L power:+5V #PWR058
 U 1 1 58BE3421
 P 6000 1900
 F 0 "#PWR058" H 6000 1750 50  0001 C CNN
@@ -47,7 +37,7 @@ F 3 "" H 6000 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L power:GND #PWR059
 U 1 1 58BE3427
 P 6300 2300
 F 0 "#PWR059" H 6300 2050 50  0001 C CNN
@@ -58,7 +48,7 @@ F 3 "" H 6300 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L power:GND #PWR060
 U 1 1 58BE342E
 P 6000 2300
 F 0 "#PWR060" H 6000 2050 50  0001 C CNN
@@ -69,7 +59,7 @@ F 3 "" H 6000 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 58BE3434
 P 10300 2300
 F 0 "#PWR061" H 10300 2050 50  0001 C CNN
@@ -80,7 +70,7 @@ F 3 "" H 10300 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C39
+L device:C_Small C39
 U 1 1 58BE3440
 P 6300 2100
 F 0 "C39" H 6320 2170 50  0000 L CNN
@@ -96,7 +86,7 @@ F 8 "" H -500 350 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L device:C_Small C26
 U 1 1 58BE3447
 P 6000 2100
 F 0 "C26" H 6020 2170 50  0000 L CNN
@@ -112,7 +102,7 @@ F 8 "" H -400 350 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L device:R_Small R36
 U 1 1 58BE344E
 P 8900 2300
 F 0 "R36" V 8830 2300 50  0000 C CNN
@@ -125,11 +115,11 @@ F 5 "RC1206FR-07120RL" H -600 500 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45_NS JP1
+L LibreSolar:RJ45_NS JP1
 U 1 1 58BE345B
 P 7050 3650
-F 0 "JP1" H 7250 4150 50  0000 C CNN
-F 1 "RJ45_NS" H 6900 4150 50  0000 C CNN
+F 0 "JP1" V 6600 3400 50  0000 C CNN
+F 1 "RJ45_NS" V 6600 3950 50  0000 C CNN
 F 2 "LibreSolar:RJ45_8P8C" H 7050 3650 50  0001 C CNN
 F 3 "" H 7050 3650 50  0001 C CNN
 F 4 "Amphenol FCI" H -375 325 50  0001 C CNN "Manufacturer"
@@ -138,12 +128,12 @@ F 5 "54602-908LF" H -375 325 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L TJA1042T/3 U8
+L LibreSolar:TJA1042T-3 U8
 U 1 1 58BE3467
 P 7700 2200
 F 0 "U8" H 7700 2650 50  0000 C CNN
 F 1 "TJA1042T/3" H 7700 1850 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7700 1700 50  0001 C CIN
+F 2 "LibreSolar:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7700 1700 50  0001 C CIN
 F 3 "" H 7700 2200 50  0000 C CNN
 F 4 "NXP" H -250 450 50  0001 C CNN "Manufacturer"
 F 5 "TJA1042T/3/1J" H -250 450 50  0001 C CNN "PartNumber"
@@ -152,7 +142,7 @@ F 6 "Mouser" H -250 450 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP3
+L device:Jumper_NC_Small JP3
 U 1 1 58BE3476
 P 8900 2000
 F 0 "JP3" H 8900 2080 50  0000 C CNN
@@ -163,23 +153,20 @@ F 3 "" H 8900 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RJ45_NS JP2
+L LibreSolar:RJ45_NS JP2
 U 1 1 58BE348A
-P 8650 3650
-F 0 "JP2" H 8850 4150 50  0000 C CNN
-F 1 "RJ45_NS" H 8500 4150 50  0000 C CNN
-F 2 "LibreSolar:RJ45_8P8C" H 8650 3650 50  0001 C CNN
-F 3 "" H 8650 3650 50  0001 C CNN
-F 4 "Amphenol FCI" H -425 325 50  0001 C CNN "Manufacturer"
-F 5 "54602-908LF" H -425 325 50  0001 C CNN "PartNumber"
-F 6 "" H -425 325 50  0001 C CNN "SPR"
-F 7 "" H -425 325 50  0001 C CNN "SPN"
-F 8 "" H -425 325 50  0001 C CNN "SPURL"
-	1    8650 3650
+P 8850 3650
+F 0 "JP2" V 8400 3400 50  0000 C CNN
+F 1 "RJ45_NS" V 8400 3950 50  0000 C CNN
+F 2 "LibreSolar:RJ45_8P8C" H 8850 3650 50  0001 C CNN
+F 3 "" H 8850 3650 50  0001 C CNN
+F 4 "Amphenol FCI" H -225 325 50  0001 C CNN "Manufacturer"
+F 5 "54602-908LF" H -225 325 50  0001 C CNN "PartNumber"
+	1    8850 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR062
+L power:+3.3V #PWR062
 U 1 1 58BE3F53
 P 1900 4500
 F 0 "#PWR062" H 1900 4350 50  0001 C CNN
@@ -190,7 +177,7 @@ F 3 "" H 1900 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR063
+L power:GND #PWR063
 U 1 1 58BE3F59
 P 3500 4700
 F 0 "#PWR063" H 3500 4450 50  0001 C CNN
@@ -201,7 +188,7 @@ F 3 "" H 3500 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR064
+L power:+3.3V #PWR064
 U 1 1 58BE3F5F
 P 4950 4400
 F 0 "#PWR064" H 4950 4250 50  0001 C CNN
@@ -212,7 +199,7 @@ F 3 "" H 4950 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR065
+L power:+3.3V #PWR065
 U 1 1 58BE3F65
 P 4600 4400
 F 0 "#PWR065" H 4600 4250 50  0001 C CNN
@@ -223,7 +210,7 @@ F 3 "" H 4600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L device:R_Small R35
 U 1 1 58BE3F9C
 P 4950 4600
 F 0 "R35" V 4880 4600 50  0000 C CNN
@@ -239,7 +226,7 @@ F 8 "" H -200 -750 50  0001 C CNN "SPURL"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R34
+L device:R_Small R34
 U 1 1 58BE3FA3
 P 4600 4600
 F 0 "R34" V 4530 4600 50  0000 C CNN
@@ -252,7 +239,7 @@ F 5 "RC0603FR-072K2L" H -200 -750 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L UEXT J4
+L LibreSolar:UEXT J4
 U 1 1 58BDEEA0
 P 2400 4800
 F 0 "J4" H 2150 5150 50  0000 L CNN
@@ -263,7 +250,7 @@ F 3 "" H 2400 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR066
+L power:+3.3V #PWR066
 U 1 1 58BDF61E
 P 7200 1800
 F 0 "#PWR066" H 7200 1650 50  0001 C CNN
@@ -274,7 +261,7 @@ F 3 "" H 7200 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR067
+L power:+5V #PWR067
 U 1 1 58BDF65F
 P 8200 1800
 F 0 "#PWR067" H 8200 1650 50  0001 C CNN
@@ -285,7 +272,7 @@ F 3 "" H 8200 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L power:GND #PWR068
 U 1 1 58BDF6B3
 P 8200 2500
 F 0 "#PWR068" H 8200 2250 50  0001 C CNN
@@ -296,7 +283,7 @@ F 3 "" H 8200 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUP2105L D4
+L LibreSolar:NUP2105L D4
 U 1 1 58BE0956
 P 9900 2200
 AR Path="/58BE0956" Ref="D4"  Part="1" 
@@ -311,7 +298,7 @@ F 5 "NUP2105LT1G" H -250 500 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L USBLC6-2SC6 D3
+L LibreSolar:USBLC6-2SC6 D3
 U 1 1 58BE3F7F
 P 3600 2400
 F 0 "D3" H 3350 2750 50  0000 C CNN
@@ -320,14 +307,11 @@ F 2 "LibreSolar:SOT-23-6" H 4250 2750 50  0001 C CNN
 F 3 "" H 3350 2750 50  0001 C CNN
 F 4 "STMicroelectronics" H 450 350 50  0001 C CNN "Manufacturer"
 F 5 "USBLC6-2SC6" H 450 350 50  0001 C CNN "PartNumber"
-F 6 "" H 450 350 50  0001 C CNN "SPR"
-F 7 "" H 450 350 50  0001 C CNN "SPN"
-F 8 "" H 450 350 50  0001 C CNN "SPURL"
 	1    3600 2400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L power:GND #PWR069
 U 1 1 58C190E2
 P 4250 2400
 F 0 "#PWR069" H 4250 2150 50  0001 C CNN
@@ -338,48 +322,48 @@ F 3 "" H 4250 2400 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_OTG-RESCUE-MPPT_charger_20A P3
+L Connector:USB_B_Micro P3
 U 1 1 58CC2DA5
-P 2000 2300
-F 0 "P3" V 1700 2200 50  0000 C CNN
-F 1 "USB_OTG" H 2000 2500 50  0000 C CNN
-F 2 "LibreSolar:USB_Micro-B_10103594-0001LF" V 1950 2200 50  0001 C CNN
-F 3 "" V 1950 2200 50  0001 C CNN
-F 4 "Mouser" H -2550 -750 50  0001 C CNN "SPR"
-F 5 "FCI" H 0   0   60  0001 C CNN "Manufacturer"
-F 6 "10103594-0001LF" H 0   0   60  0001 C CNN "PartNumber"
-	1    2000 2300
-	0    -1   1    0   
+P 2000 2200
+F 0 "P3" H 1800 2550 50  0000 L CNN
+F 1 "USB Micro B" V 1750 1975 50  0000 L CNN
+F 2 "LibreSolar:USB_Micro-B_10103594-0001LF" H 2150 2150 50  0001 C CNN
+F 3 "" H 2150 2150 50  0001 C CNN
+F 4 "FCI" H 0   -100 60  0001 C CNN "Manufacturer"
+F 5 "10103594-0001LF" H 0   -100 60  0001 C CNN "PartNumber"
+F 6 "Mouser" H -2550 -850 50  0001 C CNN "SPR"
+	1    2000 2200
+	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L device:C_Small C25
 U 1 1 58CC2EC7
-P 2200 2800
-F 0 "C25" V 2250 2600 50  0000 L CNN
-F 1 "100n" V 2150 2550 50  0000 L CNN
-F 2 "LibreSolar:C_0603_1608" H 2200 2800 50  0001 C CNN
-F 3 "" H 2200 2800 50  0000 C CNN
-F 4 "Murata" H -900 -300 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H -900 -300 50  0001 C CNN "PartNumber"
-F 6 "" H 2525 3200 50  0001 C CNN "SPR"
-F 7 "" H 2625 3300 50  0001 C CNN "SPN"
-F 8 "" H 2725 3400 50  0001 C CNN "SPURL"
-	1    2200 2800
-	0    1    -1   0   
+P 1900 2850
+F 0 "C25" H 1925 2925 50  0000 L CNN
+F 1 "100n" H 1925 2775 50  0000 L CNN
+F 2 "LibreSolar:C_0603_1608" H 1900 2650 50  0001 C CNN
+F 3 "" H 1925 2925 50  0000 C CNN
+F 4 "Murata" H -1200 -250 50  0001 C CNN "Manufacturer"
+F 5 "GRM188R71H104KA93D" H -1200 -250 50  0001 C CNN "PartNumber"
+F 6 "" H 2225 3250 50  0001 C CNN "SPR"
+F 7 "" H 2325 3350 50  0001 C CNN "SPN"
+F 8 "" H 2425 3450 50  0001 C CNN "SPURL"
+	1    1900 2850
+	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L power:GND #PWR070
 U 1 1 58CC33CA
-P 2500 2900
-F 0 "#PWR070" H 2500 2650 50  0001 C CNN
-F 1 "GND" H 2500 2750 50  0000 C CNN
-F 2 "" H 2500 2900 50  0000 C CNN
-F 3 "" H 2500 2900 50  0000 C CNN
-	1    2500 2900
+P 1900 3000
+F 0 "#PWR070" H 1900 2750 50  0001 C CNN
+F 1 "GND" H 1900 2850 50  0000 C CNN
+F 2 "" H 1900 3000 50  0000 C CNN
+F 3 "" H 1900 3000 50  0000 C CNN
+	1    1900 3000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L power:GND #PWR071
 U 1 1 58CC340B
 P 2700 2900
 F 0 "#PWR071" H 2700 2650 50  0001 C CNN
@@ -390,7 +374,7 @@ F 3 "" H 2700 2900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R46
+L device:R_Small R46
 U 1 1 58CC345E
 P 2700 2600
 F 0 "R46" V 2770 2600 50  0000 C CNN
@@ -423,17 +407,17 @@ Text Label 6200 3400 0    50   ~ 0
 CAN_L
 Text Label 6200 3300 0    50   ~ 0
 CAN_H
-Text Label 7800 4000 0    50   ~ 0
+Text Label 8000 4000 0    50   ~ 0
 CAN_V+
-Text Label 7800 3900 0    50   ~ 0
+Text Label 8000 3900 0    50   ~ 0
 CAN_GND
-Text Label 7800 3800 0    50   ~ 0
+Text Label 8000 3800 0    50   ~ 0
 CAN_SHLD
-Text Label 7800 3500 0    50   ~ 0
+Text Label 8000 3500 0    50   ~ 0
 CAN_GND
-Text Label 7800 3400 0    50   ~ 0
+Text Label 8000 3400 0    50   ~ 0
 CAN_L
-Text Label 7800 3300 0    50   ~ 0
+Text Label 8000 3300 0    50   ~ 0
 CAN_H
 Text Notes 1700 4000 0    100  ~ 0
 Extension connector
@@ -458,9 +442,9 @@ UEXT_SCL
 Text HLabel 1900 4700 0    50   Input ~ 0
 UEXT_TX
 Text HLabel 4500 2200 2    50   BiDi ~ 0
-USB_DM
-Text HLabel 4500 2600 2    50   BiDi ~ 0
 USB_DP
+Text HLabel 4500 2600 2    50   BiDi ~ 0
+USB_DM
 Text HLabel 4600 4800 3    50   Input ~ 0
 UEXT_SDA
 Text HLabel 4950 4800 3    50   Input ~ 0
@@ -498,17 +482,17 @@ Wire Wire Line
 Wire Wire Line
 	6600 4000 6200 4000
 Wire Wire Line
-	8200 3500 7800 3500
+	8400 3500 8000 3500
 Wire Wire Line
-	8200 3900 7800 3900
+	8400 3900 8000 3900
 Wire Wire Line
-	8200 3300 7800 3300
+	8400 3300 8000 3300
 Wire Wire Line
-	8200 3400 7800 3400
+	8400 3400 8000 3400
 Wire Wire Line
-	8200 3800 7800 3800
+	8400 3800 8000 3800
 Wire Wire Line
-	8200 4000 7800 4000
+	8400 4000 8000 4000
 Wire Wire Line
 	4600 4500 4600 4400
 Wire Wire Line
@@ -552,12 +536,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 2100 8400 2100
 Wire Wire Line
-	1900 2700 1900 2800
-Wire Wire Line
-	2300 2500 2500 2500
-Wire Wire Line
-	2500 2500 2500 2900
-Wire Wire Line
 	7300 2400 7200 2400
 Wire Wire Line
 	7300 2200 7200 2200
@@ -596,11 +574,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 2400 2700 2400
 Wire Wire Line
-	2300 2800 2500 2800
-Connection ~ 2500 2800
-Wire Wire Line
-	1900 2800 2100 2800
-Wire Wire Line
 	2700 2400 2700 2500
 Wire Wire Line
 	2700 2700 2700 2900
@@ -613,73 +586,66 @@ Wire Wire Line
 Wire Wire Line
 	3100 2400 3000 2400
 Wire Wire Line
-	3000 2400 3000 2100
-Wire Wire Line
-	3000 2100 2300 2100
+	3000 2000 3000 2400
 $Comp
-L +5V #PWR072
+L power:+5V #PWR072
 U 1 1 592A3924
-P 2900 1800
-F 0 "#PWR072" H 2900 1650 50  0001 C CNN
-F 1 "+5V" H 2900 1940 50  0000 C CNN
-F 2 "" H 2900 1800 50  0000 C CNN
-F 3 "" H 2900 1800 50  0000 C CNN
-	1    2900 1800
+P 3050 1700
+F 0 "#PWR072" H 3050 1550 50  0001 C CNN
+F 1 "+5V" H 3050 1840 50  0000 C CNN
+F 2 "" H 3050 1700 50  0000 C CNN
+F 3 "" H 3050 1700 50  0000 C CNN
+	1    3050 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_PTC RT2
+L device:Polyfuse F2
 U 1 1 592A398B
-P 2600 1900
-F 0 "RT2" V 2335 1900 50  0000 C CNN
-F 1 "200mA" V 2426 1900 50  0000 C CNN
-F 2 "LibreSolar:R_1206_3216" H 2600 1950 50  0001 C CNN
-F 3 "" H 2600 1950 50  0001 C CNN
-F 4 "Bel Fuse" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "0ZCJ0020FF2E" H 0   0   60  0001 C CNN "PartNumber"
-	1    2600 1900
+P 2750 1800
+F 0 "F2" V 2650 1800 50  0000 C CNN
+F 1 "200mA" V 2850 1800 50  0000 C CNN
+F 2 "LibreSolar:R_1206_3216" H 2800 1600 50  0001 L CNN
+F 3 "" H 2750 1800 50  0001 C CNN
+F 4 "Bel Fuse" H 150 -100 60  0001 C CNN "Manufacturer"
+F 5 "0ZCJ0020FF2E" H 150 -100 60  0001 C CNN "PartNumber"
+	1    2750 1800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 1900 2400 1900
+	2600 1800 2500 1800
 Wire Wire Line
-	2400 1900 2400 2100
-Connection ~ 2400 2100
+	3050 1800 3050 1700
 Wire Wire Line
-	2700 1900 2900 1900
+	8400 3600 8000 3600
 Wire Wire Line
-	2900 1900 2900 1800
-Wire Wire Line
-	8200 3600 7800 3600
-Wire Wire Line
-	8200 3700 7800 3700
+	8400 3700 8000 3700
 Wire Wire Line
 	6600 3600 6200 3600
 Wire Wire Line
 	6600 3700 6200 3700
-Text Label 7800 3600 0    50   ~ 0
+Text Label 8000 3600 0    50   ~ 0
 RJ45_4
-Text Label 7800 3700 0    50   ~ 0
+Text Label 8000 3700 0    50   ~ 0
 RJ45_5
 Text Label 6200 3600 0    50   ~ 0
 RJ45_4
 Text Label 6200 3700 0    50   ~ 0
 RJ45_5
 $Comp
-L R_PTC RT3
+L device:Polyfuse F3
 U 1 1 5954FB5B
-P 7700 5000
-F 0 "RT3" V 7435 5000 50  0000 C CNN
-F 1 "200mA" V 7526 5000 50  0000 C CNN
-F 2 "LibreSolar:R_1206_3216" H 7700 5050 50  0001 C CNN
-F 3 "" H 7700 5050 50  0001 C CNN
-F 4 "Bel Fuse" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "0ZCJ0020FF2E" H 0   0   60  0001 C CNN "PartNumber"
-	1    7700 5000
+P 7650 5000
+F 0 "F3" V 7550 5000 50  0000 C CNN
+F 1 "200mA" V 7750 5000 50  0000 C CNN
+F 2 "LibreSolar:R_1206_3216" H 7700 4800 50  0001 L CNN
+F 3 "" H 7650 5000 50  0001 C CNN
+F 4 "Bel Fuse" H -50 0   60  0001 C CNN "Manufacturer"
+F 5 "0ZCJ0020FF2E" H -50 0   60  0001 C CNN "PartNumber"
+	1    7650 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L +10V #PWR073
+L LibreSolar:+10V #PWR073
 U 1 1 5954FF10
 P 7300 4900
 F 0 "#PWR073" H 7300 4750 50  0001 C CNN
@@ -690,7 +656,7 @@ F 3 "" H 7300 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D9
+L device:D_Small D9
 U 1 1 595501B6
 P 8100 5000
 F 0 "D9" H 8100 5100 50  0000 C CNN
@@ -699,12 +665,11 @@ F 2 "LibreSolar:D_SOD-123" V 8100 5000 50  0001 C CNN
 F 3 "" V 8100 5000 50  0000 C CNN
 F 4 "Diodes Inc." H 4050 2200 50  0001 C CNN "Manufacturer"
 F 5 "1N4148W-7-F" H 4050 2200 50  0001 C CNN "PartNumber"
-F 6 "" H 4050 2200 50  0001 C CNN "SPR"
 	1    8100 5000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D D10
+L device:D_Small D10
 U 1 1 595502E8
 P 8100 5400
 F 0 "D10" H 8100 5500 50  0000 C CNN
@@ -713,14 +678,11 @@ F 2 "LibreSolar:D_SOD-123" V 8100 5400 50  0001 C CNN
 F 3 "" V 8100 5400 50  0000 C CNN
 F 4 "Diodes Inc." H 4050 2600 50  0001 C CNN "Manufacturer"
 F 5 "1N4148W-7-F" H 4050 2600 50  0001 C CNN "PartNumber"
-F 6 "" H 4050 2600 50  0001 C CNN "SPR"
 	1    8100 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7300 4900 7300 5000
-Wire Wire Line
-	7300 5000 7600 5000
 Wire Wire Line
 	7800 5000 8000 5000
 Wire Wire Line
@@ -728,7 +690,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 5400 8700 5400
 $Comp
-L GND #PWR074
+L power:GND #PWR074
 U 1 1 595504D4
 P 7300 5500
 F 0 "#PWR074" H 7300 5250 50  0001 C CNN
@@ -749,7 +711,7 @@ CAN_GND
 Text Notes 1700 5800 0    100  ~ 0
 5V signal output
 $Comp
-L Q_PMOS_GSD Q5
+L device:Q_PMOS_GSD Q5
 U 1 1 59558C66
 P 3300 6300
 F 0 "Q5" V 3643 6300 50  0000 C CNN
@@ -762,7 +724,7 @@ F 5 "BSS84" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L +5V #PWR075
+L power:+5V #PWR075
 U 1 1 5955A4EB
 P 2700 6100
 F 0 "#PWR075" H 2700 5950 50  0001 C CNN
@@ -777,7 +739,7 @@ Wire Wire Line
 Text HLabel 3700 6200 2    50   Output ~ 0
 5V_OUT
 $Comp
-L R R33
+L device:R_Small R33
 U 1 1 5955A770
 P 2900 6400
 F 0 "R33" V 2970 6400 50  0000 C CNN
@@ -793,7 +755,7 @@ F 8 "" H -1000 3250 50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R38
+L device:R_Small R38
 U 1 1 5955A862
 P 2700 6600
 F 0 "R38" V 2770 6600 50  0000 C CNN
@@ -806,7 +768,7 @@ F 5 "RC0603FR-071KL" H -1200 3450 50  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R47
+L device:R_Small R47
 U 1 1 5955A8AC
 P 2000 6900
 F 0 "R47" V 2070 6900 50  0000 C CNN
@@ -822,7 +784,7 @@ F 8 "" H -1900 3750 50  0001 C CNN "SPURL"
 	0    1    -1   0   
 $EndComp
 $Comp
-L MMBT3904 T4
+L Transistor:BC817 T4
 U 1 1 5955C30A
 P 2400 6900
 F 0 "T4" H 2600 6975 50  0000 L CNN
@@ -846,7 +808,7 @@ Wire Wire Line
 	2700 6200 2700 6100
 Connection ~ 2900 6200
 $Comp
-L GND #PWR076
+L power:GND #PWR076
 U 1 1 5955C9BB
 P 2500 7200
 F 0 "#PWR076" H 2500 6950 50  0001 C CNN
@@ -871,4 +833,34 @@ Wire Wire Line
 	2500 6600 2500 6700
 Text HLabel 1800 6900 0    50   Input ~ 0
 5V_OUT_EN
+Wire Wire Line
+	1900 2600 1900 2750
+Wire Wire Line
+	1900 2950 1900 3000
+$Comp
+L power:GND #PWR032
+U 1 1 5A142F79
+P 2200 3000
+F 0 "#PWR032" H 2200 2750 50  0001 C CNN
+F 1 "GND" H 2200 2850 50  0000 C CNN
+F 2 "" H 2200 3000 50  0000 C CNN
+F 3 "" H 2200 3000 50  0000 C CNN
+	1    2200 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2600 2000 2700
+Wire Wire Line
+	2000 2700 2200 2700
+Wire Wire Line
+	2200 2700 2200 3000
+Wire Wire Line
+	2300 2000 3000 2000
+Wire Wire Line
+	2500 1800 2500 2000
+Connection ~ 2500 2000
+Wire Wire Line
+	7500 5000 7300 5000
+Wire Wire Line
+	2900 1800 3050 1800
 $EndSCHEMATC

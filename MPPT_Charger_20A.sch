@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:MPPT_charger_20A-rescue
-LIBS:LibreSolar
-LIBS:IEC-60617
-LIBS:power
-LIBS:device
-LIBS:regul
-LIBS:switches
-LIBS:conn
-LIBS:logo
-LIBS:mechanical
+EESchema Schematic File Version 4
 LIBS:MPPT_charger_20A-cache
 EELAYER 26 0
 EELAYER END
@@ -124,25 +114,25 @@ Main Specification
 Text Notes 1500 7000 0    50   ~ 0
 - 20A max. charge current\n- 55V max PV input\n- 12V or 24V battery output\n- External temperature sensor input\n- 32bit ARM MCU (STM32F072)\n- CAN communication interface RJ45 jacks or screw terminal\n- Expandable via Olimex Universal Extension Connector (UEXT) featuring\n   I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)\n- DIN rail housing compatible (Phoenix Contact EH series)\n
 $Comp
-L OPEN_HARDWARE_1 LOGO2
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 58C36283
-P 10400 6000
-F 0 "LOGO2" H 10400 6275 50  0000 C CNN
-F 1 "OPEN_HARDWARE" H 10400 5775 50  0000 C CNN
-F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 10400 6000 60  0001 C CNN
-F 3 "" H 10400 6000 60  0001 C CNN
-	1    10400 6000
+P 10550 6100
+F 0 "LOGO2" H 10550 6375 50  0000 C CNN
+F 1 "OPEN_HARDWARE" H 10550 5875 50  0000 C CNN
+F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 10550 6100 60  0001 C CNN
+F 3 "" H 10550 6100 60  0001 C CNN
+	1    10550 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L LIBRE_SOLAR LOGO1
+L LibreSolar:LIBRE_SOLAR LOGO1
 U 1 1 58C39FC7
-P 9500 6000
-F 0 "LOGO1" H 9500 6275 50  0000 C CNN
-F 1 "LIBRE_SOLAR" H 9500 5775 50  0000 C CNN
-F 2 "LibreSolar:LIBRESOLAR_LOGO" H 9520 5990 60  0001 C CNN
-F 3 "" H 9520 5990 60  0001 C CNN
-	1    9500 6000
+P 9650 6100
+F 0 "LOGO1" H 9650 6375 50  0000 C CNN
+F 1 "LIBRE_SOLAR" H 9650 5875 50  0000 C CNN
+F 2 "LibreSolar:LIBRESOLAR_LOGO" H 9670 6090 60  0001 C CNN
+F 3 "" H 9670 6090 60  0001 C CNN
+	1    9650 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -256,40 +246,40 @@ Wire Wire Line
 	8200 4100 7700 4100
 Connection ~ 8200 2500
 $Comp
-L Mounting_Hole MK1
+L Mechanical:Mounting_Hole MK1
 U 1 1 595388B0
-P 5900 6400
-F 0 "MK1" H 6000 6446 50  0000 L CNN
-F 1 "Mounting_Hole" H 6000 6355 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 5900 6400 50  0001 C CNN
-F 3 "" H 5900 6400 50  0001 C CNN
-	1    5900 6400
+P 6050 7050
+F 0 "MK1" H 6150 7096 50  0000 L CNN
+F 1 "Mounting_Hole" H 6150 7005 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7050 50  0001 C CNN
+F 3 "" H 6050 7050 50  0001 C CNN
+	1    6050 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK2
+L Mechanical:Mounting_Hole MK2
 U 1 1 59538A86
-P 5900 6600
-F 0 "MK2" H 6000 6646 50  0000 L CNN
-F 1 "Mounting_Hole" H 6000 6555 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 5900 6600 50  0001 C CNN
-F 3 "" H 5900 6600 50  0001 C CNN
-	1    5900 6600
+P 6050 7250
+F 0 "MK2" H 6150 7296 50  0000 L CNN
+F 1 "Mounting_Hole" H 6150 7205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7250 50  0001 C CNN
+F 3 "" H 6050 7250 50  0001 C CNN
+	1    6050 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK3
+L Mechanical:Mounting_Hole MK3
 U 1 1 59538C18
-P 5900 6800
-F 0 "MK3" H 6000 6846 50  0000 L CNN
-F 1 "Mounting_Hole" H 6000 6755 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 5900 6800 50  0001 C CNN
-F 3 "" H 5900 6800 50  0001 C CNN
-	1    5900 6800
+P 6050 7450
+F 0 "MK3" H 6150 7496 50  0000 L CNN
+F 1 "Mounting_Hole" H 6150 7405 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7450 50  0001 C CNN
+F 3 "" H 6050 7450 50  0001 C CNN
+	1    6050 7450
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J5
+L Connector:Conn_01x03 J5
 U 1 1 59553D8B
 P 2800 5200
 F 0 "J5" H 2878 5241 50  0000 L CNN
@@ -302,7 +292,7 @@ F 5 "1803280" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 59553D94
 P 3500 5300
 F 0 "#PWR01" H 3500 5050 50  0001 C CNN
