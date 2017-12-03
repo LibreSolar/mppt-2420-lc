@@ -645,17 +645,6 @@ F 5 "0ZCJ0020FF2E" H -50 0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L LibreSolar:+10V #PWR073
-U 1 1 5954FF10
-P 7300 4900
-F 0 "#PWR073" H 7300 4750 50  0001 C CNN
-F 1 "+10V" H 7300 5040 50  0000 C CNN
-F 2 "" H 7300 4900 50  0000 C CNN
-F 3 "" H 7300 4900 50  0000 C CNN
-	1    7300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:D_Small D9
 U 1 1 595501B6
 P 8100 5000
@@ -863,4 +852,6 @@ Wire Wire Line
 	7500 5000 7300 5000
 Wire Wire Line
 	2900 1800 3050 1800
+Text HLabel 7300 4900 1    50   Input ~ 0
+DCDC_OUT
 $EndSCHEMATC
