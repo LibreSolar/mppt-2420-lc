@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "MPPT Charger 20A"
-Date "2017-08-06"
-Rev "0.8"
+Date "2017-12-11"
+Rev "0.9"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -144,10 +144,7 @@ F 1 "10k" V 7175 3200 50  0000 C CNN
 F 2 "LibreSolar:R_0603_1608" V 6925 3100 50  0001 C CNN
 F 3 "" H 7100 3200 50  0000 C CNN
 F 4 "Yageo" H 1400 200 50  0001 C CNN "Manufacturer"
-F 5 "RC0603FR-07150KL" H 1400 200 50  0001 C CNN "PartNumber"
-F 6 "" H 1400 200 50  0001 C CNN "SPR"
-F 7 "" H 1400 200 50  0001 C CNN "SPN"
-F 8 "" H 1400 200 50  0001 C CNN "SPURL"
+F 5 "RC0603FR-0710KL" H 1400 200 50  0001 C CNN "PartNumber"
 	1    7100 3200
 	1    0    0    -1  
 $EndComp
@@ -157,15 +154,11 @@ U 1 1 58C30133
 P 5800 5300
 F 0 "C23" H 5825 5375 50  0000 L CNN
 F 1 "1u" H 5825 5225 50  0000 L CNN
-F 2 "LibreSolar:C_0603_1608" H 5800 5100 50  0001 C CNN
+F 2 "LibreSolar:C_0805_2012" H 5800 5100 50  0001 C CNN
 F 3 "" H 5825 5375 50  0000 C CNN
 F 4 "Murata" H -2200 2550 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R61E105KA12D" H -2200 2550 50  0001 C CNN "PartNumber"
-F 6 "" H -2200 2550 50  0001 C CNN "SPR"
-F 7 "" H -2200 2550 50  0001 C CNN "SPN"
-F 8 "" H -2200 2550 50  0001 C CNN "SPURL"
-F 9 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
-F 10 "" H 0   0   60  0001 C CNN "Comment"
+F 5 "GRJ21BR71H105KE01" H -2200 2550 50  0001 C CNN "PartNumber"
+F 6 "" H 0   0   60  0001 C CNN "Remarks"
 	1    5800 5300
 	1    0    0    -1  
 $EndComp
@@ -179,9 +172,7 @@ F 2 "LibreSolar:C_0805_2012" H 7900 3100 50  0001 C CNN
 F 3 "" H 7900 3100 50  0000 C CNN
 F 4 "Murata" H 1400 250 50  0001 C CNN "Manufacturer"
 F 5 "GRM21BR61E106KA73L" H 1400 250 50  0001 C CNN "PartNumber"
-F 6 "" H 1400 250 50  0001 C CNN "SPR"
-F 7 "" H 1400 250 50  0001 C CNN "SPN"
-F 8 "" H 1400 250 50  0001 C CNN "SPURL"
+F 6 "25V" H 8000 2950 50  0000 C CNN "Remarks"
 	1    7900 3100
 	1    0    0    -1  
 $EndComp
@@ -195,9 +186,7 @@ F 2 "LibreSolar:C_0805_2012" H 7500 3100 50  0001 C CNN
 F 3 "" H 7500 3100 50  0000 C CNN
 F 4 "Murata" H 1400 250 50  0001 C CNN "Manufacturer"
 F 5 "GRM21BR61E106KA73L" H 1400 250 50  0001 C CNN "PartNumber"
-F 6 "" H 1400 250 50  0001 C CNN "SPR"
-F 7 "" H 1400 250 50  0001 C CNN "SPN"
-F 8 "" H 1400 250 50  0001 C CNN "SPURL"
+F 6 "25V" H 7600 2950 50  0000 C CNN "Remarks"
 	1    7500 3100
 	1    0    0    -1  
 $EndComp
@@ -238,9 +227,6 @@ F 2 "LibreSolar:C_0603_1608" H 6050 2400 50  0001 C CNN
 F 3 "" H 6050 2400 50  0000 C CNN
 F 4 "Murata" H 1400 200 50  0001 C CNN "Manufacturer"
 F 5 "GRM188R71H104KA93D" H 1400 200 50  0001 C CNN "PartNumber"
-F 6 "" H 1400 200 50  0001 C CNN "SPR"
-F 7 "" H 1400 200 50  0001 C CNN "SPN"
-F 8 "" H 1400 200 50  0001 C CNN "SPURL"
 	1    6050 2400
 	0    -1   -1   0   
 $EndComp
@@ -254,11 +240,7 @@ F 2 "LibreSolar:C_0805_2012" H 3500 2500 50  0001 C CNN
 F 3 "" H 3525 2775 50  0000 C CNN
 F 4 "Murata" H 1100 -50 50  0001 C CNN "Manufacturer"
 F 5 "GRJ21BC72A105KE11L" H 1100 -50 50  0001 C CNN "PartNumber"
-F 6 "" H 1100 -50 50  0001 C CNN "SPR"
-F 7 "" H 1100 -50 50  0001 C CNN "SPN"
-F 8 "" H 1100 -50 50  0001 C CNN "SPURL"
-F 9 "" H 0   0   60  0001 C CNN "Comment"
-F 10 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
+F 6 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    3500 2700
 	1    0    0    -1  
 $EndComp
@@ -299,9 +281,6 @@ F 2 "LibreSolar:C_0603_1608" H 7100 5200 50  0001 C CNN
 F 3 "" H 7125 5475 50  0000 C CNN
 F 4 "Murata" H -2250 2600 50  0001 C CNN "Manufacturer"
 F 5 "GRM1885C2A101JA01D" H -2250 2600 50  0001 C CNN "PartNumber"
-F 6 "" H -2250 2600 50  0001 C CNN "SPR"
-F 7 "" H -2250 2600 50  0001 C CNN "SPN"
-F 8 "" H -2250 2600 50  0001 C CNN "SPURL"
 	1    7100 5400
 	1    0    0    -1  
 $EndComp
@@ -315,11 +294,7 @@ F 2 "LibreSolar:C_0603_1608" H 7500 5100 50  0001 C CNN
 F 3 "" H 7525 5375 50  0000 C CNN
 F 4 "Murata" H -2250 2500 50  0001 C CNN "Manufacturer"
 F 5 "GRM188R60J225KE19D" H -2250 2500 50  0001 C CNN "PartNumber"
-F 6 "" H -2250 2500 50  0001 C CNN "SPR"
-F 7 "" H -2250 2500 50  0001 C CNN "SPN"
-F 8 "" H -2250 2500 50  0001 C CNN "SPURL"
-F 9 "" H 0   0   60  0001 C CNN "Comment"
-F 10 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
+F 6 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    7500 5300
 	1    0    0    -1  
 $EndComp
@@ -410,10 +385,6 @@ F 3 "" H 4600 2300 50  0001 C CNN
 $EndComp
 Text Notes 6350 5850 0    50   ~ 0
 Max current \noutput: 150mA
-Text Notes 5500 5350 0    50   ~ 0
-25V
-Text Notes 8150 3100 0    50   ~ 0
-25V
 Text HLabel 3200 2400 0    50   Input ~ 0
 DCDC_IN
 Wire Wire Line
@@ -567,6 +538,7 @@ F 2 "LibreSolar:C_0805_2012" H 3900 5400 50  0001 C CNN
 F 3 "" H 3900 5400 50  0000 C CNN
 F 4 "Murata" H -2600 2550 50  0001 C CNN "Manufacturer"
 F 5 "GRM21BR61E106KA73L" H -2600 2550 50  0001 C CNN "PartNumber"
+F 6 "25V" H 4000 5250 50  0000 C CNN "Remarks"
 	1    3900 5400
 	1    0    0    -1  
 $EndComp
@@ -624,4 +596,6 @@ F 3 "" H 2800 5000 50  0000 C CNN
 	1    2800 5000
 	1    0    0    -1  
 $EndComp
+Text Notes 5100 7600 0    50   ~ 0
+If not stated otherwise, all MLCC 50V X7R
 $EndSCHEMATC

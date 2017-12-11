@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "MPPT Charger 20A"
-Date "2017-03-06"
-Rev "0.7"
+Date "2017-12-11"
+Rev "0.9"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -21,12 +21,12 @@ F0 "DCDC power stage" 50
 F1 "dcdc.sch" 50
 F2 "PWM_HS" I L 6300 2200 50 
 F3 "PWM_LS" I L 6300 2300 50 
-F4 "~LOAD_EN" I L 6300 2500 50 
-F5 "BAT-" I R 7700 2800 50 
-F6 "DCDC_OUT" O R 7700 2500 50 
-F7 "DCDC_IN" O R 7700 2400 50 
-F8 "LOAD-SW" O R 7700 2900 50 
-F9 "DCDC-" O R 7700 2700 50 
+F4 "BAT-" I R 7700 2800 50 
+F5 "DCDC_OUT" O R 7700 2500 50 
+F6 "DCDC_IN" O R 7700 2400 50 
+F7 "DCDC-" O R 7700 2700 50 
+F8 "~LOAD_EN" I L 6300 2500 50 
+F9 "LOAD-SW" O R 7700 2900 50 
 $EndSheet
 $Sheet
 S 4100 2100 1200 2400
@@ -37,41 +37,42 @@ F2 "TIM1_CH1N" O R 5300 2300 50
 F3 "TIM1_CH1" O R 5300 2200 50 
 F4 "V_BAT" I R 5300 3000 50 
 F5 "V_SOLAR" I R 5300 2900 50 
-F6 "~LOAD_EN" O R 5300 2500 50 
-F7 "I_LOAD" I R 5300 3300 50 
-F8 "I_DCDC" I R 5300 3200 50 
-F9 "CAN_TX" O L 4100 3300 50 
-F10 "CAN_RX" I L 4100 3400 50 
-F11 "I2C1_SDA" I L 4100 2600 50 
-F12 "I2C1_SCL" I L 4100 2500 50 
-F13 "SPI1_MOSI" I L 4100 2900 50 
-F14 "SPI1_MISO" I L 4100 2800 50 
-F15 "SPI1_SCK" O L 4100 3000 50 
-F16 "SSEL" I L 4100 3100 50 
-F17 "USB_DM" I L 4100 3800 50 
-F18 "USB_DP" I L 4100 3700 50 
-F19 "CAN_STB" I L 4100 3500 50 
-F20 "USART2_RX" I L 4100 2300 50 
-F21 "USART2_TX" I L 4100 2200 50 
-F22 "TEMP_INT" I R 5300 4300 50 
-F23 "TEMP_BAT" I R 5300 4200 50 
-F24 "DAC" O R 5300 3400 50 
-F25 "5V_OUT_EN" O L 4100 4000 50 
+F6 "I_LOAD" I R 5300 3300 50 
+F7 "I_DCDC" I R 5300 3200 50 
+F8 "CAN_TX" O L 4100 3300 50 
+F9 "CAN_RX" I L 4100 3400 50 
+F10 "I2C1_SDA" I L 4100 2600 50 
+F11 "I2C1_SCL" I L 4100 2500 50 
+F12 "SPI1_MOSI" I L 4100 2900 50 
+F13 "SPI1_MISO" I L 4100 2800 50 
+F14 "SPI1_SCK" O L 4100 3000 50 
+F15 "SSEL" I L 4100 3100 50 
+F16 "USB_DM" I L 4100 3800 50 
+F17 "USB_DP" I L 4100 3700 50 
+F18 "CAN_STB" I L 4100 3500 50 
+F19 "USART2_RX" I L 4100 2300 50 
+F20 "USART2_TX" I L 4100 2200 50 
+F21 "TEMP_INT" I R 5300 4300 50 
+F22 "TEMP_BAT" I R 5300 4200 50 
+F23 "DAC" O R 5300 3400 50 
+F24 "5V_OUT_EN" O L 4100 4200 50 
+F25 "UEXT_EN" O L 4100 4000 50 
+F26 "V_BUS_EN" O L 4100 4100 50 
+F27 "~LOAD_EN" O R 5300 2500 50 
 $EndSheet
 $Sheet
 S 8600 2100 1200 600 
 U 58C18D5C
 F0 "Power Supply" 50
 F1 "power_supply.sch" 50
-F2 "DCDC_OUT" I L 8600 2500 50 
-F3 "DCDC_IN" I L 8600 2400 50 
+F2 "DCDC_IN" I L 8600 2400 50 
 $EndSheet
 Wire Wire Line
 	5300 2200 6300 2200
 Wire Wire Line
 	6300 2300 5300 2300
 $Sheet
-S 1700 2100 1400 2400
+S 1700 2100 1400 2600
 U 58BE3089
 F0 "Communication Interfaces" 50
 F1 "interfaces.sch" 50
@@ -88,9 +89,11 @@ F11 "USB_DP" B R 3100 3700 50
 F12 "CAN_RX" O R 3100 3400 50 
 F13 "CAN_TX" I R 3100 3300 50 
 F14 "CAN_STB" I R 3100 3500 50 
-F15 "5V_OUT" O R 3100 4100 50 
-F16 "5V_OUT_EN" I R 3100 4000 50 
-F17 "DCDC_OUT" I R 3100 4300 50 
+F15 "5V_OUT" O R 3100 4300 50 
+F16 "5V_OUT_EN" I R 3100 4200 50 
+F17 "DCDC_OUT" I R 3100 4500 50 
+F18 "UEXT_EN" I R 3100 4000 50 
+F19 "V_BUS_EN" I R 3100 4100 50 
 $EndSheet
 Wire Wire Line
 	3100 2200 4100 2200
@@ -113,7 +116,7 @@ Libre Solar MPPT Charge Controller (20A)
 Text Notes 1500 6200 0    100  ~ 0
 Main Specification
 Text Notes 1500 7000 0    50   ~ 0
-- 20A max. charge current\n- 55V max PV input\n- 12V or 24V battery output\n- External temperature sensor input\n- 32bit ARM MCU (STM32F072)\n- CAN communication interface RJ45 jacks or screw terminal\n- Expandable via Olimex Universal Extension Connector (UEXT) featuring\n   I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)\n- DIN rail housing compatible (Phoenix Contact EH series)\n
+- 12V or 24V battery voltage\n- 20A max. charge current\n- 55V max. solar input\n- External temperature sensor input\n- 32bit ARM MCU (STM32F072)\n- CAN communication interface RJ45 jacks incl. bus power supply\n- Expandable via Olimex Universal Extension Connector (UEXT) featuring\n   I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)\n- Prepared for Hammond Mfg. 1591XXCFL enclosure\n
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 58C36283
@@ -138,8 +141,6 @@ F 3 "" H 9670 6090 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 2400 8600 2400
-Wire Wire Line
-	7700 2500 8600 2500
 $Sheet
 S 6300 3400 1400 1500
 U 58E22D17
@@ -159,14 +160,14 @@ F12 "I_LOAD_ADC" O L 6300 3900 50
 F13 "I_DCDC_ADC" O L 6300 3800 50 
 F14 "REF_DIFF_AMP" I L 6300 4000 50 
 $EndSheet
-Text Notes 2000 2950 0    100  ~ 0
-UEXT\nCAN\nUSB
+Text Notes 2000 3400 0    100  ~ 0
+UEXT\n\nCAN\n\nUSB
 Wire Wire Line
 	5300 2500 6300 2500
 Text Notes 6550 2850 0    100  ~ 0
 DC/DC
-Text Notes 4300 4250 0    100  ~ 0
-µC
+Text Notes 4800 3750 0    100  ~ 0
+MCU
 Text Notes 6900 4650 0    100  ~ 0
 Analog
 Text Notes 9200 2450 0    100  ~ 0
@@ -242,10 +243,9 @@ Wire Wire Line
 	8100 4000 7700 4000
 Connection ~ 8100 2400
 Wire Wire Line
-	8200 2500 8200 4100
+	8200 2500 8200 5400
 Wire Wire Line
 	8200 4100 7700 4100
-Connection ~ 8200 2500
 $Comp
 L Mechanical:Mounting_Hole MK1
 U 1 1 595388B0
@@ -315,24 +315,28 @@ Wire Wire Line
 Wire Wire Line
 	5000 5000 4900 5000
 Wire Wire Line
-	3100 4000 4100 4000
+	3100 4200 4100 4200
 Wire Wire Line
 	5000 5000 5000 5100
 Wire Wire Line
 	5000 5100 3900 5100
 Wire Wire Line
-	3900 5100 3900 4100
+	3900 5100 3900 4300
 Wire Wire Line
-	3900 4100 3100 4100
+	3900 4300 3100 4300
 Wire Wire Line
-	3100 4300 3700 4300
+	3100 4500 3700 4500
 Wire Wire Line
-	3700 4300 3700 5400
+	3700 4500 3700 5400
 Wire Wire Line
-	3700 5400 8400 5400
-Wire Wire Line
-	8400 5400 8400 2500
-Connection ~ 8400 2500
-Text Label 7800 2500 0    50   ~ 0
+	3700 5400 8200 5400
+Text Label 8200 5000 1    50   ~ 0
 DCDC_OUT
+Wire Wire Line
+	3100 4000 4100 4000
+Wire Wire Line
+	4100 4100 3100 4100
+Wire Wire Line
+	8200 2500 7700 2500
+Connection ~ 8200 4100
 $EndSCHEMATC
