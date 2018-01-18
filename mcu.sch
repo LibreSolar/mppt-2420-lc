@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "MPPT Charger 20A"
-Date "2017-12-11"
-Rev "0.9"
+Date "2018-01-18"
+Rev "0.10"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -334,8 +334,8 @@ F 1 "2.2u" H 6070 4730 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 6050 4800 50  0001 C CNN
 F 3 "" H 6050 4800 50  0000 C CNN
 F 4 "Murata" H 3600 -700 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R60J225KE19D" H 3600 -700 50  0001 C CNN "PartNumber"
-F 6 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
+F 5 "GRM188R61E225KA12D" H 3600 -700 50  0001 C CNN "PartNumber"
+F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    6050 4800
 	1    0    0    -1  
 $EndComp
@@ -500,8 +500,8 @@ F 1 "2.2u" H 9120 2630 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 9100 2700 50  0001 C CNN
 F 3 "" H 9100 2700 50  0000 C CNN
 F 4 "Murata" H -250 0   50  0001 C CNN "Manufacturer"
-F 5 "GRM188R60J225KE19D" H -250 0   50  0001 C CNN "PartNumber"
-F 6 "6.3V, X5R" H 0   0   60  0001 C CNN "Remarks"
+F 5 "GRM188R61E225KA12D" H -250 0   50  0001 C CNN "PartNumber"
+F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    9100 2700
 	1    0    0    -1  
 $EndComp

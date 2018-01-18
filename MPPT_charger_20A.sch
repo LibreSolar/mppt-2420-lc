@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "MPPT Charger 20A"
-Date "2017-12-11"
-Rev "0.9"
+Date "2018-01-18"
+Rev "0.10"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -113,10 +113,10 @@ Wire Wire Line
 	3100 3700 4100 3700
 Text Notes 2450 1400 0    200  ~ 0
 Libre Solar MPPT Charge Controller (20A)
-Text Notes 1500 6200 0    100  ~ 0
-Main Specification
+Text Notes 1500 6100 0    100  ~ 0
+Main Specifications
 Text Notes 1500 7000 0    50   ~ 0
-- 12V or 24V battery voltage\n- 20A max. charge current\n- 55V max. solar input\n- External temperature sensor input\n- 32bit ARM MCU (STM32F072)\n- CAN communication interface RJ45 jacks incl. bus power supply\n- Expandable via Olimex Universal Extension Connector (UEXT) featuring\n   I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)\n- Prepared for Hammond Mfg. 1591XXCFL enclosure\n
+- 12V or 24V battery voltage\n- 20A max. charge current\n- 55V max. solar input\n- External temperature sensor input\n- 32bit ARM MCU (STM32F072)\n- CAN communication interface RJ45 jacks incl. bus power supply\n- Expandable via Olimex Universal Extension Connector (UEXT) featuring\n   I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)\n- Prepared for Hammond Mfg. 1591XXCFL enclosure\n   (light pipe of 30.5 mm length should be used for SMD LEDs, e.g. Bivar PLP2-1200)\n
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 58C36283

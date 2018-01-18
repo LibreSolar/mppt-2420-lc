@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "MPPT Charger 20A"
-Date "2017-12-11"
-Rev "0.9"
+Date "2018-01-18"
+Rev "0.10"
 Comp ""
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -285,6 +285,7 @@ F 2 "LibreSolar:SOT-23" H 9900 1800 60  0001 C CNN
 F 3 "" H 9950 2200 60  0001 C CNN
 F 4 "ON Semiconductor" H -250 500 50  0001 C CNN "Manufacturer"
 F 5 "NUP2105LT1G" H -250 500 50  0001 C CNN "PartNumber"
+F 6 "SZNUP2105L" H 9900 2200 60  0001 C CNN "Alternative"
 	1    9900 2200
 	1    0    0    -1  
 $EndComp
@@ -293,11 +294,11 @@ L LibreSolar:USBLC6-2SC6 D3
 U 1 1 58BE3F7F
 P 3600 2400
 F 0 "D3" H 3350 2750 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 3600 2050 50  0000 C CNN
+F 1 "USBLC6-2SC6Y" H 3600 2050 50  0000 C CNN
 F 2 "LibreSolar:SOT-23-6" H 4250 2750 50  0001 C CNN
 F 3 "" H 3350 2750 50  0001 C CNN
 F 4 "STMicroelectronics" H 450 350 50  0001 C CNN "Manufacturer"
-F 5 "USBLC6-2SC6" H 450 350 50  0001 C CNN "PartNumber"
+F 5 "USBLC6-2SC6Y" H 450 350 50  0001 C CNN "PartNumber"
 	1    3600 2400
 	-1   0    0    -1  
 $EndComp
@@ -587,7 +588,7 @@ F 0 "F2" V 2650 1800 50  0000 C CNN
 F 1 "200mA" V 2850 1800 50  0000 C CNN
 F 2 "LibreSolar:R_1206_3216" H 2800 1600 50  0001 L CNN
 F 3 "" H 2750 1800 50  0001 C CNN
-F 4 "Bel Fuse" H 150 -100 60  0001 C CNN "Manufacturer"
+F 4 "Bel" H 150 -100 60  0001 C CNN "Manufacturer"
 F 5 "0ZCJ0020FF2E" H 150 -100 60  0001 C CNN "PartNumber"
 	1    2750 1800
 	0    1    1    0   
@@ -620,7 +621,7 @@ F 0 "F3" V 8850 5000 50  0000 C CNN
 F 1 "200mA" V 9050 5000 50  0000 C CNN
 F 2 "LibreSolar:R_1206_3216" H 9000 4800 50  0001 L CNN
 F 3 "" H 8950 5000 50  0001 C CNN
-F 4 "Bel Fuse" H 1250 0   60  0001 C CNN "Manufacturer"
+F 4 "Bel" H 1250 0   60  0001 C CNN "Manufacturer"
 F 5 "0ZCJ0020FF2E" H 1250 0   60  0001 C CNN "PartNumber"
 	1    8950 5000
 	0    1    1    0   

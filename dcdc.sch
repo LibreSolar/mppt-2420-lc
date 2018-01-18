@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "MPPT Charger 20A"
-Date "2017-12-11"
-Rev "0.9"
+Date "2018-01-18"
+Rev "0.10"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -264,12 +264,12 @@ L device:C_Small C12
 U 1 1 58AD9379
 P 7900 5200
 F 0 "C12" H 7920 5270 50  0000 L CNN
-F 1 "1u" H 7920 5130 50  0000 L CNN
-F 2 "LibreSolar:C_0805_2012" H 7900 5200 50  0001 C CNN
+F 1 "2.2u" H 7920 5130 50  0000 L CNN
+F 2 "LibreSolar:C_0603_1608" H 7900 5200 50  0001 C CNN
 F 3 "" H 7900 5200 50  0000 C CNN
 F 4 "Murata" H 4700 1150 50  0001 C CNN "Manufacturer"
-F 5 "GRJ21BR71H105KE01" H 4700 1150 50  0001 C CNN "PartNumber"
-F 6 "" H 7600 5200 50  0000 C CNN "Remarks"
+F 5 "GRM188R61E225KA12D" H 0   0   60  0001 C CNN "PartNumber"
+F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    7900 5200
 	1    0    0    -1  
 $EndComp
@@ -429,7 +429,7 @@ F 1 "LM5107" H 8900 4850 50  0000 C CNN
 F 2 "LibreSolar:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8950 5200 60  0001 C CNN
 F 3 "" H 8950 5200 60  0001 C CNN
 F 4 "Texas Instruments" H 4700 1150 50  0001 C CNN "Manufacturer"
-F 5 "LM5107MA" H 4700 1150 50  0001 C CNN "PartNumber"
+F 5 "LM5107MAX/NOPB" H 4700 1150 50  0001 C CNN "PartNumber"
 	1    8900 5200
 	1    0    0    -1  
 $EndComp
@@ -785,7 +785,8 @@ F 1 "1u" H 9420 2730 50  0000 L CNN
 F 2 "LibreSolar:C_0805_2012" H 9400 2800 50  0001 C CNN
 F 3 "" H 9400 2800 50  0000 C CNN
 F 4 "Murata" H 7300 1050 50  0001 C CNN "Manufacturer"
-F 5 "GRJ21BR71H105KE01" H 7300 1050 50  0001 C CNN "PartNumber"
+F 5 "GRJ21BC72A105KE11L" H 7300 1050 50  0001 C CNN "PartNumber"
+F 6 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    9400 2800
 	1    0    0    -1  
 $EndComp
@@ -804,7 +805,8 @@ F 1 "1u" H 5720 5630 50  0000 L CNN
 F 2 "LibreSolar:C_0805_2012" H 5700 5700 50  0001 C CNN
 F 3 "" H 5700 5700 50  0000 C CNN
 F 4 "Murata" H 3600 3950 50  0001 C CNN "Manufacturer"
-F 5 "GRJ21BR71H105KE01" H 3600 3950 50  0001 C CNN "PartNumber"
+F 5 "GRJ21BC72A105KE11L" H 3600 3950 50  0001 C CNN "PartNumber"
+F 6 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    5700 5700
 	1    0    0    -1  
 $EndComp
@@ -823,7 +825,7 @@ F 1 "10n" H 4120 5530 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 4100 5600 50  0001 C CNN
 F 3 "" H 4100 5600 50  0000 C CNN
 F 4 "Murata" H 2000 3850 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H103KA01D" H 2000 3850 50  0001 C CNN "PartNumber"
+F 5 "GRM188R71H103KA01J" H 2000 3850 50  0001 C CNN "PartNumber"
 	1    4100 5600
 	1    0    0    -1  
 $EndComp

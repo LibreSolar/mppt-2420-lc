@@ -19,6 +19,7 @@ Moved from Eagle to KiCAD because of the new license model introduced by Autodes
 - 5V switchable signal output
 - USB connector for programming etc.
 - Can be used as boost converter with software change
+- Suitable for Li-Ion batteries with BMS (even recharge after low voltage disconnect possible, as the charge controller increases the voltage automatically when enoug sunlight is available)
 
 ## Built-in protection:
 - Overvoltage

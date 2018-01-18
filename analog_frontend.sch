@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "MPPT Charger 20A"
-Date "2017-12-11"
-Rev "0.9"
+Date "2018-01-18"
+Rev "0.10"
 Comp "Libre Solar"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -130,7 +130,7 @@ F 1 "10n" H 8025 5525 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 8000 5400 50  0001 C CNN
 F 3 "" H 8025 5675 50  0000 C CNN
 F 4 "Murata" H 700 -200 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H103KA01D" H 700 -200 50  0001 C CNN "PartNumber"
+F 5 "GRM188R71H103KA01J" H 700 -200 50  0001 C CNN "PartNumber"
 	1    8000 5600
 	1    0    0    -1  
 $EndComp
@@ -143,7 +143,7 @@ F 1 "10n" H 6825 5525 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 6800 5400 50  0001 C CNN
 F 3 "" H 6825 5675 50  0000 C CNN
 F 4 "Murata" H 650 -200 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H103KA01D" H 650 -200 50  0001 C CNN "PartNumber"
+F 5 "GRM188R71H103KA01J" H 650 -200 50  0001 C CNN "PartNumber"
 	1    6800 5600
 	1    0    0    -1  
 $EndComp
@@ -228,7 +228,7 @@ F 1 "10n" H 9725 2500 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 9738 2450 50  0001 C CNN
 F 3 "" H 9700 2600 50  0001 C CNN
 F 4 "Murata" H -650 -1600 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H103KA01D" H -650 -1600 50  0001 C CNN "PartNumber"
+F 5 "GRM188R71H103KA01J" H -650 -1600 50  0001 C CNN "PartNumber"
 	1    9700 2600
 	1    0    0    -1  
 $EndComp
@@ -254,7 +254,7 @@ F 1 "10n" H 5720 2530 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 5700 2600 50  0001 C CNN
 F 3 "" H 5700 2600 50  0000 C CNN
 F 4 "Murata" H 1950 -4500 50  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H103KA01D" H 1950 -4500 50  0001 C CNN "PartNumber"
+F 5 "GRM188R71H103KA01J" H 1950 -4500 50  0001 C CNN "PartNumber"
 	1    5700 2600
 	1    0    0    -1  
 $EndComp
