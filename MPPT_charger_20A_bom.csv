@@ -27,7 +27,7 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 26;;RJ45_NS;JP1 JP2;RJ45_NS;RJ45_8P8C;2;;;54602-908LF;Amphenol FCI;;
 27;Inductor with Iron Core;L_Core_Iron;L1;22uH;L-FERYSTER-DTMSS-27;1;;;DTMSS-27/0,022/30-H;Feryster;;Feryster
 28;Inductor, small symbol;L_Small;L2;4.7uH;L_0805;1;;;LQM21PN4R7NGRD;Murata;;
-29;Inductor, small symbol;L_Small;L3;47uH;Bourns_SRN6045TA;1;;;SRR6045TA-470Y;Bourns;Tayo Yuden NR6045T470M;
+29;Inductor, small symbol;L_Small;L3;47uH;Bourns_SRN6045TA;1;;;NR6045T470M;Tayo Yuden;Bourns SRR6045TA-470Y;
 30;Inductor, small symbol;L_Small;L4;600R;L_0603;1;;;BLM18AG601SN1D;Murata;;
 31;LED, small symbol;LED_Small;LED2;LED_green;LED_0603;1;;;LTST-C190GKT;Lite-On;;
 32;LED, small symbol;LED_Small;LED1;LED_red;LED_0603;1;;red;LTST-C190KRKT;Lite-On;;
@@ -57,7 +57,7 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 56;;AZ1117;U3;AZ1117;SOT-223-3Lead_TabPin2;1;;;AZ1117EH-5.0TRG1;Diodes Inc.;;
 57;Dual Opamp, SOIC-8/DIP-8/SSOP-8/TO-99;Opamp_Dual_Generic;U7;LM258;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM258DR;Texas Instruments;;
 58;;LM5107;U1;LM5107;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM5107MAX/NOPB;Texas Instruments;;
-59;SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq;LMR16006;U4;MP2459;SOT-23-6;1;;;MP2459;Monolithic Power;LMR16006XDDCR;
+59;SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq;LMR16006;U4;MP2459;SOT-23-6;1;;;MP2459GJ-Z;Monolithic Power;LMR16006XDDCR;
 60;;STM32F072CB;U2;STM32F072CB;LQFP-48_7x7mm_Pitch0.5mm;1;;;STM32F072CBT6;STMicroelectronics;;
 61;TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8;TJA1042T-3;U8;TJA1042T/3;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;http://www.nxp.com/documents/data_sheet/TJA1042.pdf;;TJA1042T/3/1J;NXP;;Mouser
 62;Three pin ceramic resonator;Resonator_Small;Y1;8MHz;Resonator_Murata_CSTCE_G;1;;0.1% tolerance;CSTCE8M00G15C99-R0;Murata;;
@@ -73,6 +73,6 @@ Number of PCBs:;1
 Total components:;141
 Schematic Version:;0.10
 Schematic Date:;2018-01-18
-BoM Date:;26/01/2018 17:52:20
+BoM Date:;26/01/2018 20:05:44
 Schematic Source:;D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\MPPT_charger_20A.sch
 KiCad Version:;Eeschema (2017-11-18 revision ff5ee05de)-makepkg
