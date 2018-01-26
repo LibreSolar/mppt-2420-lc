@@ -27,7 +27,7 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 26;;RJ45_NS;JP1 JP2;RJ45_NS;RJ45_8P8C;2;;;54602-908LF;Amphenol FCI;;
 27;Inductor with Iron Core;L_Core_Iron;L1;22uH;L-FERYSTER-DTMSS-27;1;;;DTMSS-27/0,022/30-H;Feryster;;Feryster
 28;Inductor, small symbol;L_Small;L2;4.7uH;L_0805;1;;;LQM21PN4R7NGRD;Murata;;
-29;Inductor, small symbol;L_Small;L3;47uH;L_Wuerth_WE-TPC-58xx;1;;;SRR5028-470Y;Bourns;WE-TPC-5828 744053470;
+29;Inductor, small symbol;L_Small;L3;47uH;Bourns_SRN6045TA;1;;;SRR6045TA-470Y;Bourns;Tayo Yuden NR6045T470M;
 30;Inductor, small symbol;L_Small;L4;600R;L_0603;1;;;BLM18AG601SN1D;Murata;;
 31;LED, small symbol;LED_Small;LED2;LED_green;LED_0603;1;;;LTST-C190GKT;Lite-On;;
 32;LED, small symbol;LED_Small;LED1;LED_red;LED_0603;1;;red;LTST-C190KRKT;Lite-On;;
@@ -37,10 +37,10 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 36;Transistor N-MOSFET (general);Q_NMOS;Q1 Q2 Q3 Q4;CSD18540Q5B;5X6_MOSFET;4;;;CSD18540Q5BT;Texas Instruments;;
 37;Resistor, small symbol;R_Small;R5 R24 R25 R33 R46 R47;100k;R_0603_1608;6;;;RC0603FR-07100KL;Yageo;;
 38;Resistor, small symbol;R_Small;R16 R23 R27 R29 R37 R44 R48;10k;R_0603_1608;7;;;RC0603FR-0710KL;Yageo;;
-39;Resistor, small symbol;R_Small;R36;120;R_1206_3216;1;;;RC1206FR-07120RL;Yageo;;
-40;Resistor, small symbol;R_Small;R28;120k;R_0603_1608;1;;;RC0603FR-07120KL;Yageo;;
+39;Resistor, small symbol;R_Small;R28;110k;R_0603_1608;1;;;RC0603FR-07110KL;Yageo;;
+40;Resistor, small symbol;R_Small;R36;120;R_1206_3216;1;;;RC1206FR-07120RL;Yageo;;
 41;Resistor, small symbol;R_Small;R14 R15 R21 R22;150k;R_0603_1608;4;;;RC0603FR-07150KL;Yageo;;
-42;Resistor, small symbol;R_Small;R2 R39 R40;1M;R_0603_1608;3;;;RC0603FR-071ML;Yageo;;
+42;Resistor, small symbol;R_Small;R2 R39 R40 R50;1M;R_0603_1608;4;;;RC0603FR-071ML;Yageo;;
 43;Resistor, small symbol;R_Small;R4;2.2;R_1206_3216;1;;;RC1206FR-072R2L;Yageo;;
 44;Resistor, small symbol;R_Small;R7 R8 R11 R12 R13 R18 R19 R20 R31 R32 R34 R35 R38 R41;2.2k;R_0603_1608;14;;;RC0603FR-072K2L;Yageo;;
 45;Resistor, small symbol;R_Small;R6 R17;2m;R_Bourns_CRE2512;2;;;CRE2512-FZ-R002E-3;Bourns;;
@@ -57,7 +57,7 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 56;;AZ1117;U3;AZ1117;SOT-223-3Lead_TabPin2;1;;;AZ1117EH-5.0TRG1;Diodes Inc.;;
 57;Dual Opamp, SOIC-8/DIP-8/SSOP-8/TO-99;Opamp_Dual_Generic;U7;LM258;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM258DR;Texas Instruments;;
 58;;LM5107;U1;LM5107;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM5107MAX/NOPB;Texas Instruments;;
-59;SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq;LMR16006;U4;LMR16006X;SOT-23-6;1;;;LMR16006XDDCR;Texas Instruments;;
+59;SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq;LMR16006;U4;MP2459;SOT-23-6;1;;;MP2459;Monolithic Power;LMR16006XDDCR;
 60;;STM32F072CB;U2;STM32F072CB;LQFP-48_7x7mm_Pitch0.5mm;1;;;STM32F072CBT6;STMicroelectronics;;
 61;TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8;TJA1042T-3;U8;TJA1042T/3;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;http://www.nxp.com/documents/data_sheet/TJA1042.pdf;;TJA1042T/3/1J;NXP;;Mouser
 62;Three pin ceramic resonator;Resonator_Small;Y1;8MHz;Resonator_Murata_CSTCE_G;1;;0.1% tolerance;CSTCE8M00G15C99-R0;Murata;;
@@ -67,12 +67,12 @@ Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet
 
 
 Component Groups:;62
-Component Count:;140
-Fitted Components:;140
+Component Count:;141
+Fitted Components:;141
 Number of PCBs:;1
-Total components:;140
-Schematic Version:;0.9
-Schematic Date:;2017-12-11
-BoM Date:;28/12/2017 16:30:36
+Total components:;141
+Schematic Version:;0.10
+Schematic Date:;2018-01-18
+BoM Date:;26/01/2018 17:52:20
 Schematic Source:;D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\MPPT_charger_20A.sch
 KiCad Version:;Eeschema (2017-11-18 revision ff5ee05de)-makepkg
