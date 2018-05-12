@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:D_Zener_Small D6
+L Device:D_Zener_Small D6
 U 1 1 58A66599
 P 7400 5400
 F 0 "D6" V 7340 5470 50  0000 L CNN
@@ -237,12 +237,12 @@ F 3 "" H 1000 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L4
+L Device:L_Small L4
 U 1 1 58A97504
 P 1200 1700
 F 0 "L4" V 1270 1700 50  0000 C CNN
 F 1 "600R" V 1140 1700 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603" V 1200 1700 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 1200 1700 50  0001 C CNN
 F 3 "" V 1200 1700 50  0000 C CNN
 F 4 "Murata" H -750 500 50  0001 C CNN "Manufacturer"
 F 5 "BLM18AG601SN1D" H -750 500 50  0001 C CNN "PartNumber"
@@ -261,7 +261,7 @@ F 3 "" H 7100 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C29
+L Project:C C29
 U 1 1 58AB7F87
 P 7100 2900
 F 0 "C29" H 7120 2970 50  0000 L CNN
@@ -274,7 +274,7 @@ F 5 "GRM188R71H104KA93D" H -150 0   50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C30
+L Project:C C30
 U 1 1 58AB8568
 P 5000 4800
 F 0 "C30" H 5020 4870 50  0000 L CNN
@@ -287,7 +287,7 @@ F 5 "GRM188R71H104KA93D" H 3600 -700 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C31
+L Project:C C31
 U 1 1 58AB8BE5
 P 5350 4800
 F 0 "C31" H 5370 4870 50  0000 L CNN
@@ -300,7 +300,7 @@ F 5 "GRM188R71H104KA93D" H 3600 -700 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C32
+L Project:C C32
 U 1 1 58AB8D4F
 P 5700 4800
 F 0 "C32" H 5720 4870 50  0000 L CNN
@@ -313,7 +313,7 @@ F 5 "GRM188R71H104KA93D" H 3600 -700 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C34
+L Project:C C34
 U 1 1 58AB8FDB
 P 1450 1900
 F 0 "C34" H 1475 1975 50  0000 L CNN
@@ -326,7 +326,7 @@ F 5 "GRM188R71H104KA93D" H -750 500 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C33
+L Project:C C33
 U 1 1 58AB9291
 P 6050 4800
 F 0 "C33" H 6070 4870 50  0000 L CNN
@@ -340,7 +340,7 @@ F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R42
+L Project:R R42
 U 1 1 58ADF91D
 P 9600 5100
 F 0 "R42" V 9525 5100 50  0000 C CNN
@@ -353,7 +353,7 @@ F 5 "RC0603FR-07330RL" H 100 200 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R43
+L Project:R R43
 U 1 1 58ADFCF1
 P 10100 5100
 F 0 "R43" V 10030 5100 50  0000 C CNN
@@ -366,22 +366,22 @@ F 5 "RC0603FR-07330RL" H -200 200 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:LED_Small LED2
+L Project:D_LED LED2
 U 1 1 58AE11BD
 P 10100 5400
 AR Path="/58AE11BD" Ref="LED2"  Part="1" 
 AR Path="/58A68DCB/58AE11BD" Ref="LED2"  Part="1" 
-F 0 "LED2" V 10150 5325 50  0000 R CNN
-F 1 "LED_green" V 10075 5325 50  0000 R CNN
-F 2 "LEDs:LED_0603" V 10100 5400 50  0001 C CNN
-F 3 "" V 10100 5400 50  0001 C CNN
+F 0 "LED2" H 10225 5450 50  0000 L CNN
+F 1 "LED_green" H 10225 5350 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10125 5350 50  0001 C CNN
+F 3 "" H 10225 5450 50  0001 C CNN
 F 4 "Lite-On" H 10100 5400 60  0001 C CNN "Manufacturer"
 F 5 "LTST-C190GKT" H 10100 5400 60  0001 C CNN "PartNumber"
 	1    10100 5400
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R37
+L Project:R R37
 U 1 1 58AE1DE5
 P 7400 5000
 F 0 "R37" V 7330 5000 50  0000 C CNN
@@ -394,7 +394,7 @@ F 5 "RC0603FR-0710KL" H 100 125 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R41
+L Project:R R41
 U 1 1 58AE2393
 P 8500 2500
 F 0 "R41" V 8430 2500 50  0000 C CNN
@@ -407,7 +407,7 @@ F 5 "RC0603FR-072K2L" H -250 -25 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R39
+L Project:R R39
 U 1 1 58AE2797
 P 8500 2100
 F 0 "R39" V 8430 2100 50  0000 C CNN
@@ -420,7 +420,7 @@ F 5 "RC0603FR-071ML" H -250 25  50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R40
+L Project:R R40
 U 1 1 58AE2AE1
 P 7500 2400
 F 0 "R40" V 7430 2400 50  0000 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 7500 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor:BC817 T2
+L Transistor_BJT:BC817 T2
 U 1 1 58AE36FB
 P 8400 2900
 F 0 "T2" H 8600 2975 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "" H 9100 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R45
+L Project:R R45
 U 1 1 58AE3E3D
 P 8000 2900
 F 0 "R45" V 7930 2900 50  0000 C CNN
@@ -492,7 +492,7 @@ F 5 "RC0603FR-0756KL" H -250 -50 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:C_Small C36
+L Project:C C36
 U 1 1 58AE661C
 P 9100 2700
 F 0 "C36" H 9120 2770 50  0000 L CNN
@@ -506,12 +506,12 @@ F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:STM32F072CB U2
+L Project:STM32F072CB U2
 U 1 1 58BDEE38
 P 3100 3400
 F 0 "U2" H 3100 4950 50  0000 C CNN
 F 1 "STM32F072CB" H 3100 1850 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 3200 3100 50  0001 R TNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3200 3100 50  0001 R TNN
 F 3 "" H 3100 3400 50  0001 C CNN
 F 4 "STMicroelectronics" H -300 250 50  0001 C CNN "Manufacturer"
 F 5 "STM32F072CBT6" H -300 250 50  0001 C CNN "PartNumber"
@@ -541,7 +541,7 @@ F 3 "" H 4100 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IEC-60617:SW_PUSH SW1
+L Switch:SW_Push SW1
 U 1 1 58C38D27
 P 7500 2950
 F 0 "SW1" H 7500 2900 50  0000 C CNN
@@ -570,37 +570,37 @@ U 1 1 58C4B6A9
 P 4800 6750
 F 0 "SWD1" H 4600 7150 50  0000 L CNN
 F 1 "ST_Nucleo_SWD" H 4600 6350 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4800 6150 30  0001 C CIN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4800 6150 30  0001 C CIN
 F 3 "" H 4950 6800 60  0001 C CNN
 	1    4800 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 P1
+L Connector_Generic:Conn_01x02 P1
 U 1 1 58C4C05C
 P 6100 6700
 F 0 "P1" H 6100 6850 50  0000 C CNN
 F 1 "CONN_01X02" V 6200 6700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6100 6700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 6700 50  0001 C CNN
 F 3 "" H 6100 6700 50  0001 C CNN
 	1    6100 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small LED1
+L Project:D_LED LED1
 U 1 1 58AE0EA3
 P 9600 5400
 AR Path="/58AE0EA3" Ref="LED1"  Part="1" 
 AR Path="/58A68DCB/58AE0EA3" Ref="LED1"  Part="1" 
-F 0 "LED1" V 9650 5325 50  0000 R CNN
-F 1 "LED_red" V 9575 5325 50  0000 R CNN
-F 2 "LEDs:LED_0603" V 9600 5400 50  0001 C CNN
-F 3 "" V 9600 5400 50  0001 C CNN
+F 0 "LED1" H 9725 5450 50  0000 L CNN
+F 1 "LED_red" H 9725 5350 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9625 5350 50  0001 C CNN
+F 3 "" H 9725 5450 50  0001 C CNN
 F 4 "Lite-On" H 9600 5400 60  0001 C CNN "Manufacturer"
 F 5 "LTST-C190KRKT" H 9600 5400 60  0001 C CNN "PartNumber"
 F 6 "red" H 9600 5400 60  0001 C CNN "Remarks"
 	1    9600 5400
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Text Notes 9400 4400 0    100  ~ 0
 Status LEDs
@@ -714,7 +714,7 @@ NoConn ~ 4500 7000
 Wire Wire Line
 	2200 2100 1950 2100
 Wire Wire Line
-	1950 2000 1950 2400
+	1950 2000 1950 2100
 Wire Wire Line
 	1950 2200 2200 2200
 Wire Wire Line
@@ -736,9 +736,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 2700 1800 2700
 Wire Wire Line
-	8500 2200 8500 2400
+	8500 2200 8500 2300
 Wire Wire Line
-	8500 2300 9400 2300
+	8500 2300 9100 2300
 Wire Wire Line
 	9100 2300 9100 2600
 Wire Wire Line
@@ -754,7 +754,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 4600 2100 4600
 Wire Wire Line
-	2100 4500 2100 4900
+	2100 4500 2100 4600
 Wire Wire Line
 	2200 4500 2100 4500
 Wire Wire Line
@@ -834,7 +834,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3400 1700 3400
 Wire Wire Line
-	7400 5100 7400 5300
+	7400 5100 7400 5200
 Wire Wire Line
 	7400 5200 7800 5200
 Wire Wire Line
@@ -848,7 +848,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2600 7100 2800
 Wire Wire Line
-	7100 2600 7800 2600
+	7100 2600 7500 2600
 Wire Wire Line
 	5300 1500 5300 1900
 Wire Wire Line
@@ -862,9 +862,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 6450 4100 6500
 Wire Wire Line
-	7500 3100 7500 3200
+	7500 3150 7500 3200
 Wire Wire Line
-	1300 1700 2100 1700
+	1300 1700 1450 1700
 Wire Wire Line
 	1450 1700 1450 1800
 Wire Wire Line
@@ -918,11 +918,11 @@ Wire Wire Line
 Wire Wire Line
 	9600 5200 9600 5300
 Wire Wire Line
-	7500 2500 7500 2800
+	7500 2500 7500 2600
 Wire Wire Line
 	7500 2300 7500 2200
 $Comp
-L device:Resonator_Small Y1
+L Device:Resonator_Small Y1
 U 1 1 58C556C6
 P 5400 2000
 F 0 "Y1" H 5525 2075 50  0000 L CNN
@@ -947,7 +947,7 @@ U 1 1 5929D79A
 P 2300 6800
 F 0 "U6" H 2300 7165 50  0000 C CNN
 F 1 "24AA01" H 2300 7074 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2300 6400 50  0001 C CNN
+F 2 "LibreSolar:SOT-23-5" H 2300 6400 50  0001 C CNN
 F 3 "" H 2300 7050 60  0000 C CNN
 F 4 "Microchip" H 2300 7300 60  0001 C CNN "Manufacturer"
 F 5 "24AA32AFT-I/OT" H 2300 7200 60  0001 C CNN "PartNumber"
@@ -968,7 +968,7 @@ F 3 "" H 3000 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C22
+L Project:C C22
 U 1 1 5929DAC6
 P 3000 6800
 F 0 "C22" H 3020 6870 50  0000 L CNN
@@ -994,11 +994,11 @@ $EndComp
 Wire Wire Line
 	2700 6900 2800 6900
 Wire Wire Line
-	2800 6800 2800 7000
+	2800 6800 2800 6900
 Wire Wire Line
 	2800 7000 3000 7000
 Wire Wire Line
-	3000 6900 3000 7100
+	3000 6900 3000 7000
 Connection ~ 3000 7000
 Wire Wire Line
 	2700 6800 2800 6800
@@ -1010,18 +1010,18 @@ Wire Wire Line
 Wire Wire Line
 	2800 6600 3000 6600
 Wire Wire Line
-	3000 6500 3000 6700
+	3000 6500 3000 6600
 Connection ~ 3000 6600
 Wire Wire Line
-	1000 6700 1900 6700
+	1000 6700 1500 6700
 Wire Wire Line
-	1000 6800 1900 6800
+	1000 6800 1800 6800
 Text Label 1000 6700 0    50   ~ 0
 I2C2_SCL
 Text Label 1000 6800 0    50   ~ 0
 I2C2_SDA
 $Comp
-L device:R_Small R32
+L Project:R R32
 U 1 1 5929EAB6
 P 1800 6500
 F 0 "R32" V 1730 6500 50  0000 C CNN
@@ -1034,7 +1034,7 @@ F 5 "RC0603FR-072K2L" H -5500 1625 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R31
+L Project:R R31
 U 1 1 5929EB96
 P 1500 6500
 F 0 "R31" V 1430 6500 50  0000 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 1500 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6200 1500 6400
+	1500 6200 1500 6300
 Wire Wire Line
 	1500 6300 1800 6300
 Wire Wire Line
@@ -1084,4 +1084,42 @@ Text HLabel 4500 2300 2    50   Output ~ 0
 V_BUS_EN
 Text Notes 5100 7600 0    50   ~ 0
 If not stated otherwise, all MLCC 50V X7R
+Wire Wire Line
+	1950 2100 1950 2200
+Wire Wire Line
+	1950 2200 1950 2300
+Wire Wire Line
+	1950 2300 1950 2400
+Wire Wire Line
+	8500 2300 8500 2400
+Wire Wire Line
+	9100 2300 9400 2300
+Wire Wire Line
+	2100 4700 2100 4800
+Wire Wire Line
+	2100 4800 2100 4900
+Wire Wire Line
+	2100 4600 2100 4700
+Wire Wire Line
+	7400 5200 7400 5300
+Wire Wire Line
+	7500 2600 7800 2600
+Wire Wire Line
+	7500 2600 7500 2750
+Wire Wire Line
+	1450 1700 1600 1700
+Wire Wire Line
+	1600 1700 2100 1700
+Wire Wire Line
+	3000 7000 3000 7100
+Wire Wire Line
+	2800 6900 2800 7000
+Wire Wire Line
+	3000 6600 3000 6700
+Wire Wire Line
+	1500 6300 1500 6400
+Wire Wire Line
+	1500 6700 1900 6700
+Wire Wire Line
+	1800 6800 1900 6800
 $EndSCHEMATC

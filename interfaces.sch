@@ -70,7 +70,7 @@ F 3 "" H 10300 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C39
+L Project:C C39
 U 1 1 58BE3440
 P 6300 2100
 F 0 "C39" H 6320 2170 50  0000 L CNN
@@ -83,7 +83,7 @@ F 5 "GRM188R71H104KA93D" H -500 350 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C26
+L Project:C C26
 U 1 1 58BE3447
 P 6000 2100
 F 0 "C26" H 6020 2170 50  0000 L CNN
@@ -96,7 +96,7 @@ F 5 "GRM188R71H104KA93D" H -400 350 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R36
+L Project:R R36
 U 1 1 58BE344E
 P 8900 2300
 F 0 "R36" V 8830 2300 50  0000 C CNN
@@ -109,7 +109,7 @@ F 5 "RC1206FR-07120RL" H -600 500 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:RJ45_NS JP1
+L Project:RJ45_NS JP1
 U 1 1 58BE345B
 P 7050 3650
 F 0 "JP1" V 6600 3400 50  0000 C CNN
@@ -122,7 +122,7 @@ F 5 "54602-908LF" H -375 325 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L LibreSolar:TJA1042T-3 U8
+L Project:TJA1042T-3 U8
 U 1 1 58BE3467
 P 7700 2200
 F 0 "U8" H 7700 2650 50  0000 C CNN
@@ -136,18 +136,18 @@ F 6 "Mouser" H 7700 2200 60  0001 C CNN "Supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NC_Small JP3
+L Device:Jumper_NC_Small JP3
 U 1 1 58BE3476
 P 8900 2000
 F 0 "JP3" H 8900 2080 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 8910 1940 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 8900 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8900 2000 50  0001 C CNN
 F 3 "" H 8900 2000 50  0001 C CNN
 	1    8900 2000
 	0    -1   1    0   
 $EndComp
 $Comp
-L LibreSolar:RJ45_NS JP2
+L Project:RJ45_NS JP2
 U 1 1 58BE348A
 P 8850 3650
 F 0 "JP2" V 8400 3400 50  0000 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 4800 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R35
+L Project:R R35
 U 1 1 58BE3F9C
 P 5150 4700
 F 0 "R35" V 5080 4700 50  0000 C CNN
@@ -217,7 +217,7 @@ F 5 "RC0603FR-072K2L" H 0   -650 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R34
+L Project:R R34
 U 1 1 58BE3FA3
 P 4800 4700
 F 0 "R34" V 4730 4700 50  0000 C CNN
@@ -230,7 +230,7 @@ F 5 "RC0603FR-072K2L" H 0   -650 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L LibreSolar:UEXT J4
+L Project:UEXT J4
 U 1 1 58BDEEA0
 P 2600 4900
 F 0 "J4" H 2350 5250 50  0000 L CNN
@@ -274,7 +274,7 @@ F 3 "" H 8200 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:NUP2105L D4
+L Project:NUP2105L D4
 U 1 1 58BE0956
 P 9900 2200
 AR Path="/58BE0956" Ref="D4"  Part="1" 
@@ -290,7 +290,7 @@ F 6 "SZNUP2105L" H 9900 2200 60  0001 C CNN "Alternative"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:USBLC6-2SC6 D3
+L Project:USBLC6-2SC6 D3
 U 1 1 58BE3F7F
 P 3600 2400
 F 0 "D3" H 3350 2750 50  0000 C CNN
@@ -328,7 +328,7 @@ F 6 "Mouser" H 2000 2200 60  0001 C CNN "Supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C25
+L Project:C C25
 U 1 1 58CC2EC7
 P 1900 2850
 F 0 "C25" H 1925 2925 50  0000 L CNN
@@ -363,7 +363,7 @@ F 3 "" H 2700 2900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R46
+L Project:R R46
 U 1 1 58CC345E
 P 2700 2600
 F 0 "R46" V 2770 2600 50  0000 C CNN
@@ -581,7 +581,7 @@ F 3 "" H 3050 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Polyfuse F2
+L Device:Polyfuse F2
 U 1 1 592A398B
 P 2750 1800
 F 0 "F2" V 2650 1800 50  0000 C CNN
@@ -614,7 +614,7 @@ RJ45_4
 Text Label 6200 3700 0    50   ~ 0
 RJ45_5
 $Comp
-L device:Polyfuse F3
+L Device:Polyfuse F3
 U 1 1 5954FB5B
 P 8950 5000
 F 0 "F3" V 8850 5000 50  0000 C CNN
@@ -627,7 +627,7 @@ F 5 "0ZCJ0020FF2E" H 1250 0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D_Small D9
+L Project:D D9
 U 1 1 595501B6
 P 9400 5000
 F 0 "D9" H 9400 5100 50  0000 C CNN
@@ -640,7 +640,7 @@ F 5 "1N4148W-7-F" H 5350 2200 50  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:D_Small D10
+L Project:D D10
 U 1 1 595502E8
 P 9400 5400
 F 0 "D10" H 9400 5500 50  0000 C CNN
@@ -680,7 +680,7 @@ CAN_GND
 Text Notes 2000 5900 0    100  ~ 0
 5V signal output
 $Comp
-L device:Q_PMOS_GSD Q5
+L Device:Q_PMOS_GSD Q5
 U 1 1 59558C66
 P 3600 6400
 F 0 "Q5" V 3943 6400 50  0000 C CNN
@@ -708,7 +708,7 @@ Wire Wire Line
 Text HLabel 4000 6300 2    50   Output ~ 0
 5V_OUT
 $Comp
-L device:R_Small R33
+L Project:R R33
 U 1 1 5955A770
 P 3200 6500
 F 0 "R33" V 3270 6500 50  0000 C CNN
@@ -721,7 +721,7 @@ F 5 "RC0603FR-07100KL" H -700 3350 50  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R38
+L Project:R R38
 U 1 1 5955A862
 P 3000 6700
 F 0 "R38" V 3070 6700 50  0000 C CNN
@@ -734,7 +734,7 @@ F 5 "RC0603FR-072K2L" H -900 3550 50  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R47
+L Project:R R47
 U 1 1 5955A8AC
 P 2300 7000
 F 0 "R47" V 2370 7000 50  0000 C CNN
@@ -747,7 +747,7 @@ F 5 "RC0603FR-07100KL" H -1600 3850 50  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor:BC817 T4
+L Transistor_BJT:BC817 T4
 U 1 1 5955C30A
 P 2700 7000
 F 0 "T4" H 2900 7075 50  0000 L CNN
@@ -762,11 +762,11 @@ $EndComp
 Wire Wire Line
 	3600 6700 3600 6600
 Wire Wire Line
-	3100 6700 3600 6700
+	3100 6700 3200 6700
 Wire Wire Line
 	3200 6400 3200 6300
 Wire Wire Line
-	3000 6300 3400 6300
+	3000 6300 3200 6300
 Wire Wire Line
 	3000 6300 3000 6200
 Connection ~ 3200 6300
@@ -801,7 +801,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2950 1900 3000
 Wire Wire Line
-	2300 2000 3000 2000
+	2300 2000 2500 2000
 Wire Wire Line
 	2500 1800 2500 2000
 Connection ~ 2500 2000
@@ -812,7 +812,7 @@ Wire Wire Line
 Text HLabel 6700 5000 0    50   Input ~ 0
 DCDC_OUT
 $Comp
-L device:Q_PMOS_GSD Q6
+L Device:Q_PMOS_GSD Q6
 U 1 1 5A2F2F44
 P 1900 4400
 F 0 "Q6" V 2243 4400 50  0000 C CNN
@@ -827,15 +827,15 @@ $EndComp
 Text HLabel 1500 4400 0    50   Input ~ 0
 UEXT_EN
 Wire Wire Line
-	1500 4400 1700 4400
+	1500 4400 1600 4400
 Wire Wire Line
-	2000 4000 2000 4200
+	2000 4000 2000 4100
 Wire Wire Line
 	2000 4600 2000 4700
 Wire Wire Line
 	2000 4700 2200 4700
 $Comp
-L device:R_Small R5
+L Project:R R5
 U 1 1 5A30156C
 P 1800 4100
 F 0 "R5" V 1870 4100 50  0000 C CNN
@@ -855,10 +855,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 4100 1600 4400
 Connection ~ 1600 4400
-Text Notes 3500 8700 0    100  ~ 0
-ToDo: check R47 --> should be smaller?
+Text Notes 1200 7450 0    50   ~ 0
+ToDo: check R47 \n--> should be smaller?
 $Comp
-L device:Q_PMOS_GSD Q7
+L Device:Q_PMOS_GSD Q7
 U 1 1 5A44CCDC
 P 8200 5100
 F 0 "Q7" V 8543 5100 50  0000 C CNN
@@ -871,7 +871,7 @@ F 5 "BSS84" H 4900 -1200 60  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R49
+L Project:R R49
 U 1 1 5A44CCF0
 P 7300 5200
 F 0 "R49" V 7370 5200 50  0000 C CNN
@@ -884,7 +884,7 @@ F 5 "RC0603FR-0756KL" H 3400 2050 50  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R30
+L Project:R R30
 U 1 1 5A44CCF9
 P 7100 5400
 F 0 "R30" V 7170 5400 50  0000 C CNN
@@ -897,7 +897,7 @@ F 5 "RC0603FR-0756KL" H 3200 2250 50  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R48
+L Project:R R48
 U 1 1 5A44CD05
 P 6400 5700
 F 0 "R48" V 6470 5700 50  0000 C CNN
@@ -910,7 +910,7 @@ F 5 "RC0603FR-0710KL" H 2500 2550 50  0001 C CNN "PartNumber"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor:BC817 T3
+L Transistor_BJT:BC817 T3
 U 1 1 5A44CD0E
 P 6800 5700
 F 0 "T3" H 7000 5775 50  0000 L CNN
@@ -925,11 +925,11 @@ $EndComp
 Wire Wire Line
 	8200 5400 8200 5300
 Wire Wire Line
-	7200 5400 8200 5400
+	7200 5400 7300 5400
 Wire Wire Line
 	7300 5100 7300 5000
 Wire Wire Line
-	6700 5000 8000 5000
+	6700 5000 7300 5000
 Connection ~ 7300 5000
 $Comp
 L power:GND #PWR049
@@ -958,7 +958,7 @@ Wire Wire Line
 Text HLabel 6200 5700 0    50   Input ~ 0
 V_BUS_EN
 $Comp
-L device:D_Zener_Small D8
+L Device:D_Zener_Small D8
 U 1 1 5A44E18E
 P 7600 5200
 F 0 "D8" V 7575 5150 50  0000 R CNN
@@ -997,4 +997,22 @@ Text Notes 7300 4600 0    100  ~ 0
 Bus power supply
 Text Notes 5100 7600 0    50   ~ 0
 If not stated otherwise, all MLCC 50V X7R
+Wire Wire Line
+	3200 6300 3400 6300
+Wire Wire Line
+	3200 6700 3600 6700
+Wire Wire Line
+	2500 2000 3000 2000
+Wire Wire Line
+	2000 4100 2000 4200
+Wire Wire Line
+	1600 4400 1700 4400
+Wire Wire Line
+	7300 5000 7600 5000
+Wire Wire Line
+	7300 5400 7600 5400
+Wire Wire Line
+	7600 5000 8000 5000
+Wire Wire Line
+	7600 5400 8200 5400
 $EndSCHEMATC

@@ -37,7 +37,7 @@ F 3 "" H 6700 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C10
+L Project:C C10
 U 1 1 58A85D67
 P 9800 5100
 F 0 "C10" H 9820 5170 50  0000 L CNN
@@ -61,7 +61,7 @@ F 3 "" H 4800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L Project:R R3
 U 1 1 58A9A2AE
 P 5700 2800
 F 0 "R3" V 5630 2800 50  0000 C CNN
@@ -74,7 +74,7 @@ F 5 "RC0805FR-073R3L" H 150 300 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R1
+L Project:R R1
 U 1 1 58A9AA64
 P 5800 2100
 F 0 "R1" V 5730 2100 50  0000 C CNN
@@ -87,7 +87,7 @@ F 5 "RC0805FR-073R3L" H 200 300 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R10
+L Project:R R10
 U 1 1 58A9B6EE
 P 9500 4900
 F 0 "R10" V 9430 4900 50  0000 C CNN
@@ -100,7 +100,7 @@ F 5 "RC0805FR-073R3L" H 4575 1200 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R9
+L Project:R R9
 U 1 1 58A9DC80
 P 2700 4900
 F 0 "R9" V 2630 4900 50  0000 C CNN
@@ -113,7 +113,7 @@ F 5 "RC0603FR-0756KL" H 150 -50 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R12
+L Project:R R12
 U 1 1 58A9E677
 P 3350 5100
 F 0 "R12" V 3280 5100 50  0000 C CNN
@@ -126,7 +126,7 @@ F 5 "RC0603FR-072K2L" H 200 0   50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R13
+L Project:R R13
 U 1 1 58A9EAD2
 P 2200 5400
 F 0 "R13" V 2130 5400 50  0000 C CNN
@@ -139,7 +139,7 @@ F 5 "RC0603FR-072K2L" H 175 0   50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R17
+L Project:R R17
 U 1 1 58AA028C
 P 1900 5900
 F 0 "R17" V 1830 5900 50  0000 C CNN
@@ -152,7 +152,7 @@ F 5 "CRE2512-FZ-R002E-3" H 150 0   50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R_Small R16
+L Project:R R16
 U 1 1 58AA0F0C
 P 2600 5600
 F 0 "R16" V 2530 5600 50  0000 C CNN
@@ -165,7 +165,7 @@ F 5 "RC0603FR-0710KL" H 150 -50 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R6
+L Project:R R6
 U 1 1 58AA6BF1
 P 8900 3200
 F 0 "R6" V 8830 3200 50  0000 C CNN
@@ -178,7 +178,7 @@ F 5 "CRE2512-FZ-R002E-3" H 400 150 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:C_Small C8
+L Project:C C8
 U 1 1 58AC52BA
 P 2600 2100
 F 0 "C8" H 2620 2170 50  0000 L CNN
@@ -192,7 +192,7 @@ F 6 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C4
+L Project:C C4
 U 1 1 58AC5948
 P 4700 2100
 F 0 "C4" H 4720 2170 50  0000 L CNN
@@ -206,7 +206,7 @@ F 6 "100V, X7S" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C6
+L Project:C C6
 U 1 1 58AC7446
 P 7100 2950
 F 0 "C6" H 7125 3025 50  0000 L CNN
@@ -220,7 +220,7 @@ F 6 "GRM1885C2A102JA01D" H 200 150 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R4
+L Project:R R4
 U 1 1 58AC810E
 P 7100 2650
 F 0 "R4" V 7030 2650 50  0000 C CNN
@@ -233,7 +233,7 @@ F 5 "RC1206FR-072R2L" H 300 350 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:L_Core_Iron L1
+L Device:L_Core_Iron L1
 U 1 1 58ACD441
 P 7600 2400
 F 0 "L1" V 7725 2400 50  0000 C CNN
@@ -247,7 +247,7 @@ F 6 "Feryster" H 7600 2400 60  0001 C CNN "Supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor:BC817 T1
+L Transistor_BJT:BC817 T1
 U 1 1 58ACF046
 P 2900 5400
 F 0 "T1" H 3100 5475 50  0000 L CNN
@@ -260,7 +260,7 @@ F 5 "MMBT3904-7-F" H 150 0   50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C12
+L Project:C C12
 U 1 1 58AD9379
 P 7900 5200
 F 0 "C12" H 7920 5270 50  0000 L CNN
@@ -274,7 +274,7 @@ F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:Screw_Terminal_1x02 J3
+L Project:Screw_Terminal_1x02 J3
 U 1 1 58A7CE11
 P 10000 2800
 F 0 "J3" H 10000 3050 50  0000 C TNN
@@ -287,7 +287,7 @@ F 5 "1714971" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LibreSolar:Screw_Terminal_1x02 J1
+L Project:Screw_Terminal_1x02 J1
 U 1 1 58A7E35A
 P 1650 2100
 AR Path="/58A7E35A" Ref="J1"  Part="1" 
@@ -302,7 +302,7 @@ F 5 "1714971" H 1650 2100 60  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L LibreSolar:Screw_Terminal_1x02 J2
+L Project:Screw_Terminal_1x02 J2
 U 1 1 58A7FE07
 P 6300 5800
 F 0 "J2" H 6300 6050 50  0000 C TNN
@@ -315,12 +315,12 @@ F 5 "1714971" H -3600 400 60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C2
+L Device:CP_Small C2
 U 1 1 58A857B0
 P 4000 2100
 F 0 "C2" H 4025 2175 50  0000 L CNN
 F 1 "1000u" H 4025 2025 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 4025 1875 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 4025 1875 50  0001 L CNN
 F 3 "" H 4025 2175 50  0000 C CNN
 F 4 "United Chemi-Con" H 600 300 50  0001 C CNN "Manufacturer"
 F 5 "EKYB630ELL102ML25S" H 600 300 50  0001 C CNN "PartNumber"
@@ -329,12 +329,12 @@ F 6 "63V, 2.74A, 16x25" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C5
+L Device:CP_Small C5
 U 1 1 58A85EB1
 P 8000 2800
 F 0 "C5" H 8020 2870 50  0000 L CNN
 F 1 "820u" H 8020 2720 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 8000 2800 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8000 2800 50  0001 C CNN
 F 3 "" H 8000 2800 50  0000 C CNN
 F 4 "Panasonic" H 4200 1000 50  0001 C CNN "Manufacturer"
 F 5 "EEU-FR1V821L" H 4200 1000 50  0001 C CNN "PartNumber"
@@ -343,7 +343,7 @@ F 6 "35V, 2.47A" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L Project:C C3
 U 1 1 58A8683F
 P 4400 2100
 F 0 "C3" H 4420 2170 50  0000 L CNN
@@ -358,7 +358,7 @@ F 7 "" H 0   0   60  0001 C CNN "Alternative"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Small D1
+L Project:D D1
 U 1 1 58A87233
 P 4200 3000
 F 0 "D1" H 4200 3100 50  0000 C CNN
@@ -371,7 +371,7 @@ F 5 "1N4148W-7-F" H 150 200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Fuse_Small F1
+L Device:Fuse_Small F1
 U 1 1 58AA3600
 P 8900 2400
 AR Path="/58AA3600" Ref="F1"  Part="1" 
@@ -386,7 +386,7 @@ F 5 "3557-2" H -100 350 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:+10V #PWR05
+L Project:+10V #PWR05
 U 1 1 58BE9B73
 P 2500 4800
 F 0 "#PWR05" H 2500 4650 50  0001 C CNN
@@ -397,7 +397,7 @@ F 3 "" H 2500 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:+10V #PWR06
+L Project:+10V #PWR06
 U 1 1 58BEA73B
 P 7900 4900
 F 0 "#PWR06" H 7900 4750 50  0001 C CNN
@@ -408,7 +408,7 @@ F 3 "" H 7900 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L Project:R R2
 U 1 1 58BEC59A
 P 3400 2800
 F 0 "R2" V 3330 2800 50  0000 C CNN
@@ -421,7 +421,7 @@ F 5 "RC0603FR-071ML" H 200 250 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:LM5107 U1
+L Project:LM5107 U1
 U 1 1 58C054FE
 P 8900 5200
 F 0 "U1" H 8900 5550 50  0000 C CNN
@@ -434,7 +434,7 @@ F 5 "LM5107MAX/NOPB" H 4700 1150 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:Q_NMOS Q1
+L Project:Q_NMOS Q1
 U 1 1 58C3E2A8
 P 6200 2100
 F 0 "Q1" H 6400 2150 50  0000 L CNN
@@ -447,7 +447,7 @@ F 5 "CSD18540Q5BT" H 200 300 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:Q_NMOS Q4
+L Project:Q_NMOS Q4
 U 1 1 58C40039
 P 6200 2800
 F 0 "Q4" H 6400 2850 50  0000 L CNN
@@ -460,7 +460,7 @@ F 5 "CSD18540Q5BT" H 200 300 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:Q_NMOS Q2
+L Project:Q_NMOS Q2
 U 1 1 58C41D81
 P 3000 2700
 AR Path="/58C41D81" Ref="Q2"  Part="1" 
@@ -475,7 +475,7 @@ F 5 "CSD18540Q5BT" H 400 250 50  0001 C CNN "PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LibreSolar:Q_NMOS Q3
+L Project:Q_NMOS Q3
 U 1 1 58C43871
 P 3700 5800
 F 0 "Q3" H 3900 5850 50  0000 L CNN
@@ -546,12 +546,12 @@ DCDC-
 Text Label 9100 2400 0    50   ~ 0
 BAT+
 $Comp
-L device:CP_Small C1
+L Device:CP_Small C1
 U 1 1 59108F15
 P 3600 2100
 F 0 "C1" H 3625 2175 50  0000 L CNN
 F 1 "1000u" H 3625 2025 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3625 1875 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3625 1875 50  0001 L CNN
 F 3 "" H 3625 2175 50  0000 C CNN
 F 4 "United Chemi-Con" H 200 300 50  0001 C CNN "Manufacturer"
 F 5 "EKYB630ELL102ML25S" H 200 300 50  0001 C CNN "PartNumber"
@@ -560,15 +560,15 @@ F 6 "63V, 2.74A, 16x25" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 4900 7900 5100
+	7900 4900 7900 5000
 Wire Wire Line
 	8600 5000 7900 5000
 Wire Wire Line
 	2500 4900 2600 4900
 Wire Wire Line
-	9000 2400 9700 2400
+	9000 2400 9400 2400
 Wire Wire Line
-	9000 3200 9700 3200
+	9000 3200 9100 3200
 Wire Wire Line
 	1700 5900 1800 5900
 Wire Wire Line
@@ -578,13 +578,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 2000 2600 1700
 Wire Wire Line
-	7750 2400 8800 2400
+	7750 2400 8000 2400
 Wire Wire Line
 	8600 2400 8600 2300
 Wire Wire Line
 	8600 5400 7900 5400
 Wire Wire Line
-	7900 5300 7900 5500
+	7900 5300 7900 5400
 Wire Wire Line
 	6700 3300 6700 3200
 Wire Wire Line
@@ -614,13 +614,13 @@ Wire Wire Line
 Wire Wire Line
 	9800 4900 9800 5000
 Wire Wire Line
-	3000 4900 3000 5200
+	3000 4900 3000 5100
 Wire Wire Line
 	3000 5100 3250 5100
 Wire Wire Line
 	2800 4900 3000 4900
 Wire Wire Line
-	2300 5400 2700 5400
+	2300 5400 2600 5400
 Wire Wire Line
 	2600 5400 2600 5500
 Wire Wire Line
@@ -646,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4800 2500 4900
 Wire Wire Line
-	2300 1700 6300 1700
+	2300 1700 2600 1700
 Wire Wire Line
 	5900 2100 6000 2100
 Wire Wire Line
@@ -660,7 +660,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2900 3400 3000
 Wire Wire Line
-	6300 2400 7450 2400
+	6300 2400 7100 2400
 Wire Wire Line
 	6100 5700 6000 5700
 Wire Wire Line
@@ -674,29 +674,29 @@ Wire Wire Line
 Wire Wire Line
 	6300 1700 6300 1900
 Wire Wire Line
-	5800 2800 6000 2800
+	5800 2800 5900 2800
 Wire Wire Line
 	5900 3000 5900 2800
 Wire Wire Line
 	4300 3000 5900 3000
 Wire Wire Line
-	6300 2300 6300 2600
+	6300 2300 6300 2400
 Wire Wire Line
 	6300 3200 6300 3000
 Wire Wire Line
-	2300 2600 2800 2600
+	2300 2600 2600 2600
 Wire Wire Line
-	3200 2600 4800 2600
+	3200 2600 3400 2600
 Wire Wire Line
 	3000 2900 3000 3000
 Wire Wire Line
-	3000 3000 4100 3000
+	3000 3000 3400 3000
 Wire Wire Line
-	3900 5900 6100 5900
+	3900 5900 4100 5900
 Wire Wire Line
-	2000 5900 3500 5900
+	2000 5900 2100 5900
 Wire Wire Line
-	3700 5100 3700 5600
+	3700 5100 3700 5300
 Wire Wire Line
 	5400 1700 5400 1600
 Connection ~ 7900 5000
@@ -744,7 +744,7 @@ Wire Wire Line
 	8000 2900 8000 3200
 Connection ~ 8000 3200
 Wire Wire Line
-	6300 3200 8800 3200
+	6300 3200 6700 3200
 Wire Wire Line
 	7100 2400 7100 2550
 Connection ~ 7100 2400
@@ -754,7 +754,7 @@ Connection ~ 7100 3200
 Wire Wire Line
 	7100 2750 7100 2850
 $Comp
-L device:D_Zener_Small D5
+L Device:D_Zener_Small D5
 U 1 1 5A2D4B0C
 P 5200 5700
 F 0 "D5" V 5154 5768 50  0000 L CNN
@@ -769,7 +769,7 @@ $EndComp
 Wire Wire Line
 	6000 5700 6000 5500
 Wire Wire Line
-	5100 5500 6000 5500
+	5100 5500 5200 5500
 Wire Wire Line
 	5200 5600 5200 5500
 Connection ~ 5200 5500
@@ -777,7 +777,7 @@ Wire Wire Line
 	5200 5800 5200 5900
 Connection ~ 5200 5900
 $Comp
-L device:C_Small C7
+L Project:C C7
 U 1 1 5A2E653B
 P 9400 2800
 F 0 "C7" H 9420 2870 50  0000 L CNN
@@ -797,7 +797,7 @@ Wire Wire Line
 	9400 2900 9400 3200
 Connection ~ 9400 3200
 $Comp
-L device:C_Small C27
+L Project:C C27
 U 1 1 5A314523
 P 5700 5700
 F 0 "C27" H 5720 5770 50  0000 L CNN
@@ -817,7 +817,7 @@ Wire Wire Line
 	5700 5800 5700 5900
 Connection ~ 5700 5900
 $Comp
-L device:C_Small C28
+L Project:C C28
 U 1 1 5A336B6E
 P 4100 5600
 F 0 "C28" H 4120 5670 50  0000 L CNN
@@ -837,4 +837,82 @@ Connection ~ 3700 5300
 Wire Wire Line
 	4100 5700 4100 5900
 Connection ~ 4100 5900
+Wire Wire Line
+	7900 5000 7900 5100
+Wire Wire Line
+	3000 5900 3500 5900
+Wire Wire Line
+	2600 5900 3000 5900
+Wire Wire Line
+	2600 1700 3600 1700
+Wire Wire Line
+	8600 2400 8800 2400
+Wire Wire Line
+	7900 5400 7900 5500
+Wire Wire Line
+	6700 3200 7100 3200
+Wire Wire Line
+	4000 2600 4400 2600
+Wire Wire Line
+	4700 2600 4800 2600
+Wire Wire Line
+	4400 2600 4700 2600
+Wire Wire Line
+	3400 2600 3600 2600
+Wire Wire Line
+	3400 3000 4100 3000
+Wire Wire Line
+	3000 5100 3000 5200
+Wire Wire Line
+	2600 5400 2700 5400
+Wire Wire Line
+	2600 2600 2800 2600
+Wire Wire Line
+	4700 1700 5400 1700
+Wire Wire Line
+	4400 1700 4700 1700
+Wire Wire Line
+	4000 1700 4400 1700
+Wire Wire Line
+	5900 2800 6000 2800
+Wire Wire Line
+	6300 2400 6300 2600
+Wire Wire Line
+	5400 1700 6300 1700
+Wire Wire Line
+	2100 5900 2600 5900
+Wire Wire Line
+	8700 3200 8800 3200
+Wire Wire Line
+	9100 3200 9400 3200
+Wire Wire Line
+	3600 1700 4000 1700
+Wire Wire Line
+	3600 2600 4000 2600
+Wire Wire Line
+	8000 2400 8600 2400
+Wire Wire Line
+	8000 3200 8700 3200
+Wire Wire Line
+	7100 2400 7450 2400
+Wire Wire Line
+	7100 3200 8000 3200
+Wire Wire Line
+	5200 5500 5700 5500
+Wire Wire Line
+	5200 5900 5700 5900
+Wire Wire Line
+	9400 2400 9700 2400
+Wire Wire Line
+	9400 3200 9700 3200
+Wire Wire Line
+	5700 5500 6000 5500
+Wire Wire Line
+	5700 5900 6100 5900
+Wire Wire Line
+	3700 5300 3700 5600
+Wire Wire Line
+	4100 5900 5200 5900
+Text Notes 2250 1200 0    50   ~ 0
+typisch: 1-10 nF + 10 uF
 $EndSCHEMATC

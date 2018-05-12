@@ -70,7 +70,7 @@ F 3 "" H 8400 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R27
+L Project:R R27
 U 1 1 58A6E7F1
 P 8400 5600
 F 0 "R27" V 8325 5600 50  0000 C CNN
@@ -83,7 +83,7 @@ F 5 "RC0603FR-0710KL" H 750 -200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R25
+L Project:R R25
 U 1 1 58A70DA1
 P 8400 5000
 F 0 "R25" V 8325 5000 50  0000 C CNN
@@ -96,7 +96,7 @@ F 5 "RC0603FR-07100KL" H 750 -300 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R24
+L Project:R R24
 U 1 1 58A715AF
 P 7200 5000
 F 0 "R24" V 7125 5000 50  0000 C CNN
@@ -109,7 +109,7 @@ F 5 "RC0603FR-07100KL" H 750 -300 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R26
+L Project:R R26
 U 1 1 58A71DE2
 P 7200 5600
 F 0 "R26" V 7125 5600 50  0000 C CNN
@@ -122,7 +122,7 @@ F 5 "RC0603FR-075K6L" H 750 -200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C18
+L Project:C C18
 U 1 1 58A723ED
 P 8000 5600
 F 0 "C18" H 8025 5675 50  0000 L CNN
@@ -135,7 +135,7 @@ F 5 "GRM188R71H103KA01J" H 700 -200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C17
+L Project:C C17
 U 1 1 58A72885
 P 6800 5600
 F 0 "C17" H 6825 5675 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "" H 2700 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C16
+L Project:C C16
 U 1 1 58A7377B
 P 2200 5500
 F 0 "C16" H 2225 5575 50  0000 L CNN
@@ -183,7 +183,7 @@ F 3 "" H 2700 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R23
+L Project:R R23
 U 1 1 58A7452B
 P 2700 4900
 F 0 "R23" V 2630 4900 50  0000 C CNN
@@ -196,7 +196,7 @@ F 5 "RC0603FR-0710KL" H -6600 -300 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L IEC-60617:Thermistor_NTC RT1
+L Device:Thermistor_NTC RT1
 U 1 1 58A75726
 P 2700 5500
 F 0 "RT1" V 2550 5500 50  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 9700 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C13
+L Project:C C13
 U 1 1 58A7ED33
 P 9700 2600
 F 0 "C13" H 9725 2700 50  0000 L CNN
@@ -233,7 +233,7 @@ F 5 "GRM188R71H103KA01J" H -650 -1600 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C9
+L Project:C C9
 U 1 1 58A847D1
 P 2300 2400
 F 0 "C9" H 2320 2470 50  0000 L CNN
@@ -246,7 +246,7 @@ F 5 "GRM188R71H104KA93D" H -600 -3975 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L Project:C C11
 U 1 1 58A86B85
 P 5700 2600
 F 0 "C11" H 5720 2670 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "" H 5700 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R7
+L Project:R R7
 U 1 1 58A9F3FF
 P 4100 2400
 F 0 "R7" V 4025 2400 50  0000 C CNN
@@ -283,7 +283,7 @@ F 5 "RC0603FR-072K2L" H 2650 -3900 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R8
+L Project:R R8
 U 1 1 58A9F8B2
 P 3900 2200
 F 0 "R8" V 3825 2200 50  0000 C CNN
@@ -296,7 +296,7 @@ F 5 "RC0603FR-072K2L" H 1850 -4100 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R11
+L Project:R R11
 U 1 1 58AA2C36
 P 5500 2300
 F 0 "R11" V 5430 2300 50  0000 C CNN
@@ -309,7 +309,7 @@ F 5 "RC0603FR-072K2L" H 2050 -4450 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R_Small R15
+L Project:R R15
 U 1 1 58AA3509
 P 5000 2900
 F 0 "R15" V 4930 2900 50  0000 C CNN
@@ -322,7 +322,7 @@ F 5 "RC0603FR-07150KL" H 2150 -4475 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R_Small R14
+L Project:R R14
 U 1 1 58AA3A32
 P 4100 1900
 F 0 "R14" V 4030 1900 50  0000 C CNN
@@ -335,7 +335,7 @@ F 5 "RC0603FR-07150KL" H 2050 -5275 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R_Small R19
+L Project:R R19
 U 1 1 58AA826A
 P 8000 2200
 F 0 "R19" V 7925 2200 50  0000 C CNN
@@ -348,7 +348,7 @@ F 5 "RC0603FR-072K2L" H -800 -1250 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R18
+L Project:R R18
 U 1 1 58AA8A90
 P 8200 2400
 F 0 "R18" V 8125 2400 50  0000 C CNN
@@ -361,7 +361,7 @@ F 5 "RC0603FR-072K2L" H 0   -1050 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R22
+L Project:R R22
 U 1 1 58AAB023
 P 8900 2800
 F 0 "R22" V 8830 2800 50  0000 C CNN
@@ -374,7 +374,7 @@ F 5 "RC0603FR-07150KL" H -475 -1550 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R_Small R21
+L Project:R R21
 U 1 1 58AAB89C
 P 8200 1900
 F 0 "R21" V 8130 1900 50  0000 C CNN
@@ -387,7 +387,7 @@ F 5 "RC0603FR-07150KL" H -600 -2350 50  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R20
+L Project:R R20
 U 1 1 58AACEAA
 P 9500 2300
 F 0 "R20" V 9430 2300 50  0000 C CNN
@@ -400,7 +400,7 @@ F 5 "RC0603FR-072K2L" H -600 -1550 50  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:C_Small C40
+L Project:C C40
 U 1 1 58CBE39F
 P 3500 5550
 F 0 "C40" H 3525 5625 50  0000 L CNN
@@ -424,7 +424,7 @@ F 3 "" H 3500 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R44
+L Project:R R44
 U 1 1 58CBE7D6
 P 3500 4900
 F 0 "R44" V 3430 4900 50  0000 C CNN
@@ -496,13 +496,13 @@ Wire Wire Line
 Wire Wire Line
 	2200 5600 2200 5800
 Wire Wire Line
-	2700 5600 2700 5800
+	2700 5650 2700 5800
 Wire Wire Line
-	9600 2300 9850 2300
+	9600 2300 9700 2300
 Wire Wire Line
 	9700 2300 9700 2500
 Wire Wire Line
-	5600 2300 5900 2300
+	5600 2300 5700 2300
 Wire Wire Line
 	5700 2300 5700 2500
 Wire Wire Line
@@ -510,29 +510,29 @@ Wire Wire Line
 Wire Wire Line
 	9300 2800 9300 2300
 Wire Wire Line
-	9200 2300 9400 2300
+	9200 2300 9300 2300
 Wire Wire Line
-	8100 2200 8600 2200
+	8100 2200 8500 2200
 Wire Wire Line
 	8500 2200 8500 1900
 Wire Wire Line
-	4000 2200 4500 2200
+	4000 2200 4400 2200
 Wire Wire Line
 	4400 2200 4400 1900
 Wire Wire Line
-	8300 2400 8600 2400
+	8300 2400 8500 2400
 Wire Wire Line
 	8500 2400 8500 2800
 Wire Wire Line
 	8500 2800 8800 2800
 Wire Wire Line
-	5100 2300 5400 2300
+	5100 2300 5300 2300
 Wire Wire Line
 	5100 2900 5300 2900
 Wire Wire Line
 	5300 2900 5300 2300
 Wire Wire Line
-	4200 2400 4500 2400
+	4200 2400 4400 2400
 Wire Wire Line
 	4900 2900 4400 2900
 Wire Wire Line
@@ -540,25 +540,25 @@ Wire Wire Line
 Wire Wire Line
 	2200 5400 2200 5200
 Wire Wire Line
-	2200 5200 2800 5200
+	2200 5200 2700 5200
 Wire Wire Line
-	2700 5000 2700 5400
+	2700 5000 2700 5200
 Wire Wire Line
 	8000 5300 8000 5500
 Wire Wire Line
-	8000 5300 8500 5300
+	8000 5300 8400 5300
 Wire Wire Line
-	8400 5100 8400 5500
+	8400 5100 8400 5300
 Wire Wire Line
 	6800 5300 6800 5500
 Wire Wire Line
-	6800 5300 7300 5300
+	6800 5300 7200 5300
 Wire Wire Line
-	7200 5100 7200 5500
+	7200 5100 7200 5300
 Wire Wire Line
 	3500 4700 3500 4800
 Wire Wire Line
-	3500 5000 3500 5450
+	3500 5000 3500 5200
 Wire Wire Line
 	3500 5200 3900 5200
 Wire Wire Line
@@ -576,7 +576,7 @@ Connection ~ 8400 5300
 Connection ~ 7200 5300
 Connection ~ 3500 5200
 $Comp
-L device:C_Small C42
+L Project:C C42
 U 1 1 58CE9BFF
 P 1400 2400
 F 0 "C42" H 1420 2470 50  0000 L CNN
@@ -660,17 +660,17 @@ Wire Wire Line
 Wire Wire Line
 	2300 2000 2700 2000
 Wire Wire Line
-	2700 1900 2700 2100
+	2700 1900 2700 2000
 Connection ~ 2700 2000
 Wire Wire Line
-	2700 2700 2700 2900
+	2700 2700 2700 2800
 Wire Wire Line
 	2700 2800 2300 2800
 Wire Wire Line
 	2300 2800 2300 2500
 Connection ~ 2700 2800
 $Comp
-L device:Opamp_Dual_Generic U7
+L Device:Opamp_Dual_Generic U7
 U 1 1 5A1ADFEF
 P 8900 2300
 F 0 "U7" H 8900 2667 50  0000 C CNN
@@ -683,7 +683,7 @@ F 5 "LM258DR" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Opamp_Dual_Generic U7
+L Device:Opamp_Dual_Generic U7
 U 2 1 5A1AE438
 P 4800 2300
 F 0 "U7" H 4800 2667 50  0000 C CNN
@@ -696,7 +696,7 @@ F 5 "LM258DR" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Opamp_Dual_Generic U7
+L Device:Opamp_Dual_Generic U7
 U 3 1 5A1AE618
 P 2800 2400
 F 0 "U7" H 2758 2446 50  0000 L CNN
@@ -707,4 +707,38 @@ F 4 "LM258DR" H 0   0   60  0001 C CNN "PartNumber"
 	3    2800 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9700 2300 9850 2300
+Wire Wire Line
+	5700 2300 5900 2300
+Wire Wire Line
+	9300 2300 9400 2300
+Wire Wire Line
+	8500 2200 8600 2200
+Wire Wire Line
+	4400 2200 4500 2200
+Wire Wire Line
+	8500 2400 8600 2400
+Wire Wire Line
+	5300 2300 5400 2300
+Wire Wire Line
+	4400 2400 4500 2400
+Wire Wire Line
+	2700 5200 2800 5200
+Wire Wire Line
+	2700 5200 2700 5350
+Wire Wire Line
+	8400 5300 8500 5300
+Wire Wire Line
+	8400 5300 8400 5500
+Wire Wire Line
+	7200 5300 7300 5300
+Wire Wire Line
+	7200 5300 7200 5500
+Wire Wire Line
+	3500 5200 3500 5450
+Wire Wire Line
+	2700 2000 2700 2100
+Wire Wire Line
+	2700 2800 2700 2900
 $EndSCHEMATC

@@ -1,5 +1,0 @@
-[submodule "library"]
-	path = library
-	url = https://github.com/LibreSolar/KiCad-symbols
-    branch = master
-    

@@ -1,0 +1,151 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +10V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 24AA01
+D Microchip 24AA01 1K I2C EEPROM
+K EEPROM
+$ENDCMP
+#
+$CMP AP2210-3.3
+D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AZ1117
+K linear regulator ldo fixed positive
+$ENDCMP
+#
+$CMP Battery
+D Polarised capacitor
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP D_Schottky
+D Diode Schottky
+$ENDCMP
+#
+$CMP D_Zener
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP FILTER
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP Fuse
+D Fuse
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
+$CMP L
+D Inductor
+$ENDCMP
+#
+$CMP LMR16006
+D SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq
+K switching buck converter power-supply voltage regulator
+$ENDCMP
+#
+$CMP Logo_Open_Hardware_Small
+D small Open Hardware Logo
+K Logo
+F ~
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP Q_NMOS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP Resonator
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP SP3T
+D 3 position switch, SP3T
+K switch SP3T
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP TJA1042T-3
+D TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+K High-Speed CAN Transceiver
+F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
+$ENDCMP
+#
+$CMP USB_A_stacked
+D USB Type A connector (stacked)
+K connector USB
+F  ~
+$ENDCMP
+#
+#End Doc Library

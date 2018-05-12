@@ -123,13 +123,13 @@ U 1 1 58C36283
 P 10550 6100
 F 0 "LOGO2" H 10550 6375 50  0000 C CNN
 F 1 "OPEN_HARDWARE" H 10550 5875 50  0000 C CNN
-F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 10550 6100 60  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 10550 6100 60  0001 C CNN
 F 3 "" H 10550 6100 60  0001 C CNN
 	1    10550 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibreSolar:LIBRE_SOLAR LOGO1
+L Project:LibreSolar_Logo LOGO1
 U 1 1 58C39FC7
 P 9650 6100
 F 0 "LOGO1" H 9650 6375 50  0000 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 9670 6090 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 2400 8600 2400
+	7700 2400 8100 2400
 $Sheet
 S 6300 3400 1400 1500
 U 58E22D17
@@ -203,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4000 6300 4000
 Wire Wire Line
-	5300 4200 6300 4200
+	5300 4200 5900 4200
 Wire Wire Line
 	5300 4300 6300 4300
 Wire Wire Line
@@ -229,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 3600 7900 3600
 Wire Wire Line
-	7900 2800 7900 3700
+	7900 2800 7900 3600
 Wire Wire Line
 	7900 3700 7700 3700
 Connection ~ 7900 3600
@@ -243,7 +243,7 @@ Wire Wire Line
 	8100 4000 7700 4000
 Connection ~ 8100 2400
 Wire Wire Line
-	8200 2500 8200 5400
+	8200 2500 8200 4100
 Wire Wire Line
 	8200 4100 7700 4100
 $Comp
@@ -252,7 +252,7 @@ U 1 1 595388B0
 P 6050 7050
 F 0 "MK1" H 6150 7096 50  0000 L CNN
 F 1 "Mounting_Hole" H 6150 7005 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 7050 50  0001 C CNN
 F 3 "" H 6050 7050 50  0001 C CNN
 	1    6050 7050
 	1    0    0    -1  
@@ -263,7 +263,7 @@ U 1 1 59538A86
 P 6050 7250
 F 0 "MK2" H 6150 7296 50  0000 L CNN
 F 1 "Mounting_Hole" H 6150 7205 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 7250 50  0001 C CNN
 F 3 "" H 6050 7250 50  0001 C CNN
 	1    6050 7250
 	1    0    0    -1  
@@ -274,13 +274,13 @@ U 1 1 59538C18
 P 6050 7450
 F 0 "MK3" H 6150 7496 50  0000 L CNN
 F 1 "Mounting_Hole" H 6150 7405 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6050 7450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 7450 50  0001 C CNN
 F 3 "" H 6050 7450 50  0001 C CNN
 	1    6050 7450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J5
+L Connector_Generic:Conn_01x03 J5
 U 1 1 59553D8B
 P 4700 4900
 F 0 "J5" H 4778 4941 50  0000 L CNN
@@ -339,4 +339,12 @@ Wire Wire Line
 Wire Wire Line
 	8200 2500 7700 2500
 Connection ~ 8200 4100
+Wire Wire Line
+	7900 3600 7900 3700
+Wire Wire Line
+	8100 2400 8600 2400
+Wire Wire Line
+	5900 4200 6300 4200
+Wire Wire Line
+	8200 4100 8200 5400
 $EndSCHEMATC

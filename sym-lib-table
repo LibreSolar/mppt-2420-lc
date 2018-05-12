@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name LibreSolar)(type Legacy)(uri ${KIPRJMOD}/library/LibreSolar.lib)(options "")(descr "Libre Solar standard parts"))
-  (lib (name IEC-60617)(type Legacy)(uri ${KIPRJMOD}/library/IEC-60617.lib)(options "")(descr "IEC-60617 standard lib"))
+  (lib (name Project)(type Legacy)(uri ${KIPRJMOD}/sym-lib/project.lib)(options "")(descr "All symbols contained in this project"))
 )

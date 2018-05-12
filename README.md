@@ -6,7 +6,7 @@ This is the new version of the charge controller, now based on 32 bit ARM MCU in
 
 Moved from Eagle to KiCAD because of the new license model introduced by Autodesk. **Caution:** Developed using nightly build of KiCAD (better STEP export).
 
-![Charge controller PCB](MPPT_charger_20A_rendered.png)
+![Charge controller PCB](docs/MPPT_charger_20A_rendered.png)
 
 ## Features:
 - 20A MPPT charger (buck converter)

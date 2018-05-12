@@ -136,7 +136,7 @@ F 3 "" H 7500 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R29
+L Project:R R29
 U 1 1 58C3011E
 P 7700 3200
 F 0 "R29" V 7625 3200 50  0000 C CNN
@@ -149,7 +149,7 @@ F 5 "RC0603FR-0710KL" H 2000 200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C23
+L Project:C C23
 U 1 1 58C30133
 P 5800 5300
 F 0 "C23" H 5825 5375 50  0000 L CNN
@@ -163,7 +163,7 @@ F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C21
+L Project:C C21
 U 1 1 58C3013A
 P 8500 3100
 F 0 "C21" H 8520 3170 50  0000 L CNN
@@ -177,7 +177,7 @@ F 6 "25V" H 8600 2950 50  0000 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C20
+L Project:C C20
 U 1 1 58C30141
 P 8100 3100
 F 0 "C20" H 8120 3170 50  0000 L CNN
@@ -191,7 +191,7 @@ F 6 "25V" H 8200 2950 50  0000 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R28
+L Project:R R28
 U 1 1 58C30148
 P 7700 2800
 F 0 "R28" V 7625 2800 50  0000 C CNN
@@ -204,12 +204,12 @@ F 5 "RC0603FR-07110KL" H 2000 200 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky_Small D2
+L Project:D_Schottky D2
 U 1 1 58C3014F
 P 6700 2800
 F 0 "D2" H 6700 2900 50  0000 C CNN
 F 1 "SS16FP" H 6700 2700 50  0000 C CNN
-F 2 "Diodes_SMD:D_PowerDI-123" V 6700 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_PowerDI-123" V 6700 2800 50  0001 C CNN
 F 3 "" V 6700 2800 50  0000 C CNN
 F 4 "Diodes Inc." H 2000 200 50  0001 C CNN "Manufacturer"
 F 5 "SS16FP" H 2000 200 50  0001 C CNN "PartNumber"
@@ -218,7 +218,7 @@ F 6 "DFLS160-7" H 600 0   60  0001 C CNN "Alternative"
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:C_Small C19
+L Project:C C19
 U 1 1 58C30156
 P 6650 2400
 F 0 "C19" H 6670 2470 50  0000 L CNN
@@ -231,7 +231,7 @@ F 5 "GRM188R71H104KA93D" H 2000 200 50  0001 C CNN "PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C14
+L Project:C C14
 U 1 1 58C3015D
 P 4100 2700
 F 0 "C14" H 4125 2775 50  0000 L CNN
@@ -245,7 +245,7 @@ F 6 "100V, X7S" H 600 0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C15
+L Project:C C15
 U 1 1 58C30164
 P 4700 2700
 F 0 "C15" H 4725 2775 50  0000 L CNN
@@ -259,12 +259,12 @@ F 6 "100V, X7S" H 600 0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L2
+L Device:L_Small L2
 U 1 1 58C3016B
 P 4400 2400
 F 0 "L2" V 4470 2400 50  0000 C CNN
 F 1 "4.7uH" V 4340 2400 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" V 4400 2400 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 4400 2400 50  0001 C CNN
 F 3 "" V 4400 2400 50  0000 C CNN
 F 4 "Murata" H 1700 200 50  0001 C CNN "Manufacturer"
 F 5 "LQM21PN4R7NGRD" H 1700 200 50  0001 C CNN "PartNumber"
@@ -272,7 +272,7 @@ F 5 "LQM21PN4R7NGRD" H 1700 200 50  0001 C CNN "PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C35
+L Project:C C35
 U 1 1 58C3017A
 P 7100 5400
 F 0 "C35" H 7125 5475 50  0000 L CNN
@@ -285,7 +285,7 @@ F 5 "GRM1885C2A101JA01D" H -2250 2600 50  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C38
+L Project:C C38
 U 1 1 58C30181
 P 7500 5300
 F 0 "C38" H 7525 5375 50  0000 L CNN
@@ -299,7 +299,7 @@ F 6 "25V, X5R" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L3
+L Device:L_Small L3
 U 1 1 58C30191
 P 7250 2600
 F 0 "L3" V 7320 2600 50  0000 C CNN
@@ -313,7 +313,7 @@ F 6 "Bourns SRR6045TA-470Y" H 7250 2600 60  0001 C CNN "Alternative"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LibreSolar:LMR16006 U4
+L Project:LMR16006 U4
 U 1 1 58BDBD3F
 P 5900 2600
 F 0 "U4" H 5900 2950 50  0000 C CNN
@@ -391,17 +391,17 @@ DCDC_IN
 Wire Wire Line
 	7000 5000 7500 5000
 Wire Wire Line
-	7500 4900 7500 5200
+	7500 4900 7500 5000
 Wire Wire Line
-	7350 2600 8500 2600
+	7350 2600 7700 2600
 Wire Wire Line
-	5800 5000 6200 5000
+	5800 5000 6100 5000
 Wire Wire Line
 	7700 2600 7700 2700
 Wire Wire Line
 	8100 2600 8100 3000
 Wire Wire Line
-	5800 4900 5800 5200
+	5800 4900 5800 5000
 Wire Wire Line
 	4100 2400 4100 2600
 Wire Wire Line
@@ -425,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5500 7100 5600
 Wire Wire Line
-	7700 2900 7700 3100
+	7700 2900 7700 3000
 Wire Wire Line
 	6300 2800 6400 2800
 Wire Wire Line
@@ -433,7 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 2400 6550 2400
 Wire Wire Line
-	6300 2600 7150 2600
+	6300 2600 6700 2600
 Wire Wire Line
 	6700 2700 6700 2600
 Wire Wire Line
@@ -441,13 +441,13 @@ Wire Wire Line
 Wire Wire Line
 	6900 2400 6900 2600
 Wire Wire Line
-	4500 2400 5500 2400
+	4500 2400 4700 2400
 Wire Wire Line
 	4700 2600 4700 2400
 Wire Wire Line
 	5500 2600 5400 2600
 Wire Wire Line
-	8500 2500 8500 3000
+	8500 2500 8500 2600
 Wire Wire Line
 	5400 2800 5500 2800
 Wire Wire Line
@@ -490,7 +490,7 @@ Wire Wire Line
 	6100 5200 6100 5000
 Connection ~ 6100 5000
 Wire Wire Line
-	3800 2400 4300 2400
+	3800 2400 4100 2400
 $Comp
 L LibreSolar:+10V #PWR052
 U 1 1 5911CE30
@@ -508,7 +508,7 @@ U 1 1 5911D439
 P 3300 5300
 F 0 "U3" H 3300 5550 50  0000 C CNN
 F 1 "AZ1117" H 3300 5050 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 3300 4900 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3300 4900 50  0001 C CNN
 F 3 "" H 3300 5300 50  0000 C CNN
 F 4 "Diodes Inc." H 0   0   60  0001 C CNN "Manufacturer"
 F 5 "AZ1117EH-5.0TRG1" H 0   0   60  0001 C CNN "PartNumber"
@@ -527,7 +527,7 @@ F 3 "" H 2800 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C24
+L Project:C C24
 U 1 1 5911D658
 P 3900 5400
 F 0 "C24" H 3920 5470 50  0000 L CNN
@@ -562,7 +562,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 5200 3900 5200
 Wire Wire Line
-	3900 5000 3900 5300
+	3900 5000 3900 5200
 $Comp
 L power:+5V #PWR055
 U 1 1 5911D9AC
@@ -597,7 +597,7 @@ $EndComp
 Text Notes 5100 7600 0    50   ~ 0
 If not stated otherwise, all MLCC 50V X7R
 $Comp
-L device:R_Small R50
+L Project:R R50
 U 1 1 5A6AC5CC
 P 5300 2600
 F 0 "R50" V 5225 2600 50  0000 C CNN
@@ -615,5 +615,35 @@ Wire Wire Line
 	5100 2600 5100 2400
 Connection ~ 5100 2400
 Text Notes 4100 3700 0    50   ~ 0
-MP2459: R50 necessary to limit\ncurrent into EN to <100uA \n\nR28 selection:\n110k for MP2459 (9.5 V)\n120k for LMR16006X (10 V)
+MP2459: R50 necessary to limit\ncurrent into EN to <100uA \n\nR28 selection:\n110k for MP2459 (9.7 V)\n120k for LMR16006X (10 V)
+Wire Wire Line
+	7500 5000 7500 5200
+Wire Wire Line
+	7700 2600 8100 2600
+Wire Wire Line
+	4100 2400 4300 2400
+Wire Wire Line
+	7700 3000 7700 3100
+Wire Wire Line
+	6700 2600 6900 2600
+Wire Wire Line
+	6900 2600 7150 2600
+Wire Wire Line
+	4700 2400 5100 2400
+Wire Wire Line
+	8100 2600 8200 2600
+Wire Wire Line
+	8500 2600 8500 3000
+Wire Wire Line
+	5800 5000 5800 5200
+Wire Wire Line
+	8200 2600 8500 2600
+Wire Wire Line
+	5200 2400 5500 2400
+Wire Wire Line
+	6100 5000 6200 5000
+Wire Wire Line
+	3900 5200 3900 5300
+Wire Wire Line
+	5100 2400 5200 2400
 $EndSCHEMATC
