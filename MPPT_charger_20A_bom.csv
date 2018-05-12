@@ -1,64 +1,64 @@
 Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet;Remarks;PartNumber;Manufacturer;Alternative;Supplier
 1;Polarised capacitor;CP_Small;C1 C2;1000u;CP_Radial_D16.0mm_P7.50mm;2;;63V, 2.74A, 16x25;EKYB630ELL102ML25S;United Chemi-Con;;
-2;Unpolarized capacitor;C_Small;C9 C10 C16 C19 C22 C25 C26 C29 C30 C31 C32 C34 C39 C40 C42;100n;C_0603_1608;15;;;GRM188R71H104KA93D;Murata;;
-3;Unpolarized capacitor;C_Small;C35;100p;C_0603_1608;1;;;GRM1885C2A101JA01D;Murata;;
-4;Unpolarized capacitor;C_Small;C11 C13 C17 C18 C28;10n;C_0603_1608;5;;;GRM188R71H103KA01J;Murata;;
-5;Unpolarized capacitor;C_Small;C20 C21 C24;10u;C_0805_2012;3;;25V;GRM21BR61E106KA73L;Murata;;
-6;Unpolarized capacitor;C_Small;C6;1n;C_0603_1608;1;;NP0/C0G;GRM1885C2A102JA01D;Murata;;
-7;Unpolarized capacitor;C_Small;C7 C8 C14 C27;1u;C_0805_2012;4;;100V, X7S;GRJ21BC72A105KE11L;Murata;;
-8;Unpolarized capacitor;C_Small;C12 C23 C33 C36 C38;2.2u;C_0603_1608;5;;25V, X5R;GRM188R61E225KA12D;Murata;;
-9;Unpolarized capacitor;C_Small;C3 C4 C15;4.7u;C_1210_3225;3;;100V, X7S;GRJ32DC72A475KE11L;Murata;;
+2;Unpolarized capacitor;C;C9 C10 C16 C19 C22 C25 C26 C29 C30 C31 C32 C34 C39 C40 C42;100n;C_0603_1608;15;;;GRM188R71H104KA93D;Murata;;
+3;Unpolarized capacitor;C;C35;100p;C_0603_1608;1;;;GRM1885C2A101JA01D;Murata;;
+4;Unpolarized capacitor;C;C11 C13 C17 C18 C28;10n;C_0603_1608;5;;;GRM188R71H103KA01J;Murata;;
+5;Unpolarized capacitor;C;C20 C21 C24;10u;C_0805_2012;3;;25V;GRM21BR61E106KA73L;Murata;;
+6;Unpolarized capacitor;C;C6;1n;C_0603_1608;1;;NP0/C0G;GRM1885C2A102JA01D;Murata;;
+7;Unpolarized capacitor;C;C7 C8 C14 C27;1u;C_0805_2012;4;;100V, X7S;GRJ21BC72A105KE11L;Murata;;
+8;Unpolarized capacitor;C;C12 C23 C33 C36 C38;2.2u;C_0603_1608;5;;25V, X5R;GRM188R61E225KA12D;Murata;;
+9;Unpolarized capacitor;C;C3 C4 C15;4.7u;C_1210_3225;3;;100V, X7S;GRJ32DC72A475KE11L;Murata;;
 10;Polarised capacitor;CP_Small;C5;820u;CP_Radial_D10.0mm_P5.00mm;1;;35V, 2.47A;EEU-FR1V821L;Panasonic;;
-11;Diode, small symbol;D_Small;D1 D9 D10;1N4148;D_SOD-123;3;;;1N4148W-7-F;Diodes Inc.;;
-12;Zener Diode, small symbol;D_Zener_Small;D6;LM4040CYM3-2.5;SOT-23;1;https://en.wikipedia.org/wiki/Zener_diode;;LM4040DYM3-2.5-TR;Microchip;;
-13;Zener Diode, small symbol;D_Zener_Small;D8;MM3Z12VT1G;D_SOD-323;1;https://en.wikipedia.org/wiki/Zener_diode;;MM3Z12VT1G;ON Semiconductor;;
+11;Diode;D;D1 D9 D10;1N4148;D_SOD-123;3;;;1N4148W-7-F;Diodes Inc.;;
+12;Zener Diode, small symbol;D_Zener_Small;D6;LM4040CYM3-2.5;SOT-23;1;;;LM4040DYM3-2.5-TR;Microchip;;
+13;Zener Diode, small symbol;D_Zener_Small;D8;MM3Z12VT1G;D_SOD-323;1;;;MM3Z12VT1G;ON Semiconductor;;
 14;;NUP2105L;D4;NUP2105L;SOT-23;1;;;NUP2105LT1G;ON Semiconductor;SZNUP2105L;
 15;Zener Diode, small symbol;D_Zener_Small;D5;SMBJ36A;D_SMB;1;https://en.wikipedia.org/wiki/Zener_diode;;SMBJ36A;Bourns;;
-16;Schottky diode, small symbol;D_Schottky_Small;D2;SS16FP;D_PowerDI-123;1;;;SS16FP;Diodes Inc.;DFLS160-7;
+16;Diode Schottky;D_Schottky;D2;SS16FP;D_PowerDI-123;1;;;SS16FP;Diodes Inc.;DFLS160-7;
 17;;USBLC6-2SC6;D3;USBLC6-2SC6Y;SOT-23-6;1;;;USBLC6-2SC6Y;STMicroelectronics;;
 18;resettable fuse, polymeric positive temperature coefficient (PPTC);Polyfuse;F2 F3;200mA;R_1206_3216;2;;;0ZCJ0020FF2E;Bel;;
 19;Fuse, small symbol;Fuse_Small;F1;25A;KEYSTONE-FUSE-3557-2;1;;;3557-2;Keystone;;
 20;;Screw_Terminal_1x02;J3;BAT;Phoenix_Contact_MKDS_5-2-952;1;;;1714971;Phoenix Contact;;
-21;Generic connector, single row, 01x03;Conn_01x03;J5;CONN_01X03;Phoenix_Contact_MC_1,5_3-G-3,81;1;;;1803280;Phoenix Contact;;
+21;Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/);Conn_01x03;J5;CONN_01X03;Phoenix_Contact_MC_1,5_3-G-3,81;1;;;1803280;Phoenix Contact;;
 22;;Screw_Terminal_1x02;J2;LOAD;Phoenix_Contact_MKDS_5-2-952;1;;;1714971;Phoenix Contact;;
 23;;Screw_Terminal_1x02;J1;SOLAR;Phoenix_Contact_MKDS_5-2-952;1;;;1714971;Phoenix Contact;;
 24;;UEXT;J4;UEXT;Box_Header_2x05x2.54mm_Straight;1;;;;;;
-25;Jumper, normally closed;Jumper_NC_Small;JP3;Jumper_NC_Small;Pin_Header_Angled_1x02_Pitch2.54mm;1;;;;;;
+25;Jumper, normally closed;Jumper_NC_Small;JP3;Jumper_NC_Small;PinHeader_1x02_P2.54mm_Horizontal;1;;;;;;
 26;;RJ45_NS;JP1 JP2;RJ45_NS;RJ45_8P8C;2;;;54602-908LF;Amphenol FCI;;
 27;Inductor with Iron Core;L_Core_Iron;L1;22uH;L-FERYSTER-DTMSS-27;1;;;DTMSS-27/0,022/30-H;Feryster;;Feryster
-28;Inductor, small symbol;L_Small;L2;4.7uH;L_0805;1;;;LQM21PN4R7NGRD;Murata;;
+28;Inductor, small symbol;L_Small;L2;4.7uH;L_0805_2012Metric;1;;;LQM21PN4R7NGRD;Murata;;
 29;Inductor, small symbol;L_Small;L3;47uH;Bourns_SRN6045TA;1;;;NR6045T470M;Tayo Yuden;Bourns SRR6045TA-470Y;
-30;Inductor, small symbol;L_Small;L4;600R;L_0603;1;;;BLM18AG601SN1D;Murata;;
-31;LED, small symbol;LED_Small;LED2;LED_green;LED_0603;1;;;LTST-C190GKT;Lite-On;;
-32;LED, small symbol;LED_Small;LED1;LED_red;LED_0603;1;;red;LTST-C190KRKT;Lite-On;;
-33;Generic connector, single row, 01x02;Conn_01x02;P1;CONN_01X02;Pin_Header_Straight_1x02_Pitch2.54mm;1;;;;;;
+30;Inductor, small symbol;L_Small;L4;600R;L_0603_1608Metric;1;;;BLM18AG601SN1D;Murata;;
+31;;D_LED;LED2;LED_green;LED_0603_1608Metric;1;;;LTST-C190GKT;Lite-On;;
+32;;D_LED;LED1;LED_red;LED_0603_1608Metric;1;;red;LTST-C190KRKT;Lite-On;;
+33;Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/);Conn_01x02;P1;CONN_01X02;PinHeader_1x02_P2.54mm_Vertical;1;;;;;;
 34;USB Micro Type B connector;USB_B_Micro;P3;USB Micro B;USB_Micro-B_10103594-0001LF;1;;;10103594-0001LF;FCI;;Mouser
 35;Transistor P-MOSFET with substrate diode (general);Q_PMOS_GSD;Q5 Q6 Q7;BSS84;SOT-23;3;;;BSS84;Fairchild;;
 36;Transistor N-MOSFET (general);Q_NMOS;Q1 Q2 Q3 Q4;CSD18540Q5B;5X6_MOSFET;4;;;CSD18540Q5BT;Texas Instruments;;
-37;Resistor, small symbol;R_Small;R5 R24 R25 R33 R46 R47;100k;R_0603_1608;6;;;RC0603FR-07100KL;Yageo;;
-38;Resistor, small symbol;R_Small;R16 R23 R27 R29 R37 R44 R48;10k;R_0603_1608;7;;;RC0603FR-0710KL;Yageo;;
-39;Resistor, small symbol;R_Small;R28;110k;R_0603_1608;1;;;RC0603FR-07110KL;Yageo;;
-40;Resistor, small symbol;R_Small;R36;120;R_1206_3216;1;;;RC1206FR-07120RL;Yageo;;
-41;Resistor, small symbol;R_Small;R14 R15 R21 R22;150k;R_0603_1608;4;;;RC0603FR-07150KL;Yageo;;
-42;Resistor, small symbol;R_Small;R2 R39 R40 R50;1M;R_0603_1608;4;;;RC0603FR-071ML;Yageo;;
-43;Resistor, small symbol;R_Small;R4;2.2;R_1206_3216;1;;;RC1206FR-072R2L;Yageo;;
-44;Resistor, small symbol;R_Small;R7 R8 R11 R12 R13 R18 R19 R20 R31 R32 R34 R35 R38 R41;2.2k;R_0603_1608;14;;;RC0603FR-072K2L;Yageo;;
-45;Resistor, small symbol;R_Small;R6 R17;2m;R_Bourns_CRE2512;2;;;CRE2512-FZ-R002E-3;Bourns;;
-46;Resistor, small symbol;R_Small;R1 R3 R10;3.3;R_0805_2012;3;;;RC0805FR-073R3L;Yageo;;
-47;Resistor, small symbol;R_Small;R42 R43;330;R_0603_1608;2;;;RC0603FR-07330RL;Yageo;;
-48;Resistor, small symbol;R_Small;R26;5.6k;R_0603_1608;1;;;RC0603FR-075K6L;Yageo;;
-49;Resistor, small symbol;R_Small;R9 R30 R45 R49;56k;R_0603_1608;4;;;RC0603FR-0756KL;Yageo;;
-50;;Thermistor_NTC;RT1;10k;R_0603_1608;1;;;NTCG163JF103FT1S;TDK;;
-51;Button;SW_PUSH;SW1;SW_PUSH;SW_SPST_EVQP7A;1;;;PTS840 GK SMTR LFS;C&K Components;;
-52;;ST_Nucleo_SWD;SWD1;ST_Nucleo_SWD;Pin_Header_Straight_1x06_Pitch2.54mm;1;;;;;;
-53;45V Vce, 0.8A Ic, NPN, SOT-23;BC817;T1 T2 T3 T4;MMBT3904;SOT-23;4;http://www.fairchildsemi.com/ds/BC/BC817.pdf;;MMBT3904-7-F;Diodes Inc.;;
+37;Resistor;R;R5 R24 R25 R33 R46 R47;100k;R_0603_1608;6;;;RC0603FR-07100KL;Yageo;;
+38;Resistor;R;R16 R23 R27 R29 R37 R44 R48;10k;R_0603_1608;7;;;RC0603FR-0710KL;Yageo;;
+39;Resistor;R;R28;110k;R_0603_1608;1;;;RC0603FR-07110KL;Yageo;;
+40;Resistor;R;R36;120;R_1206_3216;1;;;RC1206FR-07120RL;Yageo;;
+41;Resistor;R;R14 R15 R21 R22;150k;R_0603_1608;4;;;RC0603FR-07150KL;Yageo;;
+42;Resistor;R;R2 R39 R40 R50;1M;R_0603_1608;4;;;RC0603FR-071ML;Yageo;;
+43;Resistor;R;R4;2.2;R_1206_3216;1;;;RC1206FR-072R2L;Yageo;;
+44;Resistor;R;R7 R8 R11 R12 R13 R18 R19 R20 R31 R32 R34 R35 R38 R41;2.2k;R_0603_1608;14;;;RC0603FR-072K2L;Yageo;;
+45;Resistor;R;R6 R17;2m;R_Bourns_CRE2512;2;;;CRE2512-FZ-R002E-3;Bourns;;
+46;Resistor;R;R1 R3 R10;3.3;R_0805_2012;3;;;RC0805FR-073R3L;Yageo;;
+47;Resistor;R;R42 R43;330;R_0603_1608;2;;;RC0603FR-07330RL;Yageo;;
+48;Resistor;R;R26;5.6k;R_0603_1608;1;;;RC0603FR-075K6L;Yageo;;
+49;Resistor;R;R9 R30 R45 R49;56k;R_0603_1608;4;;;RC0603FR-0756KL;Yageo;;
+50;temperature dependent resistor, negative temperature coefficient (NTC);Thermistor_NTC;RT1;10k;R_0603_1608;1;;;NTCG163JF103FT1S;TDK;;
+51;Push button switch, generic, two pins;SW_Push;SW1;SW_PUSH;SW_SPST_EVQP7A;1;;;PTS840 GK SMTR LFS;C&K Components;;
+52;;ST_Nucleo_SWD;SWD1;ST_Nucleo_SWD;PinHeader_1x06_P2.54mm_Vertical;1;;;;;;
+53;0.8A Ic, 45V Vce, NPN Transistor, SOT-23;BC817;T1 T2 T3 T4;MMBT3904;SOT-23;4;http://www.fairchildsemi.com/ds/BC/BC817.pdf;;MMBT3904-7-F;Diodes Inc.;;
 54;Microchip 24AA01 1K I2C EEPROM;24AA01;U6;24AA01;SOT-23-5;1;;;24AA32AFT-I/OT;Microchip;;
 55;300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package;AP2210-3.3;U5;AP2210-3.3;SOT-23-5;1;http://www.diodes.com/_files/datasheets/AP131.pdf;;AP2210K-3.3TRG1;Diodes Inc.;MIC5225;
-56;;AZ1117;U3;AZ1117;SOT-223-3Lead_TabPin2;1;;;AZ1117EH-5.0TRG1;Diodes Inc.;;
+56;;AZ1117;U3;AZ1117;SOT-223-3_TabPin2;1;;;AZ1117EH-5.0TRG1;Diodes Inc.;;
 57;Dual Opamp, SOIC-8/DIP-8/SSOP-8/TO-99;Opamp_Dual_Generic;U7;LM258;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM258DR;Texas Instruments;;
 58;;LM5107;U1;LM5107;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;;;LM5107MAX/NOPB;Texas Instruments;;
 59;SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq;LMR16006;U4;MP2459;SOT-23-6;1;;;MP2459GJ-Z;Monolithic Power;LMR16006XDDCR;
-60;;STM32F072CB;U2;STM32F072CB;LQFP-48_7x7mm_Pitch0.5mm;1;;;STM32F072CBT6;STMicroelectronics;;
+60;;STM32F072CB;U2;STM32F072CB;LQFP-48_7x7mm_P0.5mm;1;;;STM32F072CBT6;STMicroelectronics;;
 61;TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8;TJA1042T-3;U8;TJA1042T/3;SOIC-8_3.9x4.9mm_Pitch1.27mm;1;http://www.nxp.com/documents/data_sheet/TJA1042.pdf;;TJA1042T/3/1J;NXP;;Mouser
 62;Three pin ceramic resonator;Resonator_Small;Y1;8MHz;Resonator_Murata_CSTCE_G;1;;0.1% tolerance;CSTCE8M00G15C99-R0;Murata;;
 
@@ -73,6 +73,6 @@ Number of PCBs:;1
 Total components:;141
 Schematic Version:;0.10
 Schematic Date:;2018-01-18
-BoM Date:;26/01/2018 20:05:44
+BoM Date:;12/05/2018 20:13:11
 Schematic Source:;D:\LibreSolar\2_Development\04_Hardware\MPPT-Charger_20A\MPPT_charger_20A.sch
-KiCad Version:;Eeschema (2017-11-18 revision ff5ee05de)-makepkg
+KiCad Version:;Eeschema (5.0.0-rc2-dev-444-g2974a2c10)
