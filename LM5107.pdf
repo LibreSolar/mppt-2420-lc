@@ -1,0 +1,16 @@
+The LM5107 is a low cost high voltage gate driver,
+designed to drive both the high side and the low side
+N-Channel MOSFETs in a synchronous buck or a
+half bridge configuration. The floating high-side driver
+is capable of working with rail voltages up to 100-V.
+The outputs are independently controlled with TTL
+compatible input thresholds. An integrated on chip
+high voltage diode is provided to charge the high side
+gate drive bootstrap capacitor. A robust level shifter
+technology operates at high speed while consuming
+low power and providing clean level transitions from
+the control input logic to the high side gate driver.
+Undervoltage lockout is provided on both the low side
+and the high side power rails. The device is available
+in the SOIC and the thermally enhanced WSON
+packages.
