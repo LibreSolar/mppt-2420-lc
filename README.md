@@ -1,10 +1,8 @@
 # MPPT Charger 20A
 
-## Hackable and open source MPPT solar charge controller
+![Development Stage](https://img.shields.io/badge/development%20stage-deprecated-lightgrey.svg) Outdated design, development of new revision ongoing.
 
-This is the new version of the charge controller, now based on 32 bit ARM MCU instead of ATmega AVR, in order to be able to implement CANopen stack.
-
-Moved from Eagle to KiCAD because of the new license model introduced by Autodesk. **Caution:** Developed using nightly build of KiCAD (better STEP export).
+**Important:** As we are currently developing a new revision of this charge controller with several improvements, it is not recommended to rebuild this device anymore. Please see [this forum thread](https://talk.libre.solar/t/community-development-of-new-20a-mppt/121) and feel free to contribute your ideas.
 
 ![Charge controller PCB](docs/MPPT_charger_20A_rendered.png)
 

@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4100 7700 4100
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 595388B0
 P 6050 7050
 F 0 "MK1" H 6150 7096 50  0000 L CNN
@@ -258,7 +258,7 @@ F 3 "" H 6050 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 59538A86
 P 6050 7250
 F 0 "MK2" H 6150 7296 50  0000 L CNN
@@ -269,7 +269,7 @@ F 3 "" H 6050 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 59538C18
 P 6050 7450
 F 0 "MK3" H 6150 7496 50  0000 L CNN
